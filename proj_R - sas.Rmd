@@ -1,0 +1,75 @@
+---
+title: "project506"
+author: "Xinyu Wu"
+date: "November 26, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+#Canonical structures of the first pair of canonical variate and F-test (full group)
+
+The output below gives the canonical correlations and the multivariate tests of the dimensions, and also includes the multivariate criteria and the F approximations.
+![Canonical correlation analysis](./f9.png)
+
+![Multivariate criteria and F approxmations](./f10.png)
+
+Next, the raw canonical coefficients are shown below.
+
+![Raw canonical coefficients for the VAR variables](./f1.png)
+
+![Raw canonical coefficients for the WITH variables](./f2.png)
+
+The raw canonical coefficients are interpreted in a manner analogous to interpreting regression coefficients. For the variable **Albumin**, a one unit increase in **Albumin** leads to a 0.9655 increase in the first canonical variate of set 2 when all of the other variables are held constant. 
+
+
+The raw coefficients are followed by the standardized canonical coefficients shown below. 
+
+![Standardized canonical coefficients for the VAR variables](./f3.png)
+
+![Standardized canonical coefficients for the WITH variables](./f4.png)
+
+Below are correlations between observed variables and canonical variables which are known as the canonical loadings, which SAS labels as the canonical structure.
+
+![Correlations Between the VAR Variables and Their Canonical Variables](./f5.png)
+
+![Correlations Between the WITH Variables and Their Canonical Variables](./f6.png)
+
+![Correlations Between the VAR Variables and the Canonical Variables of the WITH Variables](./f7.png)
+
+![Correlations Between the WITH Variables and the Canonical Variables of the VAR Variables](./f8.png)
+
+
+
+#Canonical structures of the first pair of canonical variate and F-test (subgroup)
+
+The output below gives the canonical correlations and the multivariate tests of the dimensions, and also includes the multivariate criteria and the F approximations.
+
+![Canonical correlation analysis](./s9.png)
+
+![Multivariate criteria and F approxmations](./s10.png)
+
+Next, the raw canonical coefficients are shown below.
+
+![Raw canonical coefficients for the VAR variables](./s1.png)
+
+![Raw canonical coefficients for the WITH variables](./s2.png)
+
+The raw canonical coefficients are interpreted in a manner analogous to interpreting regression coefficients. For the variable **Albumin**, a one unit increase in **Albumin** leads to a 0.2330 increase in the first canonical variate of set 2 when all of the other variables are held constant. 
+
+
+The raw coefficients are followed by the standardized canonical coefficients shown below. 
+
+![Standardized canonical coefficients for the VAR variables](./s3.png)
+
+![Standardized canonical coefficients for the WITH variables](./s4.png)
+
+Below are correlations between observed variables and canonical variables which are known as the canonical loadings, which SAS labels as the canonical structure.
+
+![Correlations Between the VAR Variables and Their Canonical Variables](./s5.png)
+
+![Correlations Between the WITH Variables and Their Canonical Variables](./s6.png)
+
+![Correlations Between the VAR Variables and the Canonical Variables of the WITH Variables](./s7.png)
+
+![Correlations Between the WITH Variables and the Canonical Variables of the VAR Variables](./s8.png)
