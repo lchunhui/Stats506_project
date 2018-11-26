@@ -1,0 +1,3033 @@
+File Manifest for ICPSR 25501
+
+United States Department of Health and Human Services. Centers for Disease
+Control and Prevention. National Center for Health Statistics. National
+Health and Nutrition Examination Survey (NHANES), 1999-2000. ICPSR25501-v4.
+Ann Arbor, MI: Inter-university Consortium for Political and Social
+Research [distributor], 2012-02-22. http://doi.org/10.3886/ICPSR25501.v4
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-descriptioncitation.pdf       -       -         -       2014-07-04  -
+
+    25501-related_literature.txt        -       -         -       daily       -
+
+    25501-manifest.txt                  -       -         -       daily       -
+
+    25501-Documentation-filelist.pdf    -       -         -       2009-10-12  1841a3b6c145696ffc95168f38c9e650
+
+    25501-Documentation-survey_content.pdf -       -         -       2009-10-12  2bb51971419716c867a6e117e4712309
+
+    25501-Questionnaire-ExamLab.pdf     -       -         -       2009-10-12  02ded1e243fe21355e2d8c12f577d373
+
+    25501-Questionnaire-FamilyQnaire.pdf -       -         -       2009-10-12  18c114944c1fbdb01001519937d62cb3
+
+    25501-Questionnaire-MentHthQnaire.pdf -       -         -       2009-10-12  00c6a57b12788ecb13c1650e6aa1964f
+
+    25501-Questionnaire-SampPerQnaire.pdf -       -         -       2009-10-12  c9b88da0483fe5a77686e266cda06b06
+
+    25501-Questionnaire-ScreenModules.pdf -       -         -       2009-10-12  f1f4c767ff2a22fbec773d8ae065a6ed
+
+    25501-Questionnaire-acasi.pdf       -       -         -       2009-10-12  d2b4c507e9510cd5834a54e6713951fe
+
+    25501-Questionnaire-capi.pdf        -       -         -       2009-10-12  41127ab15ec88ebf0e129c311d671f64
+
+
+DS0001 Demographics
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0001-Codebook.pdf             -       -         -       2011-09-19  a399aff21d0345277b4d809163f571a4
+
+    25501-0001-Data.dta                 -       9,965     143     2011-09-19  757eedaaa5ae4f0a7e953b0bbf12c43a
+
+    25501-0001-Data.sav                 -       9,965     143     2011-09-19  a94e77659e9328bef19f11f7e6a80bf5
+
+    25501-0001-Data.stc                 -       9,965     143     2011-09-19  4dcd85ec5ff6a6bc4c9e32713bc821b0
+
+    25501-0001-Data.tsv                 -       9,965     143     2011-09-19  66ef8262f86d4a2b1bc2e11b30150519
+
+    25501-0001-Data.txt                 1728    9,965     143     2011-09-19  bd57e16285d2691594950257d680fe12
+
+    25501-0001-Questionnaire.pdf        -       -         -       2009-10-12  6641576c6407da91f99481c172ac641e
+
+    25501-0001-Setup.dct                -       -         -       2011-09-19  88b72a9a1bd7bfc51eb4c3f0e241aa26
+
+    25501-0001-Setup.do                 -       -         -       2011-09-19  3b3b2761f364416098cda9e3575b0fd7
+
+    25501-0001-Setup.sas                -       -         -       2011-09-19  c7fb4b78f2b7e527fb7a7fd88af7281d
+
+    25501-0001-Setup.sps                -       -         -       2011-09-19  e9f06eea225e282e62852705faaf8be7
+
+    25501-0001-User_guide.pdf           -       -         -       2009-10-12  fd2a4edb4967cba791fac5217ad0feb9
+
+
+DS0011 Examination: Audiometry (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0011-Codebook.pdf             -       -         -       2011-09-19  7ca5744653d05673cf0e077816185a82
+
+    25501-0011-Data.dta                 -       1,807     267     2011-09-19  28353bda514d878bb4429e57d1f671a9
+
+    25501-0011-Data.sav                 -       1,807     267     2011-09-19  34ea9cfbe3a224fdfa5bb8b198d74643
+
+    25501-0011-Data.stc                 -       1,807     267     2011-09-19  3cade06b2732f84b1ab759ab73ace364
+
+    25501-0011-Data.tsv                 -       1,807     267     2011-09-19  c591eed7623e33fe84c6e355e28fdfee
+
+    25501-0011-Data.txt                 2767    1,807     267     2011-09-19  d5fdf8f39f95791dd706b09f3b54c040
+
+    25501-0011-Setup.dct                -       -         -       2011-09-19  ff7ad9ddbe4df79810c0d84ec5611f33
+
+    25501-0011-Setup.do                 -       -         -       2011-09-19  4fa5f7db2af653cdbce7b48fbab71a05
+
+    25501-0011-Setup.sas                -       -         -       2011-09-19  af474c6087187ae23d0d2c6a48a8a839
+
+    25501-0011-Setup.sps                -       -         -       2011-09-19  7e87729bc296982709e9d033b5db0b73
+
+    25501-0011-User_guide.pdf           -       -         -       2009-10-12  c3ed95eab50ff2b4991d8ed087ae7ba2
+
+
+DS0012 Examination: Audiometry Tympanometry
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0012-Codebook.pdf             -       -         -       2011-09-19  c6bf71ee4e5f516a865e958c12420dc2
+
+    25501-0012-Data.dta                 -       1,807     313     2011-09-19  be62f09a99c4e3aafbfac6cfebad7a87
+
+    25501-0012-Data.sav                 -       1,807     313     2011-09-19  61a8a7f8338f6f998d4a030ec37c648f
+
+    25501-0012-Data.stc                 -       1,807     313     2011-09-19  d104e1062893e30b59d5457973d98982
+
+    25501-0012-Data.tsv                 -       1,807     313     2011-09-19  4218702cb29885defb2bb44cb74c096e
+
+    25501-0012-Data.txt                 2594    1,807     313     2011-09-19  38321f7ab165be32320b69482ce4aada
+
+    25501-0012-Setup.dct                -       -         -       2011-09-19  af48aa3c373761e03a1d95434cd873c7
+
+    25501-0012-Setup.do                 -       -         -       2011-09-19  ed123f63d00b60e8335f5412ed153b4a
+
+    25501-0012-Setup.sas                -       -         -       2011-09-19  c78606829041cc7b414803ecaf889d2a
+
+    25501-0012-Setup.sps                -       -         -       2011-09-19  1908c62338ff8d218b5e86a7b1616af5
+
+    25501-0012-User_guide.pdf           -       -         -       2009-10-12  0105c157e8a7f9479b4e82d1eee7816b
+
+
+DS0013 Examination: Balance (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0013-Codebook.pdf             -       -         -       2011-09-19  2a8d8009c9161831d56b1c57c3988816
+
+    25501-0013-Data.dta                 -       1,011     218     2011-09-19  771976df73fcef835213f7c960a82a80
+
+    25501-0013-Data.sav                 -       1,011     218     2011-09-19  77940b70a569ea07c76dd90b17877aab
+
+    25501-0013-Data.stc                 -       1,011     218     2011-09-19  51f7ac45553065c03fd82507b713dc92
+
+    25501-0013-Data.tsv                 -       1,011     218     2011-09-19  6185b55df2299e0aaf44271f5e8dc8c9
+
+    25501-0013-Data.txt                 2601    1,011     218     2011-09-19  1923f2529c147a0dfa948087be5ecb0a
+
+    25501-0013-Setup.dct                -       -         -       2011-09-19  c6fd27fe0ff8a789815bc327cae48a61
+
+    25501-0013-Setup.do                 -       -         -       2011-09-19  bfe2e1aa17dc9c953f1b28d0ec73e5b1
+
+    25501-0013-Setup.sas                -       -         -       2011-09-19  138ae6ff2d18f81485d3f1f250526af6
+
+    25501-0013-Setup.sps                -       -         -       2011-09-19  05cafc55c3d05f3c86fe1d3fb57b6e75
+
+    25501-0013-User_guide.pdf           -       -         -       2009-10-12  efafd7b993e43ab9f3238ab3a44a7436
+
+
+DS0014 Examination: Bioelectrical Impedance Analysis
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0014-Codebook.pdf             -       -         -       2011-09-19  3acb2e5a02a8fb884492f38e17fdc8c4
+
+    25501-0014-Data.dta                 -       5,311     247     2011-09-19  6325a20980396f6b234be54ad26e0625
+
+    25501-0014-Data.sav                 -       5,311     247     2011-09-19  dd4bad2c4b54b5c6a64a5a089bfa1058
+
+    25501-0014-Data.stc                 -       5,311     247     2011-09-19  588e2bb37fd26affaa340287b0b7a9c7
+
+    25501-0014-Data.tsv                 -       5,311     247     2011-09-19  70bfc9b9ed18669018b341e4b8243d19
+
+    25501-0014-Data.txt                 2447    5,311     247     2011-09-19  c6a9ce2e45e5cadbdac75cee845b7e38
+
+    25501-0014-Setup.dct                -       -         -       2011-09-19  cb8c8090248cd6984cb3b1a2431e9a00
+
+    25501-0014-Setup.do                 -       -         -       2011-09-19  d6339bebcf08eddfae3671cf0047d801
+
+    25501-0014-Setup.sas                -       -         -       2011-09-19  95398c57226dacdb4e2aa5c6ad96f0a6
+
+    25501-0014-Setup.sps                -       -         -       2011-09-19  8baade5c8403ee6bafe2c9988049462d
+
+    25501-0014-User_guide.pdf           -       -         -       2009-10-12  cf8e45752764159ebd520f083d3dd959
+
+
+DS0015 Examination: Blood Pressure
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0015-Codebook.pdf             -       -         -       2011-09-19  1c5113b87e6a0c2a89bfcd4480759465
+
+    25501-0015-Data.dta                 -       9,282     172     2011-09-19  24fd0aefecd2b1ad482efd48a20f3598
+
+    25501-0015-Data.sav                 -       9,282     172     2011-09-19  1ebe673ca4332f73a01d0965a0ee595c
+
+    25501-0015-Data.stc                 -       9,282     172     2011-09-19  0609dbbc4e1e04fd30a4e01bf25f2fd1
+
+    25501-0015-Data.tsv                 -       9,282     172     2011-09-19  309228282d9835f3324a756c31545629
+
+    25501-0015-Data.txt                 1816    9,282     172     2011-09-19  5dc42325200144663e09265f6b34ea23
+
+    25501-0015-Setup.dct                -       -         -       2011-09-19  9c60ffa3faee2856b70067971c913795
+
+    25501-0015-Setup.do                 -       -         -       2011-09-19  270d761900ce33ee9a90baf9fba7b5e0
+
+    25501-0015-Setup.sas                -       -         -       2011-09-19  98d34f5f46176c5e18e25a580681eaee
+
+    25501-0015-Setup.sps                -       -         -       2011-09-19  d983ace784c373f08fd64b5e43a54519
+
+    25501-0015-User_guide.pdf           -       -         -       2009-10-12  17c10117c7f6631d912d8cb3a2725db3
+
+
+DS0016 Examination: Body Measures
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0016-Codebook.pdf             -       -         -       2011-09-19  63970950220ae1137eeb3e92fadd1f11
+
+    25501-0016-Data.dta                 -       9,282     180     2011-09-19  60de6b8f75043bf6a14c532ffa8a6093
+
+    25501-0016-Data.sav                 -       9,282     180     2011-09-19  9f0c9505b0b2446ae1b2094723c5811f
+
+    25501-0016-Data.stc                 -       9,282     180     2011-09-19  214ada6dd200ac1a51e0e864cacfa7ed
+
+    25501-0016-Data.tsv                 -       9,282     180     2011-09-19  841a039aa479295f25a79405f1ce7579
+
+    25501-0016-Data.txt                 1880    9,282     180     2011-09-19  c9bd59c9a7ff4e2c7504a2a2b44313b6
+
+    25501-0016-Setup.dct                -       -         -       2011-09-19  1bf31c2b9592a24c76a488dff7ae7de4
+
+    25501-0016-Setup.do                 -       -         -       2011-09-19  a40e8ceebc877689a3ea2bcbbbd95772
+
+    25501-0016-Setup.sas                -       -         -       2011-09-19  183183488dbaa50b1b9334e4d874dbef
+
+    25501-0016-Setup.sps                -       -         -       2011-09-19  dc9f667f97fe44d9ed41b4edbee670bd
+
+    25501-0016-User_guide.pdf           -       -         -       2009-10-12  7d8cace16656e3e215fc49a160485978
+
+
+DS0017 Examination: Cardiovascular Fitness
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0017-Codebook.pdf             -       -         -       2011-09-19  5b9e2f9ee9c1c05268026b1824c94f45
+
+    25501-0017-Data.dta                 -       4,602     208     2011-09-19  7e67a8c0bb9e50d46a00b90c2b825eab
+
+    25501-0017-Data.sav                 -       4,602     208     2011-09-19  d8bb239e4c7a68f8c11818e239c33493
+
+    25501-0017-Data.stc                 -       4,602     208     2011-09-19  467770dc30446f18b839a7be0207cd67
+
+    25501-0017-Data.tsv                 -       4,602     208     2011-09-19  1447fe5165613bb7dea24470001bb864
+
+    25501-0017-Data.txt                 1963    4,602     208     2011-09-19  bc947281c0caf369d23a8a57f2f6e5b5
+
+    25501-0017-Setup.dct                -       -         -       2011-09-19  489e1df3075cda4a321f76e9d89e551b
+
+    25501-0017-Setup.do                 -       -         -       2011-09-19  eb26b58ddf996b9fc0b05034c0bfaac6
+
+    25501-0017-Setup.sas                -       -         -       2011-09-19  f8d79e494d722bd8f4f2c117495670db
+
+    25501-0017-Setup.sps                -       -         -       2011-09-19  f65d136733540456dfa6740a52c5ff48
+
+    25501-0017-User_guide.pdf           -       -         -       2009-10-12  7b382e71a11da659420c6d68c3d9be9e
+
+
+DS0018 Examination: Composite International Diagnostic Interview
+(Generalized Anxiety Disorder) (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0018-Codebook.pdf             -       -         -       2011-09-19  068caa58c6df052d6134f51f2b6dc54c
+
+    25501-0018-Data.dta                 -       778       265     2011-09-19  064342cdb78b1323a0f374734511ccd8
+
+    25501-0018-Data.sav                 -       778       265     2011-09-19  28edb2c2f06bd2f06479877623b60fe2
+
+    25501-0018-Data.stc                 -       778       265     2011-09-19  f752d40270f7a5abf1b508c7120b9ff0
+
+    25501-0018-Data.tsv                 -       778       265     2011-09-19  ea97d32fa3dc46bad1f92b0d06d6f1ae
+
+    25501-0018-Data.txt                 2742    778       265     2011-09-19  99290f6b6f5f866b3869734e1ada29aa
+
+    25501-0018-Questionnaire.pdf        -       -         -       2009-10-12  9a9da25b3139d13955d70d2a444dcc22
+
+    25501-0018-Setup.dct                -       -         -       2011-09-19  a4820b190c469e74934e042ee5248529
+
+    25501-0018-Setup.do                 -       -         -       2011-09-19  b1385bb6093c21b3da00960346ad9f40
+
+    25501-0018-Setup.sas                -       -         -       2011-09-19  a7d8531bd6e981a5ca73aac8e8ac7fe6
+
+    25501-0018-Setup.sps                -       -         -       2011-09-19  6a9bf4a49dd8d9de35a9950e0e6eaca2
+
+    25501-0018-User_guide.pdf           -       -         -       2009-10-12  bad249797898de62e02bb70f975c26f6
+
+
+DS0019 Examination: Composite International Diagnostic Interview (Major
+Depression Module) (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0019-Codebook.pdf             -       -         -       2011-09-19  de98a0bd1ff7d0c23e15f58b0c113288
+
+    25501-0019-Data.dta                 -       778       330     2011-09-19  dbe2a3e7d33887aba93a4c65d465d1cb
+
+    25501-0019-Data.sav                 -       778       330     2011-09-19  ed9f8a87b37eb408e0722ea135f082bf
+
+    25501-0019-Data.stc                 -       778       330     2011-09-19  5b9793a524418641eaeb119d19a0f6ea
+
+    25501-0019-Data.tsv                 -       778       330     2011-09-19  2fc4b12d3000641548c9b4435df75d84
+
+    25501-0019-Data.txt                 2938    778       330     2011-09-19  fe4a981991a832bde8436350fc26de72
+
+    25501-0019-Questionnaire.pdf        -       -         -       2009-10-12  5e889afa21c30a2286e92c43c3649ff6
+
+    25501-0019-Setup.dct                -       -         -       2011-09-19  5b933b5ec5d447b91df3be060235ffe8
+
+    25501-0019-Setup.do                 -       -         -       2011-09-19  fc0ada8489595d59dad88b3bfb36fec7
+
+    25501-0019-Setup.sas                -       -         -       2011-09-19  7d80bb02637b5506d0acc58e2cea7a85
+
+    25501-0019-Setup.sps                -       -         -       2011-09-19  368b16bcc3076073a0b5986665cd7660
+
+    25501-0019-User_guide.pdf           -       -         -       2009-10-12  6c54c9e74a879bfbe45bf3edc95fd76b
+
+
+DS0020 Examination: Composite International Diagnostic Interview (Panic
+Disorder Module) (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0020-Codebook.pdf             -       -         -       2011-09-19  26b596168c0d9d888262dfb97373f275
+
+    25501-0020-Data.dta                 -       778       335     2011-09-19  ddaaa780e037b9bc6fbf2d5a8977b2f6
+
+    25501-0020-Data.sav                 -       778       335     2011-09-19  fe7cc2a193d742f169fc02947af009f8
+
+    25501-0020-Data.stc                 -       778       335     2011-09-19  d903756f68f790d47d92587d42d9c8e3
+
+    25501-0020-Data.tsv                 -       778       335     2011-09-19  cba8287607b6d660467917eb94abb47a
+
+    25501-0020-Data.txt                 2956    778       335     2011-09-19  cefddb801dbea7c209b2358104e32f89
+
+    25501-0020-Questionnaire.pdf        -       -         -       2009-10-12  b67db0d5f14c2ade7e4020200e9373ec
+
+    25501-0020-Setup.dct                -       -         -       2011-09-19  2d94eca7a3894cca5f33473984e62293
+
+    25501-0020-Setup.do                 -       -         -       2011-09-19  9e09b1fa29f221afb0b7749f86cee032
+
+    25501-0020-Setup.sas                -       -         -       2011-09-19  079477fb7ee685a11cb05efd5326f8b3
+
+    25501-0020-Setup.sps                -       -         -       2011-09-19  35bf9d4aefe28a417a2befee6c1864bc
+
+    25501-0020-User_guide.pdf           -       -         -       2009-10-12  1d7f68219998ae79c6d032b274df757a
+
+
+DS0021 Examination: Dietary Interview (Individual Foods File)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0021-Codebook.pdf             -       -         -       2011-09-19  ffb25971d50f72fe065af8731ba3e419
+
+    25501-0021-Data.dta                 -       127,840   210     2011-09-19  9709064118547b93471c1ec8005e7780
+
+    25501-0021-Data.sav                 -       127,840   210     2011-09-19  b54f9edeb82aeeb12c63e1192f9c363a
+
+    25501-0021-Data.stc                 -       127,840   210     2011-09-19  1d2df5dc1ec711a9685d3bd555cb7fdd
+
+    25501-0021-Data.tsv                 -       127,840   210     2011-09-19  675d77b79c3d59ae5c755f7c8fa0b75d
+
+    25501-0021-Data.txt                 2143    127,840   210     2011-09-19  4ec7521fb2ff3b6b1b5b7d085c26e9d9
+
+    25501-0021-Setup.dct                -       -         -       2011-09-19  bdf5c7c09fde6b0c6d00f9f3fbf9f354
+
+    25501-0021-Setup.do                 -       -         -       2011-09-19  1649213b50219617cc73c0cbaf67060a
+
+    25501-0021-Setup.sas                -       -         -       2011-09-19  41a3446d8a18770d29dc6f66de484dbb
+
+    25501-0021-Setup.sps                -       -         -       2011-09-19  be728c6f5dcc9452c0428d46f98e51dd
+
+    25501-0021-User_guide.pdf           -       -         -       2009-10-12  47f17dd86eef7c2dbdf1e93f627f3d84
+
+
+DS0022 Examination: Dietary Interview (Total Nutrients)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0022-Codebook.pdf             -       -         -       2011-09-19  c20b718aef4f80c217e9665acaba375d
+
+    25501-0022-Data.dta                 -       9,282     273     2011-09-19  e42cd91ec09e2e56d1fedbdc6bd4e6e6
+
+    25501-0022-Data.sav                 -       9,282     273     2011-09-19  3f1b9a1fe7342c01ad52f763f6081130
+
+    25501-0022-Data.stc                 -       9,282     273     2011-09-19  ba76bd17409c57bce74f4b77f9a4ade7
+
+    25501-0022-Data.tsv                 -       9,282     273     2011-09-19  028e12e3bc307ae63a9df4b16db78d25
+
+    25501-0022-Data.txt                 2335    9,282     273     2011-09-19  03a2f410a4933978bb1c68dddfa6f72f
+
+    25501-0022-Setup.dct                -       -         -       2011-09-19  4242a955568075188cd5758fafc89550
+
+    25501-0022-Setup.do                 -       -         -       2011-09-19  333862f2d02f164f609ad7935b79b733
+
+    25501-0022-Setup.sas                -       -         -       2011-09-19  bd01b918777245e1b5b3309144367c31
+
+    25501-0022-Setup.sps                -       -         -       2011-09-19  2f8516a4322d3e229765f1fb16002490
+
+    25501-0022-User_guide.pdf           -       -         -       2009-10-12  b7657a14450074ba40b0357819e65c18
+
+
+DS0023 Examination: Dual Energy X-Ray Absorptiometry (DXX)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0023-Codebook.pdf             -       -         -       2011-09-19  a19741e4dd0d609d765598da78f9f003
+
+    25501-0023-Data.dta                 -       31,175    248     2011-09-19  095a48408f9ea6c0ed49c46da3f70416
+
+    25501-0023-Data.sav                 -       31,175    248     2011-09-19  29e6efcd7a010c5cc52a833eb35da668
+
+    25501-0023-Data.stc                 -       31,175    248     2011-09-19  45ba9fd3eeaa5ec04025f0af7fb0ed9b
+
+    25501-0023-Data.tsv                 -       31,175    248     2011-09-19  5ecf383d8301b50478a557c2474d9d22
+
+    25501-0023-Data.txt                 2367    31,175    248     2011-09-19  461fe73e74aef3ba4a7449682abe146c
+
+    25501-0023-Setup.dct                -       -         -       2011-09-19  3b06fc845f463dc0a9bc756ad92cc5fa
+
+    25501-0023-Setup.do                 -       -         -       2011-09-19  b975650a4be152d65d23ebe7c4694953
+
+    25501-0023-Setup.sas                -       -         -       2011-09-19  8c83cad756db0660610ed350111ef8d2
+
+    25501-0023-Setup.sps                -       -         -       2011-09-19  9df738dcb39a65bcb1dd8445cdb85f59
+
+    25501-0023-User_guide.pdf           -       -         -       2009-10-12  6a477efffd6cd7367ab00624b0e94fa0
+
+
+DS0024 Examination: Dual Energy X-Ray Absorptiometry (DXX) -- Subset
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0024-Codebook.pdf             -       -         -       2011-09-19  7454cfaa57c8a2dbd9e2d1d710c0e4c2
+
+    25501-0024-Data.dta                 -       310       248     2011-09-19  d60c191723accd1485c5c580ae9db4ea
+
+    25501-0024-Data.sav                 -       310       248     2011-09-19  a03e919a65c2d324a2f9871c1d6a0994
+
+    25501-0024-Data.stc                 -       310       248     2011-09-19  676ea9c747110074226b467a565ad7da
+
+    25501-0024-Data.tsv                 -       310       248     2011-09-19  e7f27bb8787f8d9c976e16266c7231c5
+
+    25501-0024-Data.txt                 2356    310       248     2011-09-19  4e457cb3281e3e96c4fd271a9192e762
+
+    25501-0024-Setup.dct                -       -         -       2011-09-19  dc93ac99733d2f2f60f1c03792edf219
+
+    25501-0024-Setup.do                 -       -         -       2011-09-19  ba3cacc7fd2eb003990b3e4183b7c254
+
+    25501-0024-Setup.sas                -       -         -       2011-09-19  cdb801e4d284993a19fe7cb400f12c9a
+
+    25501-0024-Setup.sps                -       -         -       2011-09-19  54175216038832ac8029354a75cdfcbd
+
+    25501-0024-User_guide.pdf           -       -         -       2009-10-12  13266ca1a7bf7da2d7f84124e318364d
+
+
+DS0025 Examination: Lower Extremity Disease (Ankle Brachial Blood Pressure
+Index)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0025-Codebook.pdf             -       -         -       2011-09-19  af7f3c7062ab5c443b94295bc2487526
+
+    25501-0025-Data.dta                 -       2,875     158     2011-09-19  cea8e991bbe69a0bb64e7d292094fae3
+
+    25501-0025-Data.sav                 -       2,875     158     2011-09-19  03f5447f60275938ee8928a950095dc3
+
+    25501-0025-Data.stc                 -       2,875     158     2011-09-19  850b6cc071bc6e21297d6b3f893e2922
+
+    25501-0025-Data.tsv                 -       2,875     158     2011-09-19  a92ab4be18af132eab03720eea253f95
+
+    25501-0025-Data.txt                 1786    2,875     158     2011-09-19  cfa289326760e311990ad55aa4c99c8e
+
+    25501-0025-Setup.dct                -       -         -       2011-09-19  9f47a82dbc1d8876ebd102a1d00bea6d
+
+    25501-0025-Setup.do                 -       -         -       2011-09-19  2c3de5f4111280bf4198885966a583e4
+
+    25501-0025-Setup.sas                -       -         -       2011-09-19  0ba23867458b615a9db497a6375a07bb
+
+    25501-0025-Setup.sps                -       -         -       2011-09-19  a43ac38652283f46b528cde7afdd7a52
+
+    25501-0025-User_guide.pdf           -       -         -       2009-10-12  6529ccc11a252505b710f0e12a77ae04
+
+
+DS0026 Examination: Lower Extremity Disease (Peripheral Neuropathy)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0026-Codebook.pdf             -       -         -       2011-09-19  b38901e8f0cdc5b1509f416dab1a86b1
+
+    25501-0026-Data.dta                 -       2,875     185     2011-09-19  82d6dc7911a4f37110bad43b905da916
+
+    25501-0026-Data.sav                 -       2,875     185     2011-09-19  62c3343fdf2802bc11e22072779aa3d4
+
+    25501-0026-Data.stc                 -       2,875     185     2011-09-19  a5bf9375cd9aa8621d458317efcc194d
+
+    25501-0026-Data.tsv                 -       2,875     185     2011-09-19  06362751f1b77da3af905f24ed43354a
+
+    25501-0026-Data.txt                 1854    2,875     185     2011-09-19  3de2e8912f74e034ac2c13d70858f778
+
+    25501-0026-Setup.dct                -       -         -       2011-09-19  7dd9153d339202b31927e52e9165b9b2
+
+    25501-0026-Setup.do                 -       -         -       2011-09-19  cbfcd7b5c4503882eec97bc0ab9df501
+
+    25501-0026-Setup.sas                -       -         -       2011-09-19  b99466af2c712e4246453b4c45dacf51
+
+    25501-0026-Setup.sps                -       -         -       2011-09-19  5ba241f72cd81f5d5e0f22382f016b72
+
+    25501-0026-User_guide.pdf           -       -         -       2009-10-12  28a603936372c9822c442ad768befba8
+
+
+DS0027 Examination: Muscular Strength
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0027-Codebook.pdf             -       -         -       2011-09-19  6738fe2aae228816a410ab8f58a9b4d7
+
+    25501-0027-Data.dta                 -       2,156     159     2011-09-19  bcf870033143bfdcc59b8c96c5427472
+
+    25501-0027-Data.sav                 -       2,156     159     2011-09-19  6e8f56a1953aafea182202dacd0cb0f8
+
+    25501-0027-Data.stc                 -       2,156     159     2011-09-19  6a41ecd96c5f9fdc6c7ec238deaa131b
+
+    25501-0027-Data.tsv                 -       2,156     159     2011-09-19  7f68f863bae7331ee1621442354330b2
+
+    25501-0027-Data.txt                 1792    2,156     159     2011-09-19  e681696e6634f49db90d3d905f073fc4
+
+    25501-0027-Setup.dct                -       -         -       2011-09-19  25a1088a36f5e21cdf524eb1f44ae32f
+
+    25501-0027-Setup.do                 -       -         -       2011-09-19  0d5c0959a5c2e2ebf93da14447e2863c
+
+    25501-0027-Setup.sas                -       -         -       2011-09-19  9a6aaae056f02974841fe086b76e287b
+
+    25501-0027-Setup.sps                -       -         -       2011-09-19  2da5e673eb873f58ab88c77d1f07ffe5
+
+    25501-0027-User_guide.pdf           -       -         -       2009-10-12  a1bb8ffc6a4a07575921b8d6fd83847e
+
+
+DS0028 Examination: Oral Health (Dentition)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0028-Codebook.pdf             -       -         -       2011-09-19  ba8352da2933b6fee7089ebfe5ceea08
+
+    25501-0028-Data.dta                 -       8,587     291     2011-09-19  06f6f48141d2aa0c39ddbac864ed0f8a
+
+    25501-0028-Data.sav                 -       8,587     291     2011-09-19  2d9754b5f94d5a35915ebbefad6c6830
+
+    25501-0028-Data.stc                 -       8,587     291     2011-09-19  c75e24bdb5bc1c22237dfb1446d26b8e
+
+    25501-0028-Data.tsv                 -       8,587     291     2011-09-19  548aaf2e3d02afe1602159b164fd1664
+
+    25501-0028-Data.txt                 2438    8,587     291     2011-09-19  f4be2dab6adb63ab817d4e8d6a354812
+
+    25501-0028-Setup.dct                -       -         -       2011-09-19  022e5d51d7a885355ecd35fd5f083204
+
+    25501-0028-Setup.do                 -       -         -       2011-09-19  680e41f2ec1e47996852ab1d821002af
+
+    25501-0028-Setup.sas                -       -         -       2011-09-19  6c895e8f2ca5ba373ccbff19f2086bb3
+
+    25501-0028-Setup.sps                -       -         -       2011-09-19  535a2ad909b8381323e1c8b91c99148d
+
+    25501-0028-User_guide.pdf           -       -         -       2009-10-12  677538dfb0f22f1b7a75f9b85adbeb37
+
+
+DS0029 Examination: Oral Health (Periodontal Section)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0029-Codebook.pdf             -       -         -       2011-09-19  2fa66e453df38a76c5d1c7305d323968
+
+    25501-0029-Data.dta                 -       6,758     317     2011-09-19  e812eb6e7ea3f3f76cce66facd06bd2d
+
+    25501-0029-Data.sav                 -       6,758     317     2011-09-19  49d6316a1e26dc228c8e8d7ae8bd720f
+
+    25501-0029-Data.stc                 -       6,758     317     2011-09-19  d102e23bcef2afe061a8cce104221f5f
+
+    25501-0029-Data.tsv                 -       6,758     317     2011-09-19  1d60abb7689816508d5fe3424d44bdb4
+
+    25501-0029-Data.txt                 2250    6,758     317     2011-09-19  ba6fbe61884a76b6f4a057bf4a3b121e
+
+    25501-0029-Setup.dct                -       -         -       2011-09-19  16c799b2487984f46664dee8bdba334b
+
+    25501-0029-Setup.do                 -       -         -       2011-09-19  01a9a332f8786379310de437bc4f3584
+
+    25501-0029-Setup.sas                -       -         -       2011-09-19  92ef1203322a868beb420689fb2a1ef8
+
+    25501-0029-Setup.sps                -       -         -       2011-09-19  4eab33988617c7a31ad7402f808fd575
+
+    25501-0029-User_guide.pdf           -       -         -       2009-10-12  ce3611fb1880d3532b3478b90840950e
+
+
+DS0030 Examination: Oral Health (Referral)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0030-Codebook.pdf             -       -         -       2011-09-19  65a461eb82e4ba7841156aee40594795
+
+    25501-0030-Data.dta                 -       8,587     164     2011-09-19  847abf7966989d22396818054254f7df
+
+    25501-0030-Data.sav                 -       8,587     164     2011-09-19  1fa28a051444db04f8f636c902b05df4
+
+    25501-0030-Data.stc                 -       8,587     164     2011-09-19  2d49c308be285759d2857eabc8c24396
+
+    25501-0030-Data.tsv                 -       8,587     164     2011-09-19  5ca7cfbae6de8b21b721dfe7dd3b81b8
+
+    25501-0030-Data.txt                 1791    8,587     164     2011-09-19  8c58bb1241856630b1ebbda24f97b4a0
+
+    25501-0030-Setup.dct                -       -         -       2011-09-19  f401497bedeefe7238d7f2bdb48464f8
+
+    25501-0030-Setup.do                 -       -         -       2011-09-19  3c5141bc43693d79e96b5f3c7a0c9c1f
+
+    25501-0030-Setup.sas                -       -         -       2011-09-19  735e5b677224403788f84c394989e85f
+
+    25501-0030-Setup.sps                -       -         -       2011-09-19  7505c29b526f10ae63842a933f0c4200
+
+    25501-0030-User_guide.pdf           -       -         -       2009-10-12  288dd3306e630f55788fe7514f31d54f
+
+
+DS0031 Examination: Shared Exclusion Questions
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0031-Codebook.pdf             -       -         -       2011-09-19  f35292bc74f64214b1cd5b761d03a946
+
+    25501-0031-Data.dta                 -       8,832     152     2011-09-19  15d339060cbea600c6f1a233c69b7b4a
+
+    25501-0031-Data.sav                 -       8,832     152     2011-09-19  d4d3f6a56bf1b00e7a7049c45ebc06b4
+
+    25501-0031-Data.stc                 -       8,832     152     2011-09-19  85d5a44ffd899f19dbd1ef517b3ad294
+
+    25501-0031-Data.tsv                 -       8,832     152     2011-09-19  167f2e27188323f7d799f2047ef59d7b
+
+    25501-0031-Data.txt                 1755    8,832     152     2011-09-19  87732375c477f5df4b917f533a471a24
+
+    25501-0031-Setup.dct                -       -         -       2011-09-19  cf0bfd69f6764551bccc52c7f384e3a3
+
+    25501-0031-Setup.do                 -       -         -       2011-09-19  5b6fa4ece619ebd16dc7f1b284756fa3
+
+    25501-0031-Setup.sas                -       -         -       2011-09-19  bd8a8f90173837f37ba173bb487a4e02
+
+    25501-0031-Setup.sps                -       -         -       2011-09-19  01ec719c7c8e7b45fb81ff0f4768f1e0
+
+    25501-0031-User_guide.pdf           -       -         -       2009-10-12  b6f99ec10679f0fcb1453ee85cfa900a
+
+
+DS0032 Examination: Tuberculosis
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0032-Codebook.pdf             -       -         -       2011-09-19  108ba449794efd6a3ae9a514dd3ca4ee
+
+    25501-0032-Data.dta                 -       8,832     151     2011-09-19  e911e4fae42c661d4b3696e04ca9e924
+
+    25501-0032-Data.sav                 -       8,832     151     2011-09-19  b8c3a660b372e867fce08f717e3063f4
+
+    25501-0032-Data.stc                 -       8,832     151     2011-09-19  1d258baba2e9c97134744ba4cb79e99c
+
+    25501-0032-Data.tsv                 -       8,832     151     2011-09-19  faabcacb262806f26f826d7cfce66b04
+
+    25501-0032-Data.txt                 1756    8,832     151     2011-09-19  6bc15c210e8675f4956dd52971f263d8
+
+    25501-0032-Setup.dct                -       -         -       2011-09-19  4ea1e0db5498618d3edffc916774b84e
+
+    25501-0032-Setup.do                 -       -         -       2011-09-19  b29275c5e63080e837913fc17c5e226e
+
+    25501-0032-Setup.sas                -       -         -       2011-09-19  5aa23861d3b027bb71d4f77b9f3f9cf8
+
+    25501-0032-Setup.sps                -       -         -       2011-09-19  074251d8be4c634348c0ef46b06dfbd0
+
+    25501-0032-User_guide.pdf           -       -         -       2009-10-12  0cf01e8c3bd76a61f527b5ae65a3aa65
+
+
+DS0033 Examination: Vision Exam
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0033-Codebook.pdf             -       -         -       2011-09-19  451f95de7b905aa08595e868004d859f
+
+    25501-0033-Data.dta                 -       6,758     199     2011-09-19  133f4080c24d3a2950c4bf6439d45157
+
+    25501-0033-Data.sav                 -       6,758     199     2011-09-19  b18dae3ea525ebfb64d732856f05db17
+
+    25501-0033-Data.stc                 -       6,758     199     2011-09-19  97c0431ec7d5e7b5f49d3c89d430c6e6
+
+    25501-0033-Data.tsv                 -       6,758     199     2011-09-19  e4c23debf5a3efa03e4b6af055772913
+
+    25501-0033-Data.txt                 1959    6,758     199     2011-09-19  86ad0cbed7b2a3a2611cfc8d9ad2e835
+
+    25501-0033-Setup.dct                -       -         -       2011-09-19  b1a794a3acb0332c782c064f55ded483
+
+    25501-0033-Setup.do                 -       -         -       2011-09-19  8f5089afbdf79ad89418821326b1e292
+
+    25501-0033-Setup.sas                -       -         -       2011-09-19  05917b40eeceaba13677392f13e6c4c3
+
+    25501-0033-Setup.sps                -       -         -       2011-09-19  f959d4612d767c4bcf9c3cef5d34fa63
+
+    25501-0033-User_guide.pdf           -       -         -       2009-10-12  ad5b00f6724fe325479b1c63db46adec
+
+
+DS0102 Laboratory: Surplus Sera Cystatin C
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0102-Codebook.pdf             -       -         -       2011-09-19  6ad0e9b70df01a3319dd3ef4347543c0
+
+    25501-0102-Data.dta                 -       2,752     145     2011-09-19  4b17c391f74749733375eac0b1051eab
+
+    25501-0102-Data.sav                 -       2,752     145     2011-09-19  8459260745e569c5646d5538a7176f57
+
+    25501-0102-Data.stc                 -       2,752     145     2011-09-19  7d7c31904b86e1e0adf1c28d12caa397
+
+    25501-0102-Data.tsv                 -       2,752     145     2011-09-19  4979517c5d4f2ba622eb0fd1865e1794
+
+    25501-0102-Data.txt                 1758    2,752     145     2011-09-19  a677613955628286d1c2e3faeeda1970
+
+    25501-0102-Setup.dct                -       -         -       2011-09-19  8bf4c54207f56090c61c46ac4e8cf812
+
+    25501-0102-Setup.do                 -       -         -       2011-09-19  9439f62db561f0f89725fb01e7aa752f
+
+    25501-0102-Setup.sas                -       -         -       2011-09-19  c1c8699abbde47b1746c52681a53e535
+
+    25501-0102-Setup.sps                -       -         -       2011-09-19  c41b098faeca8322ba9f7b9bb854dece
+
+    25501-0102-User_guide.pdf           -       -         -       2009-10-12  3b69275aca2f281fd209f638f156f068
+
+
+DS0103 Laboratory: Antibody to Cytomegalovirus IgG (Surplus Sera)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0103-Codebook.pdf             -       -         -       2011-09-19  0a15acac6f3b2dd1c8add6810fb8f774
+
+    25501-0103-Data.dta                 -       4,656     145     2011-09-19  491ec2d276b199cadb60a72f3ff3e5d5
+
+    25501-0103-Data.sav                 -       4,656     145     2011-09-19  7eb81fddfc419ef1eadfe962aa7086aa
+
+    25501-0103-Data.stc                 -       4,656     145     2011-09-19  7743564d7893161830a2f59de6cb3937
+
+    25501-0103-Data.tsv                 -       4,656     145     2011-09-19  3fa6133c963e0502a645d7ea3b6ef15b
+
+    25501-0103-Data.txt                 1737    4,656     145     2011-09-19  2d7675eea6195739033c49e5cbd26ab7
+
+    25501-0103-Setup.dct                -       -         -       2011-09-19  c85ed65633ef112f937f6cabc28b1377
+
+    25501-0103-Setup.do                 -       -         -       2011-09-19  10237e185dea51a3b023e3afdba80156
+
+    25501-0103-Setup.sas                -       -         -       2011-09-19  d2bfc5288db2877d18d4d8072b348e38
+
+    25501-0103-Setup.sps                -       -         -       2011-09-19  fe023e62534ff134b8c67b6a5e515eca
+
+    25501-0103-User_guide.pdf           -       -         -       2009-10-12  8ca52af3b0f9c91b91920669bcea5f46
+
+
+DS0104 Laboratory: Antibody to Human Herpes Virus 1 (Surplus Sera)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0104-Codebook.pdf             -       -         -       2011-09-19  3f2d6fa22c878595861345f4f7db51dc
+
+    25501-0104-Data.dta                 -       1,426     144     2011-09-19  cee84a7e979951d3bf39f96b8a0d1fa6
+
+    25501-0104-Data.sav                 -       1,426     144     2011-09-19  c5933a93b63f548b354639e2bbc81404
+
+    25501-0104-Data.stc                 -       1,426     144     2011-09-19  34b9c1daf4477c8dfe5751eddd0556ed
+
+    25501-0104-Data.tsv                 -       1,426     144     2011-09-19  35cb92b1d573a239c38d9ea7230a9d9e
+
+    25501-0104-Data.txt                 1731    1,426     144     2011-09-19  22b0ab1c3028f34311d968f981ac0572
+
+    25501-0104-Setup.dct                -       -         -       2011-09-19  bbb816eb14785628d9003c05aef6dc81
+
+    25501-0104-Setup.do                 -       -         -       2011-09-19  5f95322a7cde6354650f9ba67e47fb1e
+
+    25501-0104-Setup.sas                -       -         -       2011-09-19  7c4a542ddb3c45a9ae6f7efc4a4cfa7c
+
+    25501-0104-Setup.sps                -       -         -       2011-09-19  006e455947363507d3d741b8f9f48371
+
+    25501-0104-User_guide.pdf           -       -         -       2009-10-12  ff02b03ce7317a2f6014487b6ecb291b
+
+
+DS0105 Laboratory: Antibody to Mumps (Surplus Sera)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0105-Codebook.pdf             -       -         -       2011-09-19  3f77965a1ab3bd9c8217fc5417750a63
+
+    25501-0105-Data.dta                 -       4,707     145     2011-09-19  e8f0f1a1bce64245f4f42f5cb2c5c898
+
+    25501-0105-Data.sav                 -       4,707     145     2011-09-19  4c298188f80437cb390ade0e2825c6a2
+
+    25501-0105-Data.stc                 -       4,707     145     2011-09-19  369b3ced029bffcd4a085d6f34b8c5c8
+
+    25501-0105-Data.tsv                 -       4,707     145     2011-09-19  5d6608a38cbe03992c121fdc94f8dccf
+
+    25501-0105-Data.txt                 1737    4,707     145     2011-09-19  b879b46c8282f34ac7d64dc57db44759
+
+    25501-0105-Setup.dct                -       -         -       2011-09-19  ae878fbc69847e002dac3ef56b53e438
+
+    25501-0105-Setup.do                 -       -         -       2011-09-19  d3e47798588d22480fa3ce1bcf498ec5
+
+    25501-0105-Setup.sas                -       -         -       2011-09-19  2abd65b36d40f78da8840ccd459f0654
+
+    25501-0105-Setup.sps                -       -         -       2011-09-19  d7cf828360de8eec1d7b051ee610854e
+
+    25501-0105-User_guide.pdf           -       -         -       2009-10-12  37a10e100d719a7f1b851b1d1eb4ca4a
+
+
+DS0106 Laboratory: Perfluorinated Chemicals (Surplus Sera)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0106-Codebook.pdf             -       -         -       2011-09-19  8464143baf49b5e1e465bd2196ea1a8e
+
+    25501-0106-Data.dta                 -       1,591     154     2011-09-19  1237da0c09829f4ea08bacfd53c497a4
+
+    25501-0106-Data.sav                 -       1,591     154     2011-09-19  46aee922f73b1069623afe5687830e0d
+
+    25501-0106-Data.stc                 -       1,591     154     2011-09-19  3de94d780a411f3c0448374f9eaa586e
+
+    25501-0106-Data.tsv                 -       1,591     154     2011-09-19  0a9c6848add45fdba53a00ee37e7dcb4
+
+    25501-0106-Data.txt                 1882    1,591     154     2011-09-19  b1a6f85e96863f8f60cbab5178fda3a5
+
+    25501-0106-Setup.dct                -       -         -       2011-09-19  87a5f6335c03956f9e1f666002f92c81
+
+    25501-0106-Setup.do                 -       -         -       2011-09-19  9cf2fdb4d27763e12e9429fd3936bc22
+
+    25501-0106-Setup.sas                -       -         -       2011-09-19  95293527e54f9883bddbb94f49ba2906
+
+    25501-0106-Setup.sps                -       -         -       2011-09-19  19378becf0ba010c25179caf5c4bf421
+
+    25501-0106-User_guide.pdf           -       -         -       2009-10-12  3e28cf4f8d09f303c26700b3f0724d64
+
+
+DS0107 Laboratory: Varicella Zoster Virus Antibody (Surplus Sera)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0107-Codebook.pdf             -       -         -       2011-09-19  85179396c96267c094166c605290ab28
+
+    25501-0107-Data.dta                 -       266       144     2011-09-19  b46b02221a22a1aead132819fc57dae0
+
+    25501-0107-Data.sav                 -       266       144     2011-09-19  fe99888af6a2e7d8f2baad1a4973ef93
+
+    25501-0107-Data.stc                 -       266       144     2011-09-19  a0a55812f4ef4cdb7a57083a309446ad
+
+    25501-0107-Data.tsv                 -       266       144     2011-09-19  e82197bb1cc28736c6e2b511aac271f8
+
+    25501-0107-Data.txt                 1731    266       144     2011-09-19  30b5be2f11aa6134d5181e859ec9d52a
+
+    25501-0107-Setup.dct                -       -         -       2011-09-19  c5378f6b36d2c853d6a65a513c73a9f0
+
+    25501-0107-Setup.do                 -       -         -       2011-09-19  939d891cba9a06d01d0543532ca339ad
+
+    25501-0107-Setup.sas                -       -         -       2011-09-19  68485e416879489d1fbf4f9c31f3e59d
+
+    25501-0107-Setup.sps                -       -         -       2011-09-19  19e771110879af11c9f39131436895de
+
+    25501-0107-User_guide.pdf           -       -         -       2009-10-12  fbbc7d0501dc8320cd8a885034ce2331
+
+
+DS0108 Laboratory: Serum Transferrin and Receptor (Surplus Sera)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0108-Codebook.pdf             -       -         -       2011-09-19  2fe83d6f093cbddc2490424ad0250000
+
+    25501-0108-Data.dta                 -       280       145     2011-09-19  c944ac8cb02af60aaf602b8fc10e48f2
+
+    25501-0108-Data.sav                 -       280       145     2011-09-19  24f939057a9cc87d68c97bfd3868fc04
+
+    25501-0108-Data.stc                 -       280       145     2011-09-19  b817e0bbd6259e97ad06732f8b833f2b
+
+    25501-0108-Data.tsv                 -       280       145     2011-09-19  24d33be64fe6a78682ddaaa04424f663
+
+    25501-0108-Data.txt                 1735    280       145     2011-09-19  5428e54fdaaca2c7476d55d4528787ce
+
+    25501-0108-Setup.dct                -       -         -       2011-09-19  473092f9b31e58e52874789a8774eae2
+
+    25501-0108-Setup.do                 -       -         -       2011-09-19  32dfb50a8a985cdaf791fc2d4970fa3e
+
+    25501-0108-Setup.sas                -       -         -       2011-09-19  9606f015f790bff5543398389fabbfa5
+
+    25501-0108-Setup.sps                -       -         -       2011-09-19  fa66b8cbcb7c92e7e668143922863f7c
+
+    25501-0108-User_guide.pdf           -       -         -       2009-10-12  c622413b7b8825a00c794da2364c9477
+
+
+DS0109 Laboratory: Phlebotomy
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0109-Codebook.pdf             -       -         -       2011-09-19  75bc0647532ca34159968d5bb506e0e2
+
+    25501-0109-Data.dta                 -       8,832     161     2011-09-19  33d5e97301b8cc815d304191c5825111
+
+    25501-0109-Data.sav                 -       8,832     161     2011-09-19  1ed71ac230d35e53ec05e596436d927f
+
+    25501-0109-Data.stc                 -       8,832     161     2011-09-19  6546ee3c003a2ab5b07606dda271a8ad
+
+    25501-0109-Data.tsv                 -       8,832     161     2011-09-19  897e50e2e83e45f1f354311d45cb4612
+
+    25501-0109-Data.txt                 1782    8,832     161     2011-09-19  88af1701e99d9144b52176251fcfa754
+
+    25501-0109-Setup.dct                -       -         -       2011-09-19  74625cc50fb671fff7f956634a7b61ce
+
+    25501-0109-Setup.do                 -       -         -       2011-09-19  f6e46dfcf16236e42e50a98f207806ae
+
+    25501-0109-Setup.sas                -       -         -       2011-09-19  f896be6d1feaad1056789134f48fa273
+
+    25501-0109-Setup.sps                -       -         -       2011-09-19  8f10ebf25541741f9dcfdc8b24ccd87b
+
+    25501-0109-User_guide.pdf           -       -         -       2009-10-12  03b4aad721c8cc244c71238866957973
+
+
+DS0110 Laboratory: Phpypa Urinary Phthalates (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0110-Codebook.pdf             -       -         -       2011-09-19  35f3ba202d020fafd5d582f424f4cd15
+
+    25501-0110-Data.dta                 -       2,648     213     2011-09-19  5578db079519f09228b9692640225ec1
+
+    25501-0110-Data.sav                 -       2,648     213     2011-09-19  a11bdd3c4fc07952818ebb0c6c26ba89
+
+    25501-0110-Data.stc                 -       2,648     213     2011-09-19  f9af34262e4fe6f221cdbff39b4bfb6f
+
+    25501-0110-Data.tsv                 -       2,648     213     2011-09-19  c4c614b069189b964ba89662c38f74ab
+
+    25501-0110-Data.txt                 2536    2,648     213     2011-09-19  fd13904556a4a28c589e7234377ba1a4
+
+    25501-0110-Setup.dct                -       -         -       2011-09-19  0e11501d9b10708ff012a0628f737124
+
+    25501-0110-Setup.do                 -       -         -       2011-09-19  b0dbd6a804aa091b7bc309ffa3052be5
+
+    25501-0110-Setup.sas                -       -         -       2011-09-19  3e17709ac7c0a494c6ecf99c6bd457c8
+
+    25501-0110-Setup.sps                -       -         -       2011-09-19  5ed222055aacf794ea3fb3f86e714c32
+
+    25501-0110-User_guide.pdf           -       -         -       2009-10-12  98312ba5a0fc2fc4dd5ca74b73452ac1
+
+
+DS0111 Laboratory: Urine Collection (Pregnancy)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0111-Codebook.pdf             -       -         -       2011-09-19  8528fdb24676cec3b198101f2efbd910
+
+    25501-0111-Data.dta                 -       1,836     144     2011-09-19  78bdc5bfa550419f17b06580abaa48d2
+
+    25501-0111-Data.sav                 -       1,836     144     2011-09-19  c57cc7d2407f176e17b425beb1d69fe1
+
+    25501-0111-Data.stc                 -       1,836     144     2011-09-19  8eb6a70b39270cd164cba162d920904c
+
+    25501-0111-Data.tsv                 -       1,836     144     2011-09-19  1777d6480a523d059a685cac938d3a3c
+
+    25501-0111-Data.txt                 1731    1,836     144     2011-09-19  d6a89da0452d6b4786252d01134764cc
+
+    25501-0111-Setup.dct                -       -         -       2011-09-19  7c09f862b5a422b8b78507bf7f55a737
+
+    25501-0111-Setup.do                 -       -         -       2011-09-19  b4eb8b091d75513379127422bb221fc6
+
+    25501-0111-Setup.sas                -       -         -       2011-09-19  7552ba9db8ed1ff4dced589579a78b61
+
+    25501-0111-Setup.sps                -       -         -       2011-09-19  a8a80165d56f681dd95fd383d4817ea1
+
+    25501-0111-User_guide.pdf           -       -         -       2009-10-12  514465e0a03034bceebfdab47db066c4
+
+
+DS0112 Laboratory: Lab 02 Hepatitis B Surface Antibody
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0112-Codebook.pdf             -       -         -       2011-09-19  cbf206fc21cd82370c11f524173f4347
+
+    25501-0112-Data.dta                 -       8,587     144     2011-09-19  f177ddf815cb96b5c5b914a0c9fb3007
+
+    25501-0112-Data.sav                 -       8,587     144     2011-09-19  6a667d32584444d4139b581a690929eb
+
+    25501-0112-Data.stc                 -       8,587     144     2011-09-19  c9b50590940c55846e4e9322edb0e0ed
+
+    25501-0112-Data.tsv                 -       8,587     144     2011-09-19  76fc9a5cbf01a253bf97114ef5361099
+
+    25501-0112-Data.txt                 1731    8,587     144     2011-09-19  bb866b43f90fe7bbc42ebfd8a2a00db3
+
+    25501-0112-Setup.dct                -       -         -       2011-09-19  d10d5c574f26f67127c34be7d2ea42e9
+
+    25501-0112-Setup.do                 -       -         -       2011-09-19  cc9f502921c0be7c309ac180fc2edcc3
+
+    25501-0112-Setup.sas                -       -         -       2011-09-19  7fe49405d72a19477c9f3bedbcf8460f
+
+    25501-0112-Setup.sps                -       -         -       2011-09-19  e0a391ca36da574ecac0d01e6f60eb83
+
+    25501-0112-User_guide.pdf           -       -         -       2009-10-12  60b610201aaca5f9cce0e5aaa58cd665
+
+
+DS0113 Laboratory: Lab 02 Hepatitis
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0113-Codebook.pdf             -       -         -       2011-09-19  58263cd2f008e90792913201d043c3ec
+
+    25501-0113-Data.dta                 -       8,587     147     2011-09-19  f0973bcee44baf8c4f727aa2a6387c40
+
+    25501-0113-Data.sav                 -       8,587     147     2011-09-19  0718531cafde6e4021bd5e7a07053f41
+
+    25501-0113-Data.stc                 -       8,587     147     2011-09-19  570ee84dfe295c999020d597114a2817
+
+    25501-0113-Data.tsv                 -       8,587     147     2011-09-19  d61e17d39fa20087b32866abf45f251c
+
+    25501-0113-Data.txt                 1740    8,587     147     2011-09-19  77003b555bfc7f2d43afc05868a92515
+
+    25501-0113-Setup.dct                -       -         -       2011-09-19  56bb89e761b43e79a804776adc98896a
+
+    25501-0113-Setup.do                 -       -         -       2011-09-19  6dcb6d134a2f994373a9c57606dadf7c
+
+    25501-0113-Setup.sas                -       -         -       2011-09-19  5eb3c5c46e5d745e0aeab0667f93d8f4
+
+    25501-0113-Setup.sps                -       -         -       2011-09-19  c95cb3746f6fa1790df8d454d3daadcb
+
+    25501-0113-User_guide.pdf           -       -         -       2009-10-12  48e17b6e2b93f84e4c3885feca19412d
+
+
+DS0114 Laboratory: Lab 02 Hepatitis A Antibody
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0114-Codebook.pdf             -       -         -       2011-09-19  ce66f165ce3844ee35a35737e436b747
+
+    25501-0114-Data.dta                 -       8,587     144     2011-09-19  4286ae96c476a4cfa57426cc55e3a51a
+
+    25501-0114-Data.sav                 -       8,587     144     2011-09-19  41c3fefbd28564e1367aa59a60b2af65
+
+    25501-0114-Data.stc                 -       8,587     144     2011-09-19  7cfcb07b6e2e5dcb0be321f8b21d1603
+
+    25501-0114-Data.tsv                 -       8,587     144     2011-09-19  3bf48925e1a320324da3263a4f792afc
+
+    25501-0114-Data.txt                 1731    8,587     144     2011-09-19  722ec9784fcb1167f4d76640d6aa0dd4
+
+    25501-0114-Setup.dct                -       -         -       2011-09-19  cff81485475351da8eb5010dd72e1756
+
+    25501-0114-Setup.do                 -       -         -       2011-09-19  7ac854b823c66fa3cdd71ada5c05d564
+
+    25501-0114-Setup.sas                -       -         -       2011-09-19  eabe2266070b835671cabfd8bbf8b802
+
+    25501-0114-Setup.sps                -       -         -       2011-09-19  730e9cafc8aa56a770664be21edc40a8
+
+    25501-0114-User_guide.pdf           -       -         -       2009-10-12  3c2b2f83c771ab2f477519ec79cd8cdc
+
+
+DS0115 Laboratory: Lab 03 Human Immunodeficiency Virus
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0115-Codebook.pdf             -       -         -       2011-09-19  8dc94ea6b01c25d376ee1a28bd242de8
+
+    25501-0115-Data.dta                 -       2,820     146     2011-09-19  a3c3c87c5be437505624b33e4d93f3a6
+
+    25501-0115-Data.sav                 -       2,820     146     2011-09-19  003c32e91e2e529b54be5576c114b5c2
+
+    25501-0115-Data.stc                 -       2,820     146     2011-09-19  26f1dde8e0f0ed7bd795e639e496e682
+
+    25501-0115-Data.tsv                 -       2,820     146     2011-09-19  2b6399fb22dfd0715b8b67206e24d542
+
+    25501-0115-Data.txt                 1739    2,820     146     2011-09-19  17794b66eef3591464212e04f7bc0107
+
+    25501-0115-Setup.dct                -       -         -       2011-09-19  18ef7a0113a8020cd0dd758a6a691bc2
+
+    25501-0115-Setup.do                 -       -         -       2011-09-19  6c79a831c89186e67629aa605f4eb1d2
+
+    25501-0115-Setup.sas                -       -         -       2011-09-19  1417576b1cbaa0f8bd81642991658376
+
+    25501-0115-Setup.sps                -       -         -       2011-09-19  8e9fe569f1dcd2bda5a68e0ed58ec6bb
+
+    25501-0115-User_guide.pdf           -       -         -       2009-10-12  836bd88c358c3c8836599491511b8833
+
+
+DS0116 Laboratory: Lab 04 Volatile Organic Compounds in Blood and Water
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0116-Codebook.pdf             -       -         -       2011-09-19  4f372509f2b3746169d3a2a0112d9a47
+
+    25501-0116-Data.dta                 -       851       187     2011-09-19  e6cbf24f12969b05e8557c00f0011407
+
+    25501-0116-Data.sav                 -       851       187     2011-09-19  212326bb10f50c600613b433d2baeb38
+
+    25501-0116-Data.stc                 -       851       187     2011-09-19  0d1c3014592eb8b930c5b4a22eca90d6
+
+    25501-0116-Data.tsv                 -       851       187     2011-09-19  15164aeb889681806ff3fa42cf54cdc0
+
+    25501-0116-Data.txt                 1973    851       187     2011-09-19  f9dc7d6fd1a87d789bf893ca13bd0ed5
+
+    25501-0116-Setup.dct                -       -         -       2011-09-19  7eeab268364ade47b08c6f9083689ad3
+
+    25501-0116-Setup.do                 -       -         -       2011-09-19  67cc3b61a09937697f26d0a5f85bcae4
+
+    25501-0116-Setup.sas                -       -         -       2011-09-19  d724d1df46571ddcaa63feedbbb655be
+
+    25501-0116-Setup.sps                -       -         -       2011-09-19  ba18f8d8a8666b098aecad9ccfb4c336
+
+    25501-0116-User_guide.pdf           -       -         -       2009-10-12  dc80c86b6434b71f6cd777c4328bb4bf
+
+
+DS0117 Laboratory: Lab 05 Chlamydia and Gonorrhea
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0117-Codebook.pdf             -       -         -       2011-09-19  1b71b586996353c64f53025369e8e12c
+
+    25501-0117-Data.dta                 -       2,101     145     2011-09-19  58da11dd88fb54f3ae34921b31a70d37
+
+    25501-0117-Data.sav                 -       2,101     145     2011-09-19  ba61f33b27bc42379d9220b938d02380
+
+    25501-0117-Data.stc                 -       2,101     145     2011-09-19  7eb5f2d230a3df1ad55defff9caa8881
+
+    25501-0117-Data.tsv                 -       2,101     145     2011-09-19  79ff253848616fc5731a11e8de1ef9ed
+
+    25501-0117-Data.txt                 1734    2,101     145     2011-09-19  ec43fec345d6c359615d0b7521689f52
+
+    25501-0117-Setup.dct                -       -         -       2011-09-19  963aff74f466f23041fd25802c2471fe
+
+    25501-0117-Setup.do                 -       -         -       2011-09-19  0fd2f67d7667412d545daf9f1c217f7a
+
+    25501-0117-Setup.sas                -       -         -       2011-09-19  e4a809de486f97bdd4a839f52ec6bdf0
+
+    25501-0117-Setup.sps                -       -         -       2011-09-19  c82c21b16ad4ff7f899c0cb3225f8f38
+
+    25501-0117-User_guide.pdf           -       -         -       2009-10-12  c498f5bfd59883440d30f696ebfa8094
+
+
+DS0118 Laboratory: Lab 06 Nutritional Biochemistries
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0118-Codebook.pdf             -       -         -       2011-09-19  7d23edd509adbd787196a74da64328cf
+
+    25501-0118-Data.dta                 -       8,832     183     2011-09-19  6263629d4431229ceeacbc1b21af41b8
+
+    25501-0118-Data.sav                 -       8,832     183     2011-09-19  add5d0a29961e23773abd386be57ff34
+
+    25501-0118-Data.stc                 -       8,832     183     2011-09-19  7b8abb89abbb5a4ee7482b58a3d311c2
+
+    25501-0118-Data.tsv                 -       8,832     183     2011-09-19  75b62f0bdc3e30fa04cf49d02fb4d12c
+
+    25501-0118-Data.txt                 1955    8,832     183     2011-09-19  5ca655031cd3bf1cc537dde833c1e71d
+
+    25501-0118-Setup.dct                -       -         -       2011-09-19  80d821ea5d7321e1efb8f8b457f41394
+
+    25501-0118-Setup.do                 -       -         -       2011-09-19  7bdf295f7131368a75d83d976303a459
+
+    25501-0118-Setup.sas                -       -         -       2011-09-19  36eaf5e1fbbc3de0c6d1f71035377952
+
+    25501-0118-Setup.sps                -       -         -       2011-09-19  34a66357cded297434ebc8926a43b06e
+
+    25501-0118-User_guide.pdf           -       -         -       2009-10-12  083e7327c891dc0fdecfe7de65e4d2ac
+
+
+DS0119 Laboratory: Lab 06Hm Heavy Metals (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0119-Codebook.pdf             -       -         -       2011-09-19  6054a9b593dc7ea27d819223d1f67866
+
+    25501-0119-Data.dta                 -       2,547     210     2011-09-19  4ff9483d0ba2e22217208ebb35485ba6
+
+    25501-0119-Data.sav                 -       2,547     210     2011-09-19  e75f332a3d8dc354f430622160bc44d1
+
+    25501-0119-Data.stc                 -       2,547     210     2011-09-19  330bcb42cbfaf3d976dad7688f88300a
+
+    25501-0119-Data.tsv                 -       2,547     210     2011-09-19  4a93a51732255503b4f6b7c524759466
+
+    25501-0119-Data.txt                 2508    2,547     210     2011-09-19  b87c268aa3813a2c6d28be567f3c9822
+
+    25501-0119-Setup.dct                -       -         -       2011-09-19  98639fa5cbe538bcf6f40ba52e22869f
+
+    25501-0119-Setup.do                 -       -         -       2011-09-19  c28dcf75b9b8a1630867c30f2d48d8a6
+
+    25501-0119-Setup.sas                -       -         -       2011-09-19  9aa3d0d3f53def8143fa72353aeb25de
+
+    25501-0119-Setup.sps                -       -         -       2011-09-19  b40b0c73a8a321a0b82e5af8fcfdfc20
+
+    25501-0119-User_guide.pdf           -       -         -       2009-10-12  23442e8556772ac763651b09f6e58ab7
+
+
+DS0120 Laboratory: Lab 07 Latex
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0120-Codebook.pdf             -       -         -       2011-09-19  ce216631e17a4705dbb820db17ed20ad
+
+    25501-0120-Data.dta                 -       5,152     145     2011-09-19  f35058ecdc21e1b9f8e7ad829c7e85a7
+
+    25501-0120-Data.sav                 -       5,152     145     2011-09-19  8a193d9da2b13713b3e33cfb67b3ffa1
+
+    25501-0120-Data.stc                 -       5,152     145     2011-09-19  8936685e1186a37a621d7016b8cfe6b8
+
+    25501-0120-Data.tsv                 -       5,152     145     2011-09-19  177c58db693923c9e88012102bcced19
+
+    25501-0120-Data.txt                 1737    5,152     145     2011-09-19  16d3b5b62de246c68b045b9dd6fbb95f
+
+    25501-0120-Setup.dct                -       -         -       2011-09-19  cf0d52c57c191d7870c8552aaa76df78
+
+    25501-0120-Setup.do                 -       -         -       2011-09-19  32a72c00cd9a861ad2af9933ef5b5979
+
+    25501-0120-Setup.sas                -       -         -       2011-09-19  ecd03a1e6e949276a98dc0b779a4ffb6
+
+    25501-0120-Setup.sps                -       -         -       2011-09-19  e7b91263d37552712fea21d4cc29729c
+
+    25501-0120-User_guide.pdf           -       -         -       2009-10-12  706e8eaa0f07216df067bb5ccc3bb3cb
+
+
+DS0121 Laboratory: Lab 09 Herpes I and II
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0121-Codebook.pdf             -       -         -       2011-09-19  98c1ad77081d4c2b515dc07d0f0b806b
+
+    25501-0121-Data.dta                 -       3,961     145     2011-09-19  a66395f676becf566c7960845bb40ad2
+
+    25501-0121-Data.sav                 -       3,961     145     2011-09-19  491d7c9774ad9d8ee25bab604cf06d4c
+
+    25501-0121-Data.stc                 -       3,961     145     2011-09-19  4fc44278c003b709a01d9808b683a604
+
+    25501-0121-Data.tsv                 -       3,961     145     2011-09-19  a4543ee7b3bd336a768d699f0c8b1616
+
+    25501-0121-Data.txt                 1734    3,961     145     2011-09-19  f00262642e9e79a1e21f34720d211c05
+
+    25501-0121-Setup.dct                -       -         -       2011-09-19  ca12c0d70ec9342c62576182fefcd430
+
+    25501-0121-Setup.do                 -       -         -       2011-09-19  438c56559b1a8dd3ea233082b06d2285
+
+    25501-0121-Setup.sas                -       -         -       2011-09-19  bbe9bb5fef00c13d422260e4c5eae814
+
+    25501-0121-Setup.sps                -       -         -       2011-09-19  6b4ba151944332d9fcd6469252f80936
+
+    25501-0121-User_guide.pdf           -       -         -       2009-10-12  637a927815491a54bb15e9e5dd41516b
+
+
+DS0122 Laboratory: Lab 10 Glycohemoglobin
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0122-Codebook.pdf             -       -         -       2011-09-19  6f4d1c0e6812029276ab6267b7dea1ad
+
+    25501-0122-Data.dta                 -       6,758     144     2011-09-19  f0d303dd59daf7c2823f7a97629b1db7
+
+    25501-0122-Data.sav                 -       6,758     144     2011-09-19  9ca45814b11e38d0dc7d0281b22386d5
+
+    25501-0122-Data.stc                 -       6,758     144     2011-09-19  733c4d83372a51af7c2e4978ae43aeb2
+
+    25501-0122-Data.tsv                 -       6,758     144     2011-09-19  e66daa6d9248b1ad4e897b89b51d1fed
+
+    25501-0122-Data.txt                 1733    6,758     144     2011-09-19  8dce1789742a5dfb808793b9a7251183
+
+    25501-0122-Setup.dct                -       -         -       2011-09-19  142888d8e3c23d439890183043cad6e6
+
+    25501-0122-Setup.do                 -       -         -       2011-09-19  588587b67ef6c69864707f5953aabb0f
+
+    25501-0122-Setup.sas                -       -         -       2011-09-19  f7605b53cba7589628d13ab10e6194dc
+
+    25501-0122-Setup.sps                -       -         -       2011-09-19  3f6408cb0089e094de654a4ba77cc589
+
+    25501-0122-User_guide.pdf           -       -         -       2009-10-12  14b917f649e41cfeda18a7bb3977d2b9
+
+
+DS0123 Laboratory: Lab 10Am Plasma Glucose (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0123-Codebook.pdf             -       -         -       2011-09-19  a78a1304fe17e028085708942c78ee8a
+
+    25501-0123-Data.dta                 -       3,267     150     2011-09-19  f3809cd474fe70466ea3be92d2b8762a
+
+    25501-0123-Data.sav                 -       3,267     150     2011-09-19  4fd34e39ccb3f4e67f262b966b3c0835
+
+    25501-0123-Data.stc                 -       3,267     150     2011-09-19  a25c7e7a10c1fe0777a69d3dd422f179
+
+    25501-0123-Data.tsv                 -       3,267     150     2011-09-19  e349b4b22870b9c98489dfc7771bb1c8
+
+    25501-0123-Data.txt                 1792    3,267     150     2011-09-19  7a36f303f5b2c5259e0ba4a9dc3d0bf2
+
+    25501-0123-Setup.dct                -       -         -       2011-09-19  a4ee64dac11a54c9fdc8a2db0a0d1786
+
+    25501-0123-Setup.do                 -       -         -       2011-09-19  185a8e42879dfddcc31d40b904efda81
+
+    25501-0123-Setup.sas                -       -         -       2011-09-19  3768fcb2d8e79d3eb5c29e08062586f3
+
+    25501-0123-Setup.sps                -       -         -       2011-09-19  4611ba86bc997fd273305289f579000e
+
+    25501-0123-User_guide.pdf           -       -         -       2009-10-12  0dca38aa0554ccd6ae5220fb1f163622
+
+
+DS0124 Laboratory: Lab 11 C Reactive Protein
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0124-Codebook.pdf             -       -         -       2011-09-19  e500b72c85f5e885615a87f8f0762a1e
+
+    25501-0124-Data.dta                 -       8,344     149     2011-09-19  af02667310c95f51b7d7643785fda004
+
+    25501-0124-Data.sav                 -       8,344     149     2011-09-19  57fcc1dea4deb25834ccacbfd1410736
+
+    25501-0124-Data.stc                 -       8,344     149     2011-09-19  5ee3409192216c4334900ba11369e52a
+
+    25501-0124-Data.tsv                 -       8,344     149     2011-09-19  751d17480b3935d48898530ac6761804
+
+    25501-0124-Data.txt                 1767    8,344     149     2011-09-19  c60724fc1cfeeb1261d44161ca11164b
+
+    25501-0124-Setup.dct                -       -         -       2011-09-19  382d8f4931ef99a593e1ab468cee0c20
+
+    25501-0124-Setup.do                 -       -         -       2011-09-19  3c870b62f3551e3921ddc97966c460f9
+
+    25501-0124-Setup.sas                -       -         -       2011-09-19  81ccc3f85ea87d2331f8e5e21c4e5d7c
+
+    25501-0124-Setup.sps                -       -         -       2011-09-19  fd51c0cd9aca0e2c42cd49a9e8af1b5c
+
+    25501-0124-User_guide.pdf           -       -         -       2009-10-12  d72276766773c46879c8207b916ee43e
+
+
+DS0125 Laboratory: Lab 13 Total Cholesterol
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0125-Codebook.pdf             -       -         -       2011-09-19  046aed16d9686d09741200d30b3586dd
+
+    25501-0125-Data.dta                 -       8,344     147     2011-09-19  f1b4de6c294822a35ddaf0d2f1fa32aa
+
+    25501-0125-Data.sav                 -       8,344     147     2011-09-19  889fbb8c0db689ea74da3240b3542ade
+
+    25501-0125-Data.stc                 -       8,344     147     2011-09-19  4cf66183818c0a6782a18cea493f6a61
+
+    25501-0125-Data.tsv                 -       8,344     147     2011-09-19  fc186fc399e83da9b9cbde41f44e3980
+
+    25501-0125-Data.txt                 1745    8,344     147     2011-09-19  96fd38e55e59ecb76d3b0b384a9570b2
+
+    25501-0125-Setup.dct                -       -         -       2011-09-19  da359de8d4c84ef0c68eaeb993494d34
+
+    25501-0125-Setup.do                 -       -         -       2011-09-19  5a3dbb35b74f7c781606ec18a9b7d9b3
+
+    25501-0125-Setup.sas                -       -         -       2011-09-19  5a230a39bc0e7d12e56cf4f928d57f74
+
+    25501-0125-Setup.sps                -       -         -       2011-09-19  7e3d04c0d11f94f68aa7d0d470471438
+
+    25501-0125-User_guide.pdf           -       -         -       2009-10-12  6858dfd55ef08a01e46b2dd23d109b23
+
+
+DS0126 Laboratory: Lab 13Am Triglycerides (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0126-Codebook.pdf             -       -         -       2011-09-19  b4aa92772205dcea58a404f26bdb9bcc
+
+    25501-0126-Data.dta                 -       3,915     149     2011-09-19  3be62dff60ba592d6f289b0425936abe
+
+    25501-0126-Data.sav                 -       3,915     149     2011-09-19  c922f26d56cbab63d9bb789f3803406c
+
+    25501-0126-Data.stc                 -       3,915     149     2011-09-19  906f9992e24215d43ac43a42991e7b75
+
+    25501-0126-Data.tsv                 -       3,915     149     2011-09-19  618b3668fabad502effab593dd5e2d2b
+
+    25501-0126-Data.txt                 1776    3,915     149     2011-09-19  7686caafe09f1805505ecbe8c4dd3eb6
+
+    25501-0126-Setup.dct                -       -         -       2011-09-19  beaeb8667341da603d8aacc736c7b1cc
+
+    25501-0126-Setup.do                 -       -         -       2011-09-19  fd3ccb976ea20705cb2513458bb18f26
+
+    25501-0126-Setup.sas                -       -         -       2011-09-19  28909cfd9010a8560ead0bf0f14c07b0
+
+    25501-0126-Setup.sps                -       -         -       2011-09-19  a3d616549cf67bd971cd3c12bb0beb75
+
+    25501-0126-User_guide.pdf           -       -         -       2009-10-12  0c65bb0eb2441196f1cb04b6185d5acd
+
+
+DS0127 Laboratory: Lab 16 Urinary Albumin and Creatinine
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0127-Codebook.pdf             -       -         -       2011-09-19  9caaa4beebe16467fea70a6b4c93244a
+
+    25501-0127-Data.dta                 -       7,819     147     2011-09-19  44f570ce647da5b707d00c50beece99d
+
+    25501-0127-Data.sav                 -       7,819     147     2011-09-19  4aa0c241dcbbd08b1b4497430f1f5069
+
+    25501-0127-Data.stc                 -       7,819     147     2011-09-19  0afba22c2e0218e54ce061f2c65a5c62
+
+    25501-0127-Data.tsv                 -       7,819     147     2011-09-19  52e50c0b1df88101961b6c96b3f62f94
+
+    25501-0127-Data.txt                 1750    7,819     147     2011-09-19  a3a12d9930110622554165bcfb0720f1
+
+    25501-0127-Setup.dct                -       -         -       2011-09-19  5d5e60e7dddde62056a8c0bc13dc184c
+
+    25501-0127-Setup.do                 -       -         -       2011-09-19  6c7f76f0436978247661adfec7e5c7a4
+
+    25501-0127-Setup.sas                -       -         -       2011-09-19  512c8a622dada2b6fbd50131efb76650
+
+    25501-0127-Setup.sps                -       -         -       2011-09-19  1d6bfbe6c6fa88959718ebd5c49e363f
+
+    25501-0127-User_guide.pdf           -       -         -       2009-10-12  c7808d7edfcc8b6e36a25d3ca78af56d
+
+
+DS0128 Laboratory: Lab 17 Cryptosporidum and Toxoplasma
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0128-Codebook.pdf             -       -         -       2011-09-19  f57272114fb82a13a83168c97b358ffc
+
+    25501-0128-Data.dta                 -       5,663     152     2011-09-19  b7e6be3728876cc72c336b8339a1f103
+
+    25501-0128-Data.sav                 -       5,663     152     2011-09-19  e4f7283bc1ba8cfd28d7803aeb6e4b71
+
+    25501-0128-Data.stc                 -       5,663     152     2011-09-19  e3ff74ec4e53c4d859ebda3bed89bd3a
+
+    25501-0128-Data.tsv                 -       5,663     152     2011-09-19  522ea96ada6be0f40ffbafc48c1630cf
+
+    25501-0128-Data.txt                 1763    5,663     152     2011-09-19  1244148fe70556debcd963c3bd1de082
+
+    25501-0128-Setup.dct                -       -         -       2011-09-19  5abaecfdbf8252993b7cec1e08ebc1f5
+
+    25501-0128-Setup.do                 -       -         -       2011-09-19  104e69cf6593717757b81c94bfa20fff
+
+    25501-0128-Setup.sas                -       -         -       2011-09-19  de2b2859531b0e893e70319b66a9001a
+
+    25501-0128-Setup.sps                -       -         -       2011-09-19  c581f46ab56c14c7370b7726af816c8d
+
+    25501-0128-User_guide.pdf           -       -         -       2009-10-12  718316dbd3e55d471fcdfaf1f6e66511
+
+
+DS0129 Laboratory: Lab 18 Biochemistry Profile and Hormones
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0129-Codebook.pdf             -       -         -       2011-09-19  7883b47456ebbc2676aef08992c319dd
+
+    25501-0129-Data.dta                 -       6,758     183     2011-09-19  e2cb2920e446c90885399a25fc6f3f03
+
+    25501-0129-Data.sav                 -       6,758     183     2011-09-19  0238bae1fe18cb1397f3f222b22cdfc4
+
+    25501-0129-Data.stc                 -       6,758     183     2011-09-19  8f011c6026cfe078d38f577798304233
+
+    25501-0129-Data.tsv                 -       6,758     183     2011-09-19  fd595b461ce59c540674ea9fcf2f8f06
+
+    25501-0129-Data.txt                 1997    6,758     183     2011-09-19  2b36d51364d755ad86499d1fe1a99f8d
+
+    25501-0129-Setup.dct                -       -         -       2011-09-19  a71e829f1a1bcb98a0ebe47f2403d3bb
+
+    25501-0129-Setup.do                 -       -         -       2011-09-19  b26f68c246c976432d99fb03674937fd
+
+    25501-0129-Setup.sas                -       -         -       2011-09-19  2f7cdae89e5d22829c780805059b7519
+
+    25501-0129-Setup.sps                -       -         -       2011-09-19  923b83b4260e3f15879a4f54de9c4d28
+
+    25501-0129-User_guide.pdf           -       -         -       2009-10-12  d9118a9180c7aa6c552613e22bf9a8d9
+
+
+DS0130 Laboratory: Lab 18T4 Thyroid Stimulating Hormone and Thyroxine
+(Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0130-Codebook.pdf             -       -         -       2011-09-19  b49f73c14cb21bc9a516d7e3886f2b56
+
+    25501-0130-Data.dta                 -       2,276     148     2011-09-19  2746f6347bad9ba0fb82e1242ae2d140
+
+    25501-0130-Data.sav                 -       2,276     148     2011-09-19  532326c5a0ba68ea6e801d5fcbbac47e
+
+    25501-0130-Data.stc                 -       2,276     148     2011-09-19  5e0e19cd3e6ff643c448acedd7c6fa63
+
+    25501-0130-Data.tsv                 -       2,276     148     2011-09-19  3d62464fb1b7dc026c1f76e44a4d1417
+
+    25501-0130-Data.txt                 1775    2,276     148     2011-09-19  2f782f4c9507bfc9570cfb3091351f90
+
+    25501-0130-Setup.dct                -       -         -       2011-09-19  2e03e63818b01a287cd39c11cf0b9c21
+
+    25501-0130-Setup.do                 -       -         -       2011-09-19  a4e7d66a32110445d6ed2ee5028b6e1c
+
+    25501-0130-Setup.sas                -       -         -       2011-09-19  ef44314dbef7bffac08206ba2647d122
+
+    25501-0130-Setup.sps                -       -         -       2011-09-19  d4660916fe6fb2033ede4f91a373a528
+
+    25501-0130-User_guide.pdf           -       -         -       2009-10-12  85ef1816bee8c441a2110807df808ecd
+
+
+DS0131 Laboratory: Lab 19 Measles Rubella and Varicella
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0131-Codebook.pdf             -       -         -       2011-09-19  3a2dab770e81b6039b6917ed1fc906ef
+
+    25501-0131-Data.dta                 -       5,663     146     2011-09-19  590b8646489624223f76dfc39fe17e7a
+
+    25501-0131-Data.sav                 -       5,663     146     2011-09-19  5fc9ff4f90de128cb3772f8e8db81921
+
+    25501-0131-Data.stc                 -       5,663     146     2011-09-19  f9e7e1909608d062c582f4f29f307142
+
+    25501-0131-Data.tsv                 -       5,663     146     2011-09-19  315ebc17a4565f4d7de72a379869f3e3
+
+    25501-0131-Data.txt                 1743    5,663     146     2011-09-19  78ace0bb5b06a302aea11fe19f59855d
+
+    25501-0131-Setup.dct                -       -         -       2011-09-19  f8e7ed9e42b638b9d4d52476d2ecc2b9
+
+    25501-0131-Setup.do                 -       -         -       2011-09-19  2ba40547b29bf92d612de3075f45c65d
+
+    25501-0131-Setup.sas                -       -         -       2011-09-19  ef9cec79b2b45b1881faca864b07b94e
+
+    25501-0131-Setup.sps                -       -         -       2011-09-19  7d6727de48ca836af256313d8f103bbe
+
+    25501-0131-User_guide.pdf           -       -         -       2009-10-12  22f29149fd8f2114ac38d972c16b56fe
+
+
+DS0132 Laboratory: Lab 20 Lead Dust
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0132-Codebook.pdf             -       -         -       2011-09-19  a8d402399646f59fd2284a6802b47e85
+
+    25501-0132-Data.dta                 -       1,085     162     2011-09-19  bb98ef1e632b131fb1ad480de3b00b24
+
+    25501-0132-Data.sav                 -       1,085     162     2011-09-19  bf0186618fdc1f9fec3ee06990381401
+
+    25501-0132-Data.stc                 -       1,085     162     2011-09-19  b22de3640e703df7b6edb2876e18913c
+
+    25501-0132-Data.tsv                 -       1,085     162     2011-09-19  ae455a7b3ea14e8f2be6af44a0da9905
+
+    25501-0132-Data.txt                 1795    1,085     162     2011-09-19  c13b1b7107b569ce50c9b2a327d8a0f3
+
+    25501-0132-Setup.dct                -       -         -       2011-09-19  b344ab1ef844b39da0f64f38c7e6d793
+
+    25501-0132-Setup.do                 -       -         -       2011-09-19  e6b8ca731bfa13a4c798033df3856f03
+
+    25501-0132-Setup.sas                -       -         -       2011-09-19  99636cb23626977f3dab028bcb01f798
+
+    25501-0132-Setup.sps                -       -         -       2011-09-19  319f559b5b7c854e23be7389b63ef966
+
+    25501-0132-User_guide.pdf           -       -         -       2009-10-12  bd84fe0737c18f25f8c6a1de30cb7602
+
+
+DS0133 Laboratory: Lab 21 Volatile Organic Compounds (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0133-Codebook.pdf             -       -         -       2011-09-19  0cb5eaae8b7bbcc6339bf022c499bc52
+
+    25501-0133-Data.dta                 -       851       195     2011-09-19  afc9c31ffb1cdda7cdaa9d9190ee80ee
+
+    25501-0133-Data.sav                 -       851       195     2011-09-19  d41af2b141c979e3eb972f28653a8c0c
+
+    25501-0133-Data.stc                 -       851       195     2011-09-19  4e73e749c720d22492c78f8febd3b507
+
+    25501-0133-Data.tsv                 -       851       195     2011-09-19  993bc913f81a07d5b7a830a7dc240653
+
+    25501-0133-Data.txt                 2024    851       195     2011-09-19  22f8373fc59c7667b127df70e77ca9d4
+
+    25501-0133-Setup.dct                -       -         -       2011-09-19  8e62d281e309d07e40559aee2e83c825
+
+    25501-0133-Setup.do                 -       -         -       2011-09-19  de7204685d43f1b57adbefcadd1e8493
+
+    25501-0133-Setup.sas                -       -         -       2011-09-19  21df8ea314e2b52100af6c08df5014c9
+
+    25501-0133-Setup.sps                -       -         -       2011-09-19  df3a5bb750cb9c3dd83c36be5500966c
+
+    25501-0133-User_guide.pdf           -       -         -       2009-10-12  db6eb9974743a081b3a950bfd4c1b022
+
+
+DS0134 Laboratory: Lab 22 Hair Mercury
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0134-Codebook.pdf             -       -         -       2011-09-19  9e27b7428139d7f8c39579b1c0ceaf81
+
+    25501-0134-Data.dta                 -       2,832     148     2011-09-19  17f971ccc7057c68a9d3af58121d4b42
+
+    25501-0134-Data.sav                 -       2,832     148     2011-09-19  3fd810466dc3663fd69e4ff375bd6fbd
+
+    25501-0134-Data.stc                 -       2,832     148     2011-09-19  da98abedd44ca37cb114af321c2c26bc
+
+    25501-0134-Data.tsv                 -       2,832     148     2011-09-19  cb61d2ceec3e2c4751ec0f03fcab02aa
+
+    25501-0134-Data.txt                 1751    2,832     148     2011-09-19  0614ef8db449c2e7136f4808ce776965
+
+    25501-0134-Setup.dct                -       -         -       2011-09-19  dada53d60bbb51e7dadb6acc1ac5e9ab
+
+    25501-0134-Setup.do                 -       -         -       2011-09-19  436a00d9e437939d78b1c70fbe525cfa
+
+    25501-0134-Setup.sas                -       -         -       2011-09-19  1aee1610ec61f0ca3465564152270df6
+
+    25501-0134-Setup.sps                -       -         -       2011-09-19  308c4cf9cc6cdd31dc0ff46a41191414
+
+    25501-0134-User_guide.pdf           -       -         -       2009-10-12  828f4619c55628300b84baf31ccef64c
+
+
+DS0135 Laboratory: Lab 25 Complete Blood Count
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0135-Codebook.pdf             -       -         -       2011-09-19  4db05e1212e05bfa41ee5c94a556ff8c
+
+    25501-0135-Data.dta                 -       8,832     163     2011-09-19  effe0249c41c151138f53e3d28d2344d
+
+    25501-0135-Data.sav                 -       8,832     163     2011-09-19  adbd40a91e083b40e41754dc8460d08d
+
+    25501-0135-Data.stc                 -       8,832     163     2011-09-19  89a6af5ca8ab77c7ac4d0949decc0e29
+
+    25501-0135-Data.tsv                 -       8,832     163     2011-09-19  aa962e17e9fd5ceda238fb3903dfb202
+
+    25501-0135-Data.txt                 1824    8,832     163     2011-09-19  47ee07b547a4ec4ebd4a530e4b7e3c86
+
+    25501-0135-Setup.dct                -       -         -       2011-09-19  b61441b8324c9e84191891ff651e9631
+
+    25501-0135-Setup.do                 -       -         -       2011-09-19  37e2f224b8c56d4ebdc44af975698b49
+
+    25501-0135-Setup.sas                -       -         -       2011-09-19  5149a6deaf15156fc10e793003cdfeca
+
+    25501-0135-Setup.sps                -       -         -       2011-09-19  21ec26a25723335fc952045fb846f1b5
+
+    25501-0135-User_guide.pdf           -       -         -       2009-10-12  802949e8658de37ebc5560de7cccb0e4
+
+
+DS0136 Laboratory: Lab 26 Pesticides (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0136-Codebook.pdf             -       -         -       2011-09-19  9c64a13b7a856dec225f85a0bb594341
+
+    25501-0136-Data.dta                 -       2,125     246     2011-09-19  e49882b4580291d4beee7f2733456047
+
+    25501-0136-Data.sav                 -       2,125     246     2011-09-19  243ad4757aa282e4a75c82c4e991f64d
+
+    25501-0136-Data.stc                 -       2,125     246     2011-09-19  20fb88dde4ff5ed7f7ff03e44c93380d
+
+    25501-0136-Data.tsv                 -       2,125     246     2011-09-19  ee944feefb0d248d8d8364ceb8489978
+
+    25501-0136-Data.txt                 2648    2,125     246     2011-09-19  82ef970eec541591c38a56073dcc58e4
+
+    25501-0136-Setup.dct                -       -         -       2011-09-19  695faef32e3d1fe426c4b607d1436cd8
+
+    25501-0136-Setup.do                 -       -         -       2011-09-19  62662fdcb1ae79332be07b61b3ef6c58
+
+    25501-0136-Setup.sas                -       -         -       2011-09-19  b5b44414775647b6f46f68990a267976
+
+    25501-0136-Setup.sps                -       -         -       2011-09-19  ef3f27d89a5ba765ee1fde30f24a0b4f
+
+    25501-0136-User_guide.pdf           -       -         -       2009-10-12  fc1702582f6f3c9c5bdd50930293d6a5
+
+
+DS0137 Laboratory: Lab 28 Dioxins (Subsample)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0137-Codebook.pdf             -       -         -       2012-02-22  cde6ffde35b43b792e2b116abfa7dbfa
+
+    25501-0137-Data.dta                 -       2,274     347     2012-02-22  61d0b20971beb6af3f141fe5a0b71a94
+
+    25501-0137-Data.sav                 -       2,274     347     2012-02-22  8bf07ac234d501e63c116fffe9b3decd
+
+    25501-0137-Data.stc                 -       2,274     347     2012-02-22  afbd3142ae10b107834995c963736a80
+
+    25501-0137-Data.tsv                 -       2,274     347     2012-02-22  22caf6365418a86e3222e843f2913f5e
+
+    25501-0137-Data.txt                 3184    2,274     347     2012-02-22  88c27f8e64bbad7bdcc7319ed4e76ffc
+
+    25501-0137-Setup.dct                -       -         -       2012-02-22  b8774fd3f6c30d3e50f86f5d326811c9
+
+    25501-0137-Setup.do                 -       -         -       2012-02-22  70fd65b8e7beb9c3557d4fb871b87b4a
+
+    25501-0137-Setup.sas                -       -         -       2012-02-22  c2f28da1bc087d43bfaf3132bdd6bf6c
+
+    25501-0137-Setup.sps                -       -         -       2012-02-22  442c949f6ce8e3d339bc4ef6c620693e
+
+    25501-0137-User_guide.pdf           -       -         -       2009-10-12  f824d1e879f8638eaaa4c77a8901f78b
+
+
+DS0201 Questionnaire: Acculturation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0201-Codebook.pdf             -       -         -       2011-09-19  3cc35f2d9ca2ed26cb53e0db0b9535a7
+
+    25501-0201-Data.dta                 -       7,295     153     2011-09-19  7e44ca4fff862362ad471ac53ebbcdc3
+
+    25501-0201-Data.sav                 -       7,295     153     2011-09-19  6b99c6b7a2121fcc11b9156b741bdf44
+
+    25501-0201-Data.stc                 -       7,295     153     2011-09-19  bd25ea8297ed0d60caa7a3533221007e
+
+    25501-0201-Data.tsv                 -       7,295     153     2011-09-19  d7b5475eb1b3ed736090c76d6bd6111d
+
+    25501-0201-Data.txt                 1758    7,295     153     2011-09-19  02b1304e0999e875dc4654d94cc45331
+
+    25501-0201-Setup.dct                -       -         -       2011-09-19  64e3c08d9da79010f89f3761ec4d8cea
+
+    25501-0201-Setup.do                 -       -         -       2011-09-19  b17fe3acdc3b523ea4faef53eb693885
+
+    25501-0201-Setup.sas                -       -         -       2011-09-19  5c942eb0b09433c0b4924a356103f0ae
+
+    25501-0201-Setup.sps                -       -         -       2011-09-19  60c64e3c9828de992d016076428c211c
+
+    25501-0201-User_guide.pdf           -       -         -       2009-10-12  67ab15fd59c86a762c35b9de120bbe26
+
+
+DS0202 Questionnaire: Alcohol Use
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0202-Codebook.pdf             -       -         -       2011-09-19  ca6d66d0366de0fd355c9bfb20e4f0a3
+
+    25501-0202-Data.dta                 -       4,444     151     2011-09-19  8a0a5d242de0199c73417ddf8fa52425
+
+    25501-0202-Data.sav                 -       4,444     151     2011-09-19  c71a171ae6c75642e9130b9ae0830c41
+
+    25501-0202-Data.stc                 -       4,444     151     2011-09-19  a0841b5b296c1dd533150fc50929f14b
+
+    25501-0202-Data.tsv                 -       4,444     151     2011-09-19  e4521850092276f632a78429f31c925d
+
+    25501-0202-Data.txt                 1752    4,444     151     2011-09-19  5b9906edcee63e0d8d3e383a57f9f94d
+
+    25501-0202-Setup.dct                -       -         -       2011-09-19  5c44e3b25640fb5f0be930594c988b8c
+
+    25501-0202-Setup.do                 -       -         -       2011-09-19  6dbf1ddff06056e5e22b5bfa4b6fbd31
+
+    25501-0202-Setup.sas                -       -         -       2011-09-19  3691327a95afa23cc69c073f19c76ba7
+
+    25501-0202-Setup.sps                -       -         -       2011-09-19  f4d1366a353698b3ac301fc44d270058
+
+    25501-0202-User_guide.pdf           -       -         -       2009-10-12  8f24a8ea5d93c6ba7c40164cc5569bf5
+
+
+DS0203 Questionnaire: Audiometry
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0203-Codebook.pdf             -       -         -       2011-09-19  dc99c89a91cd190ad8875b6ee735291c
+
+    25501-0203-Data.dta                 -       9,493     155     2011-09-19  4ba0e2621216052a9e481a5374ce75ff
+
+    25501-0203-Data.sav                 -       9,493     155     2011-09-19  e7d0e23d6eeca28a5cab866f3c139730
+
+    25501-0203-Data.stc                 -       9,493     155     2011-09-19  99a40620661cddbd72e12694ea93306b
+
+    25501-0203-Data.tsv                 -       9,493     155     2011-09-19  bb83fbd1d17d29f9487cc9877f85481a
+
+    25501-0203-Data.txt                 1764    9,493     155     2011-09-19  ae29c7bc0f9b3c65610abe44a62f496c
+
+    25501-0203-Setup.dct                -       -         -       2011-09-19  5766acdc04ee9a37130d03193361a9ee
+
+    25501-0203-Setup.do                 -       -         -       2011-09-19  cf5cdfdce9db63b38a0f252457578e3f
+
+    25501-0203-Setup.sas                -       -         -       2011-09-19  fe0d01d01974faf4b2e59d423fdb93fc
+
+    25501-0203-Setup.sps                -       -         -       2011-09-19  cc6e6e0411ca8156bf3803ce45cd59ea
+
+    25501-0203-User_guide.pdf           -       -         -       2009-10-12  0e30de23a030d7fc1685bb506becb2ed
+
+
+DS0204 Questionnaire: Balance
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0204-Codebook.pdf             -       -         -       2011-09-19  b4731f046538e50172bd11e007037ca2
+
+    25501-0204-Data.dta                 -       3,185     166     2011-09-19  6729ade25bff08539f6e3fff8a74a5dc
+
+    25501-0204-Data.sav                 -       3,185     166     2011-09-19  fa8397d94c38a8de536c45cfc5d307b9
+
+    25501-0204-Data.stc                 -       3,185     166     2011-09-19  0c18ad93bd931219c141b036232292a9
+
+    25501-0204-Data.tsv                 -       3,185     166     2011-09-19  13ae7130dba5681e5c8e3041c793eb3c
+
+    25501-0204-Data.txt                 1797    3,185     166     2011-09-19  dcc081ae10880684ec8a89e1b206824b
+
+    25501-0204-Setup.dct                -       -         -       2011-09-19  028a93707016157fb2979fa8f2d5bd10
+
+    25501-0204-Setup.do                 -       -         -       2011-09-19  bf62f6fc363cf874956d65d74ee5583a
+
+    25501-0204-Setup.sas                -       -         -       2011-09-19  6409a4a256f6b99a17ba4837556fc931
+
+    25501-0204-Setup.sps                -       -         -       2011-09-19  4ed644eb7d8739646de98005819a276c
+
+    25501-0204-User_guide.pdf           -       -         -       2009-10-12  79b6cf06ec0c9c872b8fb0fa2816d9b1
+
+
+DS0205 Questionnaire: Blood Pressure
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0205-Codebook.pdf             -       -         -       2011-09-19  44c13ef78c23a36e4b35c88dc0b095be
+
+    25501-0205-Data.dta                 -       6,044     178     2011-09-19  1f23406022623d0eee9a6ff918b86d74
+
+    25501-0205-Data.sav                 -       6,044     178     2011-09-19  e8e97367bcbc59ba4809ec078f9e7ed5
+
+    25501-0205-Data.stc                 -       6,044     178     2011-09-19  938a66933741855a17cd27548ad9fe6a
+
+    25501-0205-Data.tsv                 -       6,044     178     2011-09-19  4cb9c44b153f06fbd376cb09be6c87c4
+
+    25501-0205-Data.txt                 1833    6,044     178     2011-09-19  083573f0f63456bb318388ed2b1bd45d
+
+    25501-0205-Setup.dct                -       -         -       2011-09-19  d491d0d7e74d81a968526f9892260ec0
+
+    25501-0205-Setup.do                 -       -         -       2011-09-19  78ac41c395279d43faf0bc0f996a19a3
+
+    25501-0205-Setup.sas                -       -         -       2011-09-19  db0733c9df83646c9eaf906f11d4e5d4
+
+    25501-0205-Setup.sps                -       -         -       2011-09-19  2c8faa1dcca5cc72c19f3cb7dd5f8ee4
+
+    25501-0205-User_guide.pdf           -       -         -       2009-10-12  9cbddc84cff29a1de179c6ce6e0e6ea5
+
+
+DS0206 Questionnaire: Cardiovascular Disease and Health
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0206-Codebook.pdf             -       -         -       2011-09-19  3ce39bd782fb25a878fd01d23bf04256
+
+    25501-0206-Data.dta                 -       3,185     152     2011-09-19  518fd6620b0df35692427698b82c04bb
+
+    25501-0206-Data.sav                 -       3,185     152     2011-09-19  f169eaee887de08ed62ed48ccdd2f750
+
+    25501-0206-Data.stc                 -       3,185     152     2011-09-19  06239a46af9cbc33e3c2a94c5e91df4f
+
+    25501-0206-Data.tsv                 -       3,185     152     2011-09-19  1b051839c79154e0c2bfe4b5c7749f2a
+
+    25501-0206-Data.txt                 1755    3,185     152     2011-09-19  6f2017e051d4fa2a99cfa9f4a23beabf
+
+    25501-0206-Setup.dct                -       -         -       2011-09-19  35f75537facd012e0a58ea8dc475adcd
+
+    25501-0206-Setup.do                 -       -         -       2011-09-19  5d0cd3edcfff83edd970da825e409d4a
+
+    25501-0206-Setup.sas                -       -         -       2011-09-19  73a1a7c518c1fa51fb83700305d121af
+
+    25501-0206-Setup.sps                -       -         -       2011-09-19  2cd945920b3ad4cbf34f18c27b74917f
+
+    25501-0206-User_guide.pdf           -       -         -       2009-10-12  45acdb5c6015b70770a573a755407bcd
+
+
+DS0207 Questionnaire: Cognitive Functioning
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0207-Codebook.pdf             -       -         -       2011-09-19  6b56abd429b9cf6f3f9e73bcb8d13401
+
+    25501-0207-Data.dta                 -       1,834     150     2011-09-19  142fdf7a2145a4ce9dd3952e66647373
+
+    25501-0207-Data.sav                 -       1,834     150     2011-09-19  5ef6b33347afcf25e5598eba01b599a7
+
+    25501-0207-Data.stc                 -       1,834     150     2011-09-19  a6e20f1d9cd58211b68773217a6fb328
+
+    25501-0207-Data.tsv                 -       1,834     150     2011-09-19  7ca373374e3fd5c52316eae87b87b069
+
+    25501-0207-Data.txt                 1749    1,834     150     2011-09-19  9c278f08b4ffce039c24400bdb92e800
+
+    25501-0207-Setup.dct                -       -         -       2011-09-19  e538001e8ddaaa584bf74cb57460301e
+
+    25501-0207-Setup.do                 -       -         -       2011-09-19  01617f2ed833f7da0fca6b221f9d20f0
+
+    25501-0207-Setup.sas                -       -         -       2011-09-19  c4768f5032a4b316308e0183dfb27cf7
+
+    25501-0207-Setup.sps                -       -         -       2011-09-19  ad3d5ef25eba018f881f6985ed8368e5
+
+    25501-0207-User_guide.pdf           -       -         -       2009-10-12  0bf204cb0c6354e1355b1fe2529dca20
+
+
+DS0208 Questionnaire: Current Health Status
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0208-Codebook.pdf             -       -         -       2011-09-19  b64750f2e3e015c396410e040b9eba36
+
+    25501-0208-Data.dta                 -       8,832     150     2011-09-19  c59ffd2189b30cc13818806e10a5d00e
+
+    25501-0208-Data.sav                 -       8,832     150     2011-09-19  46ca1b2a377cf936b72835283736b8d0
+
+    25501-0208-Data.stc                 -       8,832     150     2011-09-19  430ce41682826ac83622e2c727a6c657
+
+    25501-0208-Data.tsv                 -       8,832     150     2011-09-19  9e2675cd2019af51daf7e1647feeb1bf
+
+    25501-0208-Data.txt                 1749    8,832     150     2011-09-19  07fbef5645caa4a6b520748500129156
+
+    25501-0208-Setup.dct                -       -         -       2011-09-19  61fd8ff0ee1b0e8dc4ef4d5e9b5f2e85
+
+    25501-0208-Setup.do                 -       -         -       2011-09-19  8343917e02a533690138a6e4b4c65361
+
+    25501-0208-Setup.sas                -       -         -       2011-09-19  749265ac780771dde0e9f85bc80c3392
+
+    25501-0208-Setup.sps                -       -         -       2011-09-19  7a2b8bacbb4628558cf35956ff947393
+
+    25501-0208-User_guide.pdf           -       -         -       2009-10-12  9dfe0b6f41419a156678243e00bfbaed
+
+
+DS0209 Questionnaire: Dermatology
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0209-Codebook.pdf             -       -         -       2011-09-19  f633275b5267872fb094ec79780666ec
+
+    25501-0209-Data.dta                 -       8,408     166     2011-09-19  1966c3a0a9bd5314e5ea5c10891a8102
+
+    25501-0209-Data.sav                 -       8,408     166     2011-09-19  7730547b4a16a7c1fb622c67ad6b841d
+
+    25501-0209-Data.stc                 -       8,408     166     2011-09-19  19cbcc49fc79ea34b277759efe31d710
+
+    25501-0209-Data.tsv                 -       8,408     166     2011-09-19  02b3460ceba89e10f5d28e0a2433c43f
+
+    25501-0209-Data.txt                 2065    8,408     166     2011-09-19  89ea2b1342c4fafa551452715519f98f
+
+    25501-0209-Setup.dct                -       -         -       2011-09-19  c9dc422eb6aef2348633fb5e2fb540f1
+
+    25501-0209-Setup.do                 -       -         -       2011-09-19  0d639008cc4d78ca40cf3d9eb30bbcb8
+
+    25501-0209-Setup.sas                -       -         -       2011-09-19  6e4d060c0ca7cb8db7a31171be3748e5
+
+    25501-0209-Setup.sps                -       -         -       2011-09-19  0ee6ac9bf366a30ef8efdd7faf97ffd2
+
+    25501-0209-User_guide.pdf           -       -         -       2009-10-12  f8861be43e3a54b05d9291de4b6211b8
+
+
+DS0210 Questionnaire: Diabetes
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0210-Codebook.pdf             -       -         -       2011-09-19  b07cef6b30fedbb0baae92ea0d23ecf2
+
+    25501-0210-Data.dta                 -       9,493     159     2011-09-19  be9a746c98f976892eb37e72a5b8d1bb
+
+    25501-0210-Data.sav                 -       9,493     159     2011-09-19  d622b32799f444ee81a454fe8a68c840
+
+    25501-0210-Data.stc                 -       9,493     159     2011-09-19  0b00a7cb777618c8fda67c54aeb906ed
+
+    25501-0210-Data.tsv                 -       9,493     159     2011-09-19  caac9a9244f4350af392981776fe5a06
+
+    25501-0210-Data.txt                 1780    9,493     159     2011-09-19  64e04b97cc486cc3cec04cbcf8796347
+
+    25501-0210-Setup.dct                -       -         -       2011-09-19  e5eb61ae778465b5b4bea1d5b11243ca
+
+    25501-0210-Setup.do                 -       -         -       2011-09-19  61c514b452bf8d9cd8977af03d117106
+
+    25501-0210-Setup.sas                -       -         -       2011-09-19  8eff8ec0b4ad4f30f1d8e4548ed5d532
+
+    25501-0210-Setup.sps                -       -         -       2011-09-19  6af3470365cf85d0f4933ecb32631b2c
+
+    25501-0210-User_guide.pdf           -       -         -       2009-10-12  1052d6f82f011380125bd806433efa1f
+
+
+DS0211 Questionnaire: Diet Behavior and Alcohol Consumption
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0211-Codebook.pdf             -       -         -       2011-09-19  96f3bcd2ca2dcbe1b7a857494f07bca5
+
+    25501-0211-Data.dta                 -       9,965     188     2011-09-19  85e6592b3b96b2bc23bd452a6861f4d4
+
+    25501-0211-Data.sav                 -       9,965     188     2011-09-19  7f6faf95dffc0792466a95e8623ddcdc
+
+    25501-0211-Data.stc                 -       9,965     188     2011-09-19  68b7dd8b19756b4df062bbd48c104816
+
+    25501-0211-Data.tsv                 -       9,965     188     2011-09-19  b0155bff9eff8592a5317de1667df111
+
+    25501-0211-Data.txt                 1893    9,965     188     2011-09-19  2c4a353d3d8b24befc851f74c1a86a3a
+
+    25501-0211-Setup.dct                -       -         -       2011-09-19  fd051e1d0e1e5bb9c97d9a70405ca521
+
+    25501-0211-Setup.do                 -       -         -       2011-09-19  3c622d4e64fc5de328f1b74a48b52a8b
+
+    25501-0211-Setup.sas                -       -         -       2011-09-19  ba3afb83c542b89a3d8450a29c117116
+
+    25501-0211-Setup.sps                -       -         -       2011-09-19  e4dc64d4be4eb9d8d9bee901211ae348
+
+    25501-0211-User_guide.pdf           -       -         -       2009-10-12  13a810bf7f554012dfa7d5eaacbca37a
+
+
+DS0212 Questionnaire: Dietary Supplement Use -- Supplement Counts
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0212-Codebook.pdf             -       -         -       2011-09-19  873ae0e5b58edcf09f57157b1004b245
+
+    25501-0212-Data.dta                 -       9,965     145     2011-09-19  19df42fab3cb2abb77d05219156530b5
+
+    25501-0212-Data.sav                 -       9,965     145     2011-09-19  c17fe13c5d4d305992ff8cb63d9a73a8
+
+    25501-0212-Data.stc                 -       9,965     145     2011-09-19  7dc66eb13c9442c9e37e4fcfd5ecdf9a
+
+    25501-0212-Data.tsv                 -       9,965     145     2011-09-19  74d616146b7a17e6449aedf358bad9cd
+
+    25501-0212-Data.txt                 1734    9,965     145     2011-09-19  317f215af8f2b49aae10beae6f11a3a0
+
+    25501-0212-Setup.dct                -       -         -       2011-09-19  88fc8fb170b65d77c6d7aae16010db61
+
+    25501-0212-Setup.do                 -       -         -       2011-09-19  5501e21d2fe05fc174d4fdf184d6f617
+
+    25501-0212-Setup.sas                -       -         -       2011-09-19  4cfbd1810a41d8d59871775561a954b4
+
+    25501-0212-Setup.sps                -       -         -       2011-09-19  886979943b3cedbff3869f3040d07ca4
+
+    25501-0212-User_guide.pdf           -       -         -       2009-10-12  e8aaf6d8f3de62802b2c406a7d1da2e1
+
+
+DS0213 Questionnaire: Dietary Supplement Use -- Participants Use of
+Supplement
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0213-Codebook.pdf             -       -         -       2011-09-19  e185f5b85b5dcd790bb57cc7cbadb2e9
+
+    25501-0213-Data.dta                 -       7,639     153     2011-09-19  1bcaec3011aecc941ea9900d320f5961
+
+    25501-0213-Data.sav                 -       7,639     153     2011-09-19  bcd11f8ddf8618d7c23cad934f438752
+
+    25501-0213-Data.stc                 -       7,639     153     2011-09-19  b6f45554274cae12147d0857ef181e2e
+
+    25501-0213-Data.tsv                 -       7,639     153     2011-09-19  e5feb7186da548142f50d187c1c9fba6
+
+    25501-0213-Data.txt                 1781    7,639     153     2011-09-19  dc008a8327d9f1fa974a5b418b76e9bb
+
+    25501-0213-Setup.dct                -       -         -       2011-09-19  a8f4638c32dbbc31f138acc380319f0e
+
+    25501-0213-Setup.do                 -       -         -       2011-09-19  14e6cd789c411faf4f544fff00703d7d
+
+    25501-0213-Setup.sas                -       -         -       2011-09-19  87135def917df5336aab96b565020957
+
+    25501-0213-Setup.sps                -       -         -       2011-09-19  a079e28fd9b90dc74177793f382b14ce
+
+    25501-0213-User_guide.pdf           -       -         -       2009-10-12  a1d0eca101c567a14e86aadd9ee26891
+
+
+DS0214 Questionnaire: Dietary Supplement Use -- Supplement Information
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0214-Codebook.pdf             -       -         -       2011-09-19  a80e39c2948f101e6036ab1affe13aad
+
+    25501-0214-Data.dta                 -       1,906     12      2011-09-19  e53ba4e2d59796d01e065ed7aab7dfb9
+
+    25501-0214-Data.sav                 -       1,906     12      2011-09-19  1df0be5cc8c424c127738d0fae2272eb
+
+    25501-0214-Data.stc                 -       1,906     12      2011-09-19  0623a0dcb48d78703a0bfa46157bfae8
+
+    25501-0214-Data.tsv                 -       1,906     12      2011-09-19  a231ca8667e8eeb34451f045ffb1c65b
+
+    25501-0214-Data.txt                 112     1,906     12      2011-09-19  b66e62e363577076d3ed8d50ab47e165
+
+    25501-0214-Setup.dct                -       -         -       2011-09-19  f2c15b54aa0149d1dd40e0c0f08b3734
+
+    25501-0214-Setup.do                 -       -         -       2011-09-19  292f96cbbbb7586ce9498fb997fcfcb8
+
+    25501-0214-Setup.sas                -       -         -       2011-09-19  89cae1eb63d998b4b92d4e9120ccd715
+
+    25501-0214-Setup.sps                -       -         -       2011-09-19  c3a9e4f722997ce53116b7bfbd55e60e
+
+    25501-0214-User_guide.pdf           -       -         -       2009-10-12  a6a050152650d08285575a52a06ad618
+
+
+DS0215 Questionnaire: Dietary Supplement Use -- Ingredient Information
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0215-Codebook.pdf             -       -         -       2011-09-19  ae09176b8efcdccb85073e1ff0caf249
+
+    25501-0215-Data.dta                 -       15,497    9       2011-09-19  9a20baca0c841ac43168ec3d622fff90
+
+    25501-0215-Data.sav                 -       15,497    9       2011-09-19  71f1375a2bc0f773ddd8ba3fa974b3e0
+
+    25501-0215-Data.stc                 -       15,497    9       2011-09-19  5ea9176904f5834ad4ef0ef4b2144a64
+
+    25501-0215-Data.tsv                 -       15,497    9       2011-09-19  05b1107e3e9c328f8d6b05bbe0953d1b
+
+    25501-0215-Data.txt                 57      15,497    9       2011-09-19  e12d825f80da418259d7700477fbb625
+
+    25501-0215-Setup.dct                -       -         -       2011-09-19  c4e2a449810328ac305d8b5a9c223ecc
+
+    25501-0215-Setup.do                 -       -         -       2011-09-19  64cc0d470d53072ecdd9afc6de9f3023
+
+    25501-0215-Setup.sas                -       -         -       2011-09-19  c28882d2d5b7ec16c3b460392ff84c7f
+
+    25501-0215-Setup.sps                -       -         -       2011-09-19  a2e19786eb25aab1d603e9ad5e8d0e16
+
+    25501-0215-User_guide.pdf           -       -         -       2009-10-12  e9b13fa9b8c333a11b60ed229fa23148
+
+
+DS0216 Questionnaire: Dietary Supplement Use -- Supplement Blend
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0216-Codebook.pdf             -       -         -       2011-09-19  56dbf05c036278b36d5fe64fe41a9fab
+
+    25501-0216-Data.dta                 -       1,167     5       2011-09-19  afcd0d6a5dcfe1f8d4e6ecb57405f361
+
+    25501-0216-Data.sav                 -       1,167     5       2011-09-19  7a49af6dbe684d3aa1851b31c889e8d8
+
+    25501-0216-Data.stc                 -       1,167     5       2011-09-19  85ce7df9a31f694a7900a535a6f91c92
+
+    25501-0216-Data.tsv                 -       1,167     5       2011-09-19  12af3ba2cce855fd358e82fc183d9aed
+
+    25501-0216-Data.txt                 38      1,167     5       2011-09-19  e6304799025008b2d1117cfd5558f961
+
+    25501-0216-Setup.dct                -       -         -       2011-09-19  684a559d6d368cb88d474198e1a94f26
+
+    25501-0216-Setup.do                 -       -         -       2011-09-19  3c4890c44211176e5f05042f65491583
+
+    25501-0216-Setup.sas                -       -         -       2011-09-19  27bb3a57d198cb4f0cd576dffaaef728
+
+    25501-0216-Setup.sps                -       -         -       2011-09-19  e1e06b651c6656955aa51c21052e628d
+
+    25501-0216-User_guide.pdf           -       -         -       2009-10-12  6faa231c729b9bfd29ce8f574b28da3a
+
+
+DS0217 Questionnaire: Drug Use
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0217-Codebook.pdf             -       -         -       2011-09-19  3d6520841c8d366c866645ebb084d894
+
+    25501-0217-Data.dta                 -       2,838     147     2011-09-19  087357dcf01338cb32e2539f6b781b39
+
+    25501-0217-Data.sav                 -       2,838     147     2011-09-19  b9d00ba8c743b1ebe161926581691848
+
+    25501-0217-Data.stc                 -       2,838     147     2011-09-19  b060f86a8502b88260a0d490224d777d
+
+    25501-0217-Data.tsv                 -       2,838     147     2011-09-19  a29e68fbff30ef5f0919e66373197365
+
+    25501-0217-Data.txt                 1740    2,838     147     2011-09-19  602b467bf64582fe94a5668e686c5529
+
+    25501-0217-Setup.dct                -       -         -       2011-09-19  8fdba5e005e3038983c048a006e98441
+
+    25501-0217-Setup.do                 -       -         -       2011-09-19  cb86bd5c71312a7c2c09623074432a55
+
+    25501-0217-Setup.sas                -       -         -       2011-09-19  603dea7219f6350846a653aa2fa02bc6
+
+    25501-0217-Setup.sps                -       -         -       2011-09-19  0d2ebc1807efc0fa8e1c8802d531a8a3
+
+    25501-0217-User_guide.pdf           -       -         -       2009-10-12  8f3e0c4dd82d495baa8039c4f52a5332
+
+
+DS0218 Questionnaire: Early Childhood
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0218-Codebook.pdf             -       -         -       2011-09-19  d699763686686c8fdd5dc38c13cbd593
+
+    25501-0218-Data.dta                 -       3,921     157     2011-09-19  70c034cccc77157da4fa7a1cc72cfb82
+
+    25501-0218-Data.sav                 -       3,921     157     2011-09-19  ee914cd601a33fb0d5e1ab71b8236579
+
+    25501-0218-Data.stc                 -       3,921     157     2011-09-19  854ce2a84a9a0c6f552e6fae4db729a3
+
+    25501-0218-Data.tsv                 -       3,921     157     2011-09-19  1d8e73d5ba95266c47e63319f1396208
+
+    25501-0218-Data.txt                 1771    3,921     157     2011-09-19  3922c1a7ca1fd77010b716951e636812
+
+    25501-0218-Setup.dct                -       -         -       2011-09-19  65c575f9cb83e9302b9c7e123e347110
+
+    25501-0218-Setup.do                 -       -         -       2011-09-19  cb6ea828a5b77e448c61e6ec03154e50
+
+    25501-0218-Setup.sas                -       -         -       2011-09-19  8f70def77e840bc6fd055e1e31f00151
+
+    25501-0218-Setup.sps                -       -         -       2011-09-19  873b79c68f3d10ac2d8f401ececff878
+
+    25501-0218-User_guide.pdf           -       -         -       2009-10-12  aa1eb3f881d301e55a550ed26e5d85e2
+
+
+DS0219 Questionnaire: Family Smoking
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0219-Codebook.pdf             -       -         -       2011-09-19  1b967fd9f9aae2842d51eee380685447
+
+    25501-0219-Data.dta                 -       9,965     151     2011-09-19  f6d16c5a5ef8af3c5b1eba2915d2c684
+
+    25501-0219-Data.sav                 -       9,965     151     2011-09-19  65b651a4324846a8300bc3a41a58880a
+
+    25501-0219-Data.stc                 -       9,965     151     2011-09-19  8eba2065c711012e2681cd811f3504b5
+
+    25501-0219-Data.tsv                 -       9,965     151     2011-09-19  4f82adef8fae42115b3216e7d92f5f87
+
+    25501-0219-Data.txt                 1752    9,965     151     2011-09-19  15ed254dba9eef3f51ddfb5af6a5554a
+
+    25501-0219-Setup.dct                -       -         -       2011-09-19  bacbba252534ddb5638c64a2f0c247fe
+
+    25501-0219-Setup.do                 -       -         -       2011-09-19  0c82f7d55ed721624c5d860e839c56bd
+
+    25501-0219-Setup.sas                -       -         -       2011-09-19  91f63dabdb415acaf54d8342ddd16acf
+
+    25501-0219-Setup.sps                -       -         -       2011-09-19  964ab717c614a89f630867e8da5d7718
+
+    25501-0219-User_guide.pdf           -       -         -       2009-10-12  005ff3d1437f0412a650d2103c97a886
+
+
+DS0220 Questionnaire: Food Security
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0220-Codebook.pdf             -       -         -       2011-09-19  cfe1ea3d88364ecfed085efcc081b496
+
+    25501-0220-Data.dta                 -       9,965     158     2011-09-19  055d37ef21a4b423f8ad9b32916b1715
+
+    25501-0220-Data.sav                 -       9,965     158     2011-09-19  6297f1273f0645a5d7d3a62b787af7c6
+
+    25501-0220-Data.stc                 -       9,965     158     2011-09-19  7665fa6295e9803e0d6c5dfae672897c
+
+    25501-0220-Data.tsv                 -       9,965     158     2011-09-19  ebf95257feb44fb7a074fae4c9a22d09
+
+    25501-0220-Data.txt                 1773    9,965     158     2011-09-19  3e66bb4770ad1653c34adb2e63d0a626
+
+    25501-0220-Setup.dct                -       -         -       2011-09-19  ab8e9045e0772f87171cecd7adbdd8e7
+
+    25501-0220-Setup.do                 -       -         -       2011-09-19  1f8ca52dada4b61aae45dafde5d695d1
+
+    25501-0220-Setup.sas                -       -         -       2011-09-19  a00475619281fe5167e818478530d15b
+
+    25501-0220-Setup.sps                -       -         -       2011-09-19  bfbee4285f68e4b752c4d5d87ae49c9b
+
+    25501-0220-User_guide.pdf           -       -         -       2009-10-12  90da8f5ccbca73949247a1e9e0cd50e2
+
+
+DS0221 Questionnaire: Health Insurance
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0221-Codebook.pdf             -       -         -       2011-09-19  a05f5d3483c9eb891393cf67197a4eed
+
+    25501-0221-Data.dta                 -       9,965     152     2011-09-19  35742c5d453e6189ad4258702b3f4548
+
+    25501-0221-Data.sav                 -       9,965     152     2011-09-19  f0636e5f7b4111566577022cfc3d52ec
+
+    25501-0221-Data.stc                 -       9,965     152     2011-09-19  bbf96803bd70ec025ffbef4f803f9e82
+
+    25501-0221-Data.tsv                 -       9,965     152     2011-09-19  a403fc16826c5fa0b3894ddccf67984f
+
+    25501-0221-Data.txt                 1755    9,965     152     2011-09-19  fb38ca3ac9c1ed2c9322fb30e3506c30
+
+    25501-0221-Setup.dct                -       -         -       2011-09-19  144887d8847180da908ae4fad42882a7
+
+    25501-0221-Setup.do                 -       -         -       2011-09-19  bb1724328240fdc2b1890c49ba646521
+
+    25501-0221-Setup.sas                -       -         -       2011-09-19  ed3ce56a1f069993c78cfdeb285413a8
+
+    25501-0221-Setup.sps                -       -         -       2011-09-19  588c9a3c3ddc16eaca9736b9c4548c1f
+
+    25501-0221-User_guide.pdf           -       -         -       2009-10-12  83d65ebd78266eb59d661e9525303f2c
+
+
+DS0222 Questionnaire: Hospital Utilization
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0222-Codebook.pdf             -       -         -       2011-09-19  d89dd3c850a909b278365c0799cbac5f
+
+    25501-0222-Data.dta                 -       9,965     152     2011-09-19  57e07beb3278c8155519352c3f09df23
+
+    25501-0222-Data.sav                 -       9,965     152     2011-09-19  4dcc11813e5a51ce6fb1574f48cf176b
+
+    25501-0222-Data.stc                 -       9,965     152     2011-09-19  364e30e3aa543a76b7ce49123d9b81a9
+
+    25501-0222-Data.tsv                 -       9,965     152     2011-09-19  804ff9c7b5a6d53970fbee81d0823d58
+
+    25501-0222-Data.txt                 1755    9,965     152     2011-09-19  59f6df59cc204855e3515fb2eb34baa7
+
+    25501-0222-Setup.dct                -       -         -       2011-09-19  e7b0d05ec412d25d8cdcbc4e8e4e8469
+
+    25501-0222-Setup.do                 -       -         -       2011-09-19  29bdeabdd581d6850b696cecc2b8689d
+
+    25501-0222-Setup.sas                -       -         -       2011-09-19  2d8f59263028f450f24a75bb6d6487b5
+
+    25501-0222-Setup.sps                -       -         -       2011-09-19  44f2c08bd4e2d05b9e129b2030c5368d
+
+    25501-0222-User_guide.pdf           -       -         -       2009-10-12  de2968536226726131cece5b0d65e8d4
+
+
+DS0223 Questionnaire: Housing Characteristics
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0223-Codebook.pdf             -       -         -       2011-09-19  bb77f2c3f256bb1ea8edec99be592617
+
+    25501-0223-Data.dta                 -       9,965     159     2011-09-19  a5ddc6d481d8951e6240a7c418db74f9
+
+    25501-0223-Data.sav                 -       9,965     159     2011-09-19  13ee4b62706b1f15b2de04467e03ce60
+
+    25501-0223-Data.stc                 -       9,965     159     2011-09-19  b6e4c01ed61522a5f3f7c743c7087a36
+
+    25501-0223-Data.tsv                 -       9,965     159     2011-09-19  7166bbd6f6f3a35b50eea6101809a5e2
+
+    25501-0223-Data.txt                 1776    9,965     159     2011-09-19  fe3651758167b1b4b7760f7bf130040b
+
+    25501-0223-Setup.dct                -       -         -       2011-09-19  6b1aa4f7b68f1bcd4470292a3bf00a35
+
+    25501-0223-Setup.do                 -       -         -       2011-09-19  610e07cd6708b73b0ef46a6b78a058b3
+
+    25501-0223-Setup.sas                -       -         -       2011-09-19  2c91408ef40dfdb6177541f5563de3a6
+
+    25501-0223-Setup.sps                -       -         -       2011-09-19  ef51eacbf6106b8bd2a6e5c7ed765ffb
+
+    25501-0223-User_guide.pdf           -       -         -       2009-10-12  7718b1c9b85f26171df0b8f32cc43398
+
+
+DS0224 Questionnaire: Immunization
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0224-Codebook.pdf             -       -         -       2011-09-19  b4f6e958fce8c3ede11aa60194466276
+
+    25501-0224-Data.dta                 -       9,965     146     2011-09-19  07e54dcfe15bb9e119de7d557fdf799b
+
+    25501-0224-Data.sav                 -       9,965     146     2011-09-19  e1f8b2672e2416f3d19402f84537fc92
+
+    25501-0224-Data.stc                 -       9,965     146     2011-09-19  33298dfc0b6b1a4d830618b9605233ce
+
+    25501-0224-Data.tsv                 -       9,965     146     2011-09-19  c4bdae0096b42d6a10094f33e72e15f2
+
+    25501-0224-Data.txt                 1737    9,965     146     2011-09-19  827f03f0530f0f0da9429b530a595c4f
+
+    25501-0224-Setup.dct                -       -         -       2011-09-19  80c4c2159b1c9fabc85cc2c765562418
+
+    25501-0224-Setup.do                 -       -         -       2011-09-19  2c1c46fd0400d863b783fb9000270d51
+
+    25501-0224-Setup.sas                -       -         -       2011-09-19  316426c0faaa80b8dbf204c8cc71c11e
+
+    25501-0224-Setup.sps                -       -         -       2011-09-19  65ae37f3b9fdb3357b53a6c3e8c9343d
+
+    25501-0224-User_guide.pdf           -       -         -       2009-10-12  faf43d4d35bbbaada062659e95bf2b73
+
+
+DS0225 Questionnaire: Kidney Conditions
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0225-Codebook.pdf             -       -         -       2011-09-19  f48fd14fbd4055d653243a4add118453
+
+    25501-0225-Data.dta                 -       4,880     163     2011-09-19  88033349455e77f3d90adf7b34c03770
+
+    25501-0225-Data.sav                 -       4,880     163     2011-09-19  aa2ef5e71defceffc15f02a4c88be67d
+
+    25501-0225-Data.stc                 -       4,880     163     2011-09-19  3f5079983d4395c7f0afaa7d2917d164
+
+    25501-0225-Data.tsv                 -       4,880     163     2011-09-19  020b962cd99f0da2ada4722a040a0a13
+
+    25501-0225-Data.txt                 1790    4,880     163     2011-09-19  639b8987324571bc625280ee1f53e5d5
+
+    25501-0225-Setup.dct                -       -         -       2011-09-19  4c307399ca450fb5d85b092d6dd89201
+
+    25501-0225-Setup.do                 -       -         -       2011-09-19  3297b517150a349f4f8631ae3b3341a6
+
+    25501-0225-Setup.sas                -       -         -       2011-09-19  7e411fed13e62be213b625bdb3adce56
+
+    25501-0225-Setup.sps                -       -         -       2011-09-19  4d28266a7f3adaf0b58a5ea7a1dfc0df
+
+    25501-0225-User_guide.pdf           -       -         -       2009-10-12  d0c5a4985ba5a9e4726ca76d94ddb02f
+
+
+DS0226 Questionnaire: Medical Conditions
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0226-Codebook.pdf             -       -         -       2011-09-19  b2a77a14ffc35468dbdfc5ae696471ef
+
+    25501-0226-Data.dta                 -       9,493     309     2011-09-19  f4c283ffa1a7f4db8f2a37897a2a46e4
+
+    25501-0226-Data.sav                 -       9,493     309     2011-09-19  c242478b86e991e31b9de47a505ba415
+
+    25501-0226-Data.stc                 -       9,493     309     2011-09-19  0e3ed25b53ae32dff65c6a5c0af0c4f6
+
+    25501-0226-Data.tsv                 -       9,493     309     2011-09-19  e3c242fcddb98fc37883d7829efa7b5d
+
+    25501-0226-Data.txt                 2258    9,493     309     2011-09-19  3e6dec4488c581f6671c3ef5b1bb02fb
+
+    25501-0226-Setup.dct                -       -         -       2011-09-19  d3bd879da3f49d12e3080b1f0f2fc810
+
+    25501-0226-Setup.do                 -       -         -       2011-09-19  ac307a6426e4df35f8e62020b33bd388
+
+    25501-0226-Setup.sas                -       -         -       2011-09-19  963ca087b5e11ce373bb109dd257a701
+
+    25501-0226-Setup.sps                -       -         -       2011-09-19  f20ca479085ae01e70050271d150bb9c
+
+    25501-0226-User_guide.pdf           -       -         -       2009-10-12  e48b96a8edc6207c866ad7b6acc6a182
+
+
+DS0227 Questionnaire: Miscellaneous Pain
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0227-Codebook.pdf             -       -         -       2011-09-19  7e828c5ebdfdc2cee4b90e28c565f197
+
+    25501-0227-Data.dta                 -       4,880     202     2011-09-19  7a0c013c149cee257a429dc324c17714
+
+    25501-0227-Data.sav                 -       4,880     202     2011-09-19  748e4d52c7d37bab4acd9d065e413a63
+
+    25501-0227-Data.stc                 -       4,880     202     2011-09-19  bc732b2cc7a5c81e3c9c562fd79e9664
+
+    25501-0227-Data.tsv                 -       4,880     202     2011-09-19  3fb2789e65451955e3d71b2f39a17e25
+
+    25501-0227-Data.txt                 1906    4,880     202     2011-09-19  15f949dfbf4c69b41dc2d95cc5e8dab8
+
+    25501-0227-Setup.dct                -       -         -       2011-09-19  cad2e9e1725be0b240189eb501ab65d1
+
+    25501-0227-Setup.do                 -       -         -       2011-09-19  ec5658648b6123b748ea5a71757a5944
+
+    25501-0227-Setup.sas                -       -         -       2011-09-19  39a1665a3a127c235ecbd97846b4e90d
+
+    25501-0227-Setup.sps                -       -         -       2011-09-19  b89813b7b066144f7dd6238391058d00
+
+    25501-0227-User_guide.pdf           -       -         -       2009-10-12  64f73137fc6d7737eb74864e98d3f46b
+
+
+DS0228 Questionnaire: Occupation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0228-Codebook.pdf             -       -         -       2011-09-19  c052f758128bdd370887de1a8fae21fd
+
+    25501-0228-Data.dta                 -       7,295     178     2011-09-19  22b83c429ff9cb71f8c794bcf2657e01
+
+    25501-0228-Data.sav                 -       7,295     178     2011-09-19  1d2d614cff76c6fa2ea48c6d9416737a
+
+    25501-0228-Data.stc                 -       7,295     178     2011-09-19  9ba1d00f9b6b47f4d5ae33430cfec5d5
+
+    25501-0228-Data.tsv                 -       7,295     178     2011-09-19  8436dc1bef357632ffb1ac7760f07ad7
+
+    25501-0228-Data.txt                 1790    7,295     178     2011-09-19  5884ce14ea79dd0d9d22356e976a0eb0
+
+    25501-0228-Setup.dct                -       -         -       2011-09-19  c8c38669cd5bade05fb00c7637dfd5bc
+
+    25501-0228-Setup.do                 -       -         -       2011-09-19  532f15f907dda2063e164d2cc515826a
+
+    25501-0228-Setup.sas                -       -         -       2011-09-19  4300bbbc26312ccccd83260abbe9f47a
+
+    25501-0228-Setup.sps                -       -         -       2011-09-19  1939a4fc66c81256b57bcd9633115405
+
+    25501-0228-User_guide.pdf           -       -         -       2009-10-12  c929b41dc3efdf3afafcb1c4a2628a9c
+
+
+DS0229 Questionnaire: Oral Health
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0229-Codebook.pdf             -       -         -       2011-09-19  c1e1261d30f816836c21d93c5161c744
+
+    25501-0229-Data.dta                 -       9,230     156     2011-09-19  66ded1e4f6b53380ca72d5b8428d61dc
+
+    25501-0229-Data.sav                 -       9,230     156     2011-09-19  de9f142d0edf72821bf4fc26b1f67de1
+
+    25501-0229-Data.stc                 -       9,230     156     2011-09-19  b48789faa6af962ead4439ebb39b96ef
+
+    25501-0229-Data.tsv                 -       9,230     156     2011-09-19  d55534292c1a90ba6d199871782765e5
+
+    25501-0229-Data.txt                 1769    9,230     156     2011-09-19  5a38fa963f3e2bf030693e7a4fa8c91d
+
+    25501-0229-Setup.dct                -       -         -       2011-09-19  b13d811dcca9e0daebc340f361c4d220
+
+    25501-0229-Setup.do                 -       -         -       2011-09-19  3f7d032f0a44f10a81947d451fb65100
+
+    25501-0229-Setup.sas                -       -         -       2011-09-19  fc392c608efed25db983f4fc14836970
+
+    25501-0229-Setup.sps                -       -         -       2011-09-19  353659c387382dc70fc85ad7e23afb39
+
+    25501-0229-User_guide.pdf           -       -         -       2009-10-12  53b63fe2434c4c21f222e49a9439717a
+
+
+DS0230 Questionnaire: Osteoporosis
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0230-Codebook.pdf             -       -         -       2011-09-19  31be395b72a26fb5f4e2e731439680dd
+
+    25501-0230-Data.dta                 -       4,880     195     2011-09-19  5c5416245b41939101acbd6c9658d744
+
+    25501-0230-Data.sav                 -       4,880     195     2011-09-19  cbc55b54d0b34c817126c78f931649a4
+
+    25501-0230-Data.stc                 -       4,880     195     2011-09-19  0aa8791531917bc83519545999c247bf
+
+    25501-0230-Data.tsv                 -       4,880     195     2011-09-19  8e7735273316f89e1e4d9f79d177ff6e
+
+    25501-0230-Data.txt                 1907    4,880     195     2011-09-19  e317cd8e21afe19024dff7bd0caa8a80
+
+    25501-0230-Setup.dct                -       -         -       2011-09-19  fd8db289aa7835d2d9267ee8bac1aa54
+
+    25501-0230-Setup.do                 -       -         -       2011-09-19  29d6cb9e95ada61fc46a79238173d1d4
+
+    25501-0230-Setup.sas                -       -         -       2011-09-19  126dc02e7662e4154ffd92bc41a51367
+
+    25501-0230-Setup.sps                -       -         -       2011-09-19  43f8b5b6742e96f9a7f6d325cf09e902
+
+    25501-0230-User_guide.pdf           -       -         -       2009-10-12  dd2d1fa303bb2a228a402e349ab15992
+
+
+DS0231 Questionnaire: Analgesics Pain Relievers
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0231-Codebook.pdf             -       -         -       2011-09-19  385a74d35688531fb064205720fe62ca
+
+    25501-0231-Data.dta                 -       5,074     149     2011-09-19  87e45208d433a9e969ff8c610da1d0d2
+
+    25501-0231-Data.sav                 -       5,074     149     2011-09-19  c7e26e6dda1175b5f31d71ce38e6cc5f
+
+    25501-0231-Data.stc                 -       5,074     149     2011-09-19  bccdcc7c90c1c7347d754d794fa0c369
+
+    25501-0231-Data.tsv                 -       5,074     149     2011-09-19  983a34d23402e6395c355be7f712d39f
+
+    25501-0231-Data.txt                 1747    5,074     149     2011-09-19  d19b4fa8c19e2dd0a1df6fdf3109e217
+
+    25501-0231-Setup.dct                -       -         -       2011-09-19  61b30b8423c5592ab0e0acf14f86e578
+
+    25501-0231-Setup.do                 -       -         -       2011-09-19  2dbd24d08f3a1f6acf17aae37b58a3c0
+
+    25501-0231-Setup.sas                -       -         -       2011-09-19  5c87f31c7b7b3569f2829071bf7433c3
+
+    25501-0231-Setup.sps                -       -         -       2011-09-19  ac1d81eefe666baf6b8615d353039a07
+
+    25501-0231-User_guide.pdf           -       -         -       2009-10-12  d96a715837935aaa4eba21ee54a6ad62
+
+
+DS0232 Questionnaire: Pesticide Use
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0232-Codebook.pdf             -       -         -       2011-09-19  c72dbe299f6c61eff99ebd841b3778bb
+
+    25501-0232-Data.dta                 -       9,965     156     2011-09-19  9b8309e85305e75522ecb1ca94961fd5
+
+    25501-0232-Data.sav                 -       9,965     156     2011-09-19  0eba683eeff1d524866fc84fccbb5979
+
+    25501-0232-Data.stc                 -       9,965     156     2011-09-19  9e0014bee0717dc44f21f5efc322c163
+
+    25501-0232-Data.tsv                 -       9,965     156     2011-09-19  634d06cc3559e95df84866b238273c3b
+
+    25501-0232-Data.txt                 1767    9,965     156     2011-09-19  4d7f831b8bf02d781d88e68799789985
+
+    25501-0232-Setup.dct                -       -         -       2011-09-19  fa893b5a86fa849359fdc317ee75944f
+
+    25501-0232-Setup.do                 -       -         -       2011-09-19  d3d9a3226fca6552d83418587f9a7f14
+
+    25501-0232-Setup.sas                -       -         -       2011-09-19  746c6e72c38ffd33c2fcacc8f04ae6a2
+
+    25501-0232-Setup.sps                -       -         -       2011-09-19  21c05a001685b4b90f5e32be2c719503
+
+    25501-0232-User_guide.pdf           -       -         -       2009-10-12  028a6b56f7ae3ed4b908f9e32c4cb961
+
+
+DS0233 Questionnaire: Physical Activity
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0233-Codebook.pdf             -       -         -       2011-09-19  5c6ec0fd2d8a7cf1e61b052e3278f498
+
+    25501-0233-Data.dta                 -       9,188     163     2011-09-19  7f20e3935783ede86dea4da5ec9ecf47
+
+    25501-0233-Data.sav                 -       9,188     163     2011-09-19  500390717642ec185075aa26bb208e00
+
+    25501-0233-Data.stc                 -       9,188     163     2011-09-19  155080ff40e4d7642e7f443e24e92bb2
+
+    25501-0233-Data.tsv                 -       9,188     163     2011-09-19  fb169c84beb2153b679a8314983adeb9
+
+    25501-0233-Data.txt                 1800    9,188     163     2011-09-19  e3b539935d3489bfb915a83152f851c5
+
+    25501-0233-Setup.dct                -       -         -       2011-09-19  43efe72c184577c819a532fd8ecc7bb5
+
+    25501-0233-Setup.do                 -       -         -       2011-09-19  66b38107f1037d7141297e3625827fbf
+
+    25501-0233-Setup.sas                -       -         -       2011-09-19  9eb95e6ed72112f999a27d8d2676f557
+
+    25501-0233-Setup.sps                -       -         -       2011-09-19  14c33d2c51aeaea56ea53d124b160b88
+
+    25501-0233-User_guide.pdf           -       -         -       2009-10-12  91686cb2956f73413d997473ec8b8a27
+
+
+DS0234 Questionnaire: Physical Activity Individual Activities File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0234-Codebook.pdf             -       -         -       2011-09-19  a29d69096ab1735e503f5b7371ea2c24
+
+    25501-0234-Data.dta                 -       9,266     149     2011-09-19  f2a34db6e3d52e874b9ed74919118913
+
+    25501-0234-Data.sav                 -       9,266     149     2011-09-19  c10e45b2347f363990e86d63b0916735
+
+    25501-0234-Data.stc                 -       9,266     149     2011-09-19  477d78081bb64f8f80dd325291550e5f
+
+    25501-0234-Data.tsv                 -       9,266     149     2011-09-19  d0a9c27cf542a7f131ff9abf8c2c16a7
+
+    25501-0234-Data.txt                 1747    9,266     149     2011-09-19  dafea0c6d0ac04219c7a7d2d08226a52
+
+    25501-0234-Setup.dct                -       -         -       2011-09-19  ee42b32596e6186be3378cfbc7d8edb2
+
+    25501-0234-Setup.do                 -       -         -       2011-09-19  12269c962c2bcbdb2530d5b0cc651075
+
+    25501-0234-Setup.sas                -       -         -       2011-09-19  37225434929dff440284dd9e1822530f
+
+    25501-0234-Setup.sps                -       -         -       2011-09-19  d4fefa3534fce0d2c7f1bc5ccbfd086b
+
+    25501-0234-User_guide.pdf           -       -         -       2009-10-12  65aff8bfc6232b4a3f4f56fa0519f852
+
+
+DS0235 Questionnaire: Physical Functioning
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0235-Codebook.pdf             -       -         -       2011-09-19  8a3c1904243ed335344062e2187a6760
+
+    25501-0235-Data.dta                 -       9,493     234     2011-09-19  414cf477f61bcb6a575ef4ae17f64fc4
+
+    25501-0235-Data.sav                 -       9,493     234     2011-09-19  f68bd3468d35d1d12aff55d66295bd8b
+
+    25501-0235-Data.stc                 -       9,493     234     2011-09-19  1d882d7c687e774b2b8fbd5b46bdfc29
+
+    25501-0235-Data.tsv                 -       9,493     234     2011-09-19  aecfcbec44f904920dc644707e235e04
+
+    25501-0235-Data.txt                 2001    9,493     234     2011-09-19  e6fc41a6b765b15ac5b608c0863c3c67
+
+    25501-0235-Setup.dct                -       -         -       2011-09-19  377ac3223af2be48f91faf0e2f6bc628
+
+    25501-0235-Setup.do                 -       -         -       2011-09-19  327f9190b548d504f7e2639bd69ac578
+
+    25501-0235-Setup.sas                -       -         -       2011-09-19  a74d594fe54161b34fd2516807c9d6e0
+
+    25501-0235-Setup.sps                -       -         -       2011-09-19  9ef79ad559b5bb5571abcbcb40886c26
+
+    25501-0235-User_guide.pdf           -       -         -       2009-10-12  ecb4cdc7a0d8579b2ec255525d5c7ad0
+
+
+DS0236 Questionnaire: Prescription Medications
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0236-Codebook.pdf             -       -         -       2011-09-19  e607adb0f8a67e4334f95b9c2c5aafe1
+
+    25501-0236-Data.dta                 -       15,643    157     2011-09-19  457a9fa6232923bd245592a5aca9e123
+
+    25501-0236-Data.sav                 -       15,643    157     2011-09-19  482b268c0380703ab40e90c201833708
+
+    25501-0236-Data.stc                 -       15,643    157     2011-09-19  690b11ea41e1e1967df91f96634e31f0
+
+    25501-0236-Data.tsv                 -       15,643    157     2011-09-19  83a943dc538771eb3fc6791c3bb21513
+
+    25501-0236-Data.txt                 1900    15,643    157     2011-09-19  d5de741ea1e7a6acf9272220970e858b
+
+    25501-0236-Setup.dct                -       -         -       2011-09-19  fe9a61ec689ec1e7439b191655c2820f
+
+    25501-0236-Setup.do                 -       -         -       2011-09-19  8f8f52662f8ea5abb3e81d2a59a991c0
+
+    25501-0236-Setup.sas                -       -         -       2011-09-19  880f4049b5510e6300245707e9c81d44
+
+    25501-0236-Setup.sps                -       -         -       2011-09-19  e7fa7e7079ac6fc91fe3d95b75d99711
+
+    25501-0236-User_guide.pdf           -       -         -       2009-10-12  c27045009c44e671c0dfcb8354e9b676
+
+
+DS0237 Questionnaire: Drug Information
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0237-Codebook.pdf             -       -         -       2011-09-19  e9e8ec96de7806ed0579e40f60f22a21
+
+    25501-0237-Data.dta                 -       1,178     63      2011-09-19  edc697f3c3a68ebe9fc08733291bf4e4
+
+    25501-0237-Data.sav                 -       1,178     63      2011-09-19  ac8ef7d6d351532f2253358ba57e0bef
+
+    25501-0237-Data.stc                 -       1,178     63      2011-09-19  cbbf3ce515374ebb41b7d76986e4bb4e
+
+    25501-0237-Data.tsv                 -       1,178     63      2011-09-19  8243ff919861aa7b6569a7e322b0fd08
+
+    25501-0237-Data.txt                 2013    1,178     63      2011-09-19  80cad76e1eba381916bf201860e46f46
+
+    25501-0237-Setup.dct                -       -         -       2011-09-19  65fa08e6df8f1f5a509935e1561348da
+
+    25501-0237-Setup.do                 -       -         -       2011-09-19  8179f4d345d0d72132077d2665bec594
+
+    25501-0237-Setup.sas                -       -         -       2011-09-19  4c8c85ccc753f064133ca2105682cd82
+
+    25501-0237-Setup.sps                -       -         -       2011-09-19  7159ee8b838895f5dd209fc956af0b58
+
+    25501-0237-User_guide.pdf           -       -         -       2009-10-12  ca5d8cacbbd164f6e45982ca1ab3eebb
+
+
+DS0238 Questionnaire: Reproductive Health
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0238-Codebook.pdf             -       -         -       2011-09-19  7dff6f0e240433780359a42def432b39
+
+    25501-0238-Data.dta                 -       3,517     232     2011-09-19  2e89fc340795adc9df6de7bcc863af31
+
+    25501-0238-Data.sav                 -       3,517     232     2011-09-19  8efb72ade8306dff0c4da484a5e19019
+
+    25501-0238-Data.stc                 -       3,517     232     2011-09-19  19a01aa989a10bfcade79700a67093cf
+
+    25501-0238-Data.tsv                 -       3,517     232     2011-09-19  0d657af1901806eda9acf4d8f4775fcd
+
+    25501-0238-Data.txt                 2029    3,517     232     2011-09-19  ca3599b40163d5aaa67486d77c45162d
+
+    25501-0238-Setup.dct                -       -         -       2011-09-19  9c99897459a91daaab6fb85fc8323570
+
+    25501-0238-Setup.do                 -       -         -       2011-09-19  8f38fdaf4e6e6fd241164dbe8527ce05
+
+    25501-0238-Setup.sas                -       -         -       2011-09-19  893c4f5dce20c65070ec36bcadef0c09
+
+    25501-0238-Setup.sps                -       -         -       2011-09-19  b2f785947b4cefe9596954aff0547b83
+
+    25501-0238-User_guide.pdf           -       -         -       2009-10-12  1b09d6d4edb97d68c939d4edddbbb674
+
+
+DS0239 Questionnaire: Respiratory Health
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0239-Codebook.pdf             -       -         -       2011-09-19  dd48fd12a2d9d15d12fc4954de50dfa4
+
+    25501-0239-Data.dta                 -       9,493     161     2011-09-19  b165bbd3c7610d23fb5bd963f3f94078
+
+    25501-0239-Data.sav                 -       9,493     161     2011-09-19  b34f5fdf6f0977e2c5072467e00e8ab3
+
+    25501-0239-Data.stc                 -       9,493     161     2011-09-19  0c5bef2d5a264f9c96bd4e00b9c89cd8
+
+    25501-0239-Data.tsv                 -       9,493     161     2011-09-19  b4590ee2cfedf1344625dd48bd73e36f
+
+    25501-0239-Data.txt                 1789    9,493     161     2011-09-19  81811a25c778a7e3fd0aab73d285aeab
+
+    25501-0239-Setup.dct                -       -         -       2011-09-19  8ea97ae7157987eb525d1df74f94f1ad
+
+    25501-0239-Setup.do                 -       -         -       2011-09-19  cbba876a0077ce48dc713aa70c184d18
+
+    25501-0239-Setup.sas                -       -         -       2011-09-19  aada4003fd9c0478f36e5556ec3c7727
+
+    25501-0239-Setup.sps                -       -         -       2011-09-19  2c5856aab319bcfb7a9f84e9f25d5e45
+
+    25501-0239-User_guide.pdf           -       -         -       2009-10-12  b9208043c6f237f1bd366bde5ab86207
+
+
+DS0240 Questionnaire: Sexual Behavior
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0240-Codebook.pdf             -       -         -       2011-09-19  d82ce087fbbee03a0c03a2ff592d2e9c
+
+    25501-0240-Data.dta                 -       2,838     160     2011-09-19  56034479aef310b370d38712a321e082
+
+    25501-0240-Data.sav                 -       2,838     160     2011-09-19  5ce6d3b6bfde72bd46c59de44bd1405f
+
+    25501-0240-Data.stc                 -       2,838     160     2011-09-19  85aa78989701fae853c1920acc65ed76
+
+    25501-0240-Data.tsv                 -       2,838     160     2011-09-19  c609ac82d306c9e7b466c2ba1a2addc3
+
+    25501-0240-Data.txt                 1793    2,838     160     2011-09-19  beba4b1e51841ccd3a243c8f4459fde3
+
+    25501-0240-Setup.dct                -       -         -       2011-09-19  b9ca8c10b08e42a1adfa8402d382dce8
+
+    25501-0240-Setup.do                 -       -         -       2011-09-19  32733a6611ffc655091f605dee486557
+
+    25501-0240-Setup.sas                -       -         -       2011-09-19  942c79beee9964406031d7a5cac59e16
+
+    25501-0240-Setup.sps                -       -         -       2011-09-19  0562b8b51422b4fba881b8458fea5901
+
+    25501-0240-User_guide.pdf           -       -         -       2009-10-12  f79551c09bd34e4299ff23273e4eb25b
+
+
+DS0241 Questionnaire: Smoking and Tobacco Use (MEC)
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0241-Codebook.pdf             -       -         -       2011-09-19  2f33ac5ffc4d0fd160cc7a0d49833a01
+
+    25501-0241-Data.dta                 -       6,758     185     2011-09-19  8127a6d09216e1744cedc74be487a767
+
+    25501-0241-Data.sav                 -       6,758     185     2011-09-19  b221b24568d15d59c1c39de909b76ad1
+
+    25501-0241-Data.stc                 -       6,758     185     2011-09-19  de1d9d9512472103862893124c976be8
+
+    25501-0241-Data.tsv                 -       6,758     185     2011-09-19  7acdd089928dd7cfaabea125796779a8
+
+    25501-0241-Data.txt                 1854    6,758     185     2011-09-19  68bcc340455dc97db9d9134ddd3ebbd5
+
+    25501-0241-Setup.dct                -       -         -       2011-09-19  709812c76753e82fecca8bb1c3d96f54
+
+    25501-0241-Setup.do                 -       -         -       2011-09-19  d32803d2f3c0065aa034fcc532fb256a
+
+    25501-0241-Setup.sas                -       -         -       2011-09-19  1d6b2a77d0eb10f70973bbd283118115
+
+    25501-0241-Setup.sps                -       -         -       2011-09-19  ebcb9df4604bd352eb05f9eb5eaeb7ad
+
+    25501-0241-User_guide.pdf           -       -         -       2009-10-12  aa433889b14cac8f1ba204afad145aee
+
+
+DS0242 Questionnaire: Smoking and Tobacco Use
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0242-Codebook.pdf             -       -         -       2011-09-19  71e0aefab4ac19132bf19abd6d1f1faf
+
+    25501-0242-Data.dta                 -       4,880     181     2011-09-19  7fda9550ac654671723bfd5990002b35
+
+    25501-0242-Data.sav                 -       4,880     181     2011-09-19  c078b5181337f20710d92de0a92c0b6a
+
+    25501-0242-Data.stc                 -       4,880     181     2011-09-19  ceea8eb7a4e53948771e9dfdb8fb7a4f
+
+    25501-0242-Data.tsv                 -       4,880     181     2011-09-19  ae14314b00406ffd5d7b064090957ee1
+
+    25501-0242-Data.txt                 1901    4,880     181     2011-09-19  5c86c80c946f638aa97b67d0709f6074
+
+    25501-0242-Setup.dct                -       -         -       2011-09-19  7703b104a54fecf2a237c116fa062540
+
+    25501-0242-Setup.do                 -       -         -       2011-09-19  f4bac670d93e298b900665a50872af02
+
+    25501-0242-Setup.sas                -       -         -       2011-09-19  9c1b1b1000c70436ecf757143f3467ed
+
+    25501-0242-Setup.sps                -       -         -       2011-09-19  f00e08ac70eccd693942c841ca30dabc
+
+    25501-0242-User_guide.pdf           -       -         -       2009-10-12  0b7ad2b48c84829774cdc5809075ad94
+
+
+DS0243 Questionnaire: Social Support
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0243-Codebook.pdf             -       -         -       2011-09-19  d2880459d8415c6e953e42848ee641a6
+
+    25501-0243-Data.dta                 -       1,834     162     2011-09-19  6754b340771a5f82bae230ce72d82469
+
+    25501-0243-Data.sav                 -       1,834     162     2011-09-19  b63de5a884ae1c58e831e4b8d8a033a6
+
+    25501-0243-Data.stc                 -       1,834     162     2011-09-19  7b41d436e83738d793bc7a28b9189bdb
+
+    25501-0243-Data.tsv                 -       1,834     162     2011-09-19  3753cd9cc16a42a573616b49f2785b18
+
+    25501-0243-Data.txt                 1786    1,834     162     2011-09-19  ff92e54f421c1dc2954bb200bfb9f3a0
+
+    25501-0243-Setup.dct                -       -         -       2011-09-19  67456909f784ae5d6661e92b98de681d
+
+    25501-0243-Setup.do                 -       -         -       2011-09-19  16b7c2eeb39b60ca1fa594811eef506d
+
+    25501-0243-Setup.sas                -       -         -       2011-09-19  adc2b460fe4adfd9eb6df8b28cf8cab8
+
+    25501-0243-Setup.sps                -       -         -       2011-09-19  ab946b31bf26097b0f87f97cc3c93fde
+
+    25501-0243-User_guide.pdf           -       -         -       2009-10-12  bac5d743c2a7a6bceb7357c15b8d3307
+
+
+DS0244 Questionnaire: Tuberculosis
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0244-Codebook.pdf             -       -         -       2011-09-19  c787ad9a9b3b324551b7064e37d433ae
+
+    25501-0244-Data.dta                 -       9,493     149     2011-09-19  cc3ba8ae54fe21c68d84129a877dab01
+
+    25501-0244-Data.sav                 -       9,493     149     2011-09-19  539b7854cb0400b9aa9f4377b48c56b7
+
+    25501-0244-Data.stc                 -       9,493     149     2011-09-19  7c0c018407f1d7e0ac95c45e367e41bd
+
+    25501-0244-Data.tsv                 -       9,493     149     2011-09-19  0339dae1c49af6b0746d28c6832ab9b5
+
+    25501-0244-Data.txt                 1746    9,493     149     2011-09-19  4dd7eef02e7cef7b48e3d7d87deafdbc
+
+    25501-0244-Setup.dct                -       -         -       2011-09-19  b72b747bd09c6f431aa5cdc6f926df8e
+
+    25501-0244-Setup.do                 -       -         -       2011-09-19  8fa510ae60f69f3f0a01c36c37ef241a
+
+    25501-0244-Setup.sas                -       -         -       2011-09-19  89aa706d55ae153fedb46c7e2fc51483
+
+    25501-0244-Setup.sps                -       -         -       2011-09-19  e5250e56543d9759852f6a349854c545
+
+    25501-0244-User_guide.pdf           -       -         -       2009-10-12  20269d127f43448b3d914ef4179f7871
+
+
+DS0245 Questionnaire: Vision
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0245-Codebook.pdf             -       -         -       2011-09-19  8db8b44f39d504f46392eec76228cc3f
+
+    25501-0245-Data.dta                 -       2,420     154     2011-09-19  1928cda43d5fed2f84887ac300279e52
+
+    25501-0245-Data.sav                 -       2,420     154     2011-09-19  b0c997b6535d88ded676940432d36726
+
+    25501-0245-Data.stc                 -       2,420     154     2011-09-19  5990053d0ec002188e4e69be23091ca4
+
+    25501-0245-Data.tsv                 -       2,420     154     2011-09-19  5b50dfffecf4ff1208bc4af42a5cdc38
+
+    25501-0245-Data.txt                 1761    2,420     154     2011-09-19  1e482cff97a96feb5391abfcf4a12e85
+
+    25501-0245-Setup.dct                -       -         -       2011-09-19  7fa53a500619310faae4b78db8fab5ad
+
+    25501-0245-Setup.do                 -       -         -       2011-09-19  bf9b9381aac9c8fbc83d13c00f2c627b
+
+    25501-0245-Setup.sas                -       -         -       2011-09-19  56128b295d586a5b297c41f7adab67dc
+
+    25501-0245-Setup.sps                -       -         -       2011-09-19  80e2b25a1a7f3f82a5415c32820f83cd
+
+    25501-0245-User_guide.pdf           -       -         -       2009-10-12  164595a205029f8f75aa1a9ff6f0b5c5
+
+
+DS0246 Questionnaire: Weight History
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25501-0246-Codebook.pdf             -       -         -       2011-09-19  0166ccab62720c9d150fcc939f59ae24
+
+    25501-0246-Data.dta                 -       6,044     186     2011-09-19  3b9577d154a3815fd5d19898fe66d47b
+
+    25501-0246-Data.sav                 -       6,044     186     2011-09-19  e6192db5e650de47d11e6f3827b60251
+
+    25501-0246-Data.stc                 -       6,044     186     2011-09-19  02827fde0b9c63b3ad43e8babae0e396
+
+    25501-0246-Data.tsv                 -       6,044     186     2011-09-19  08ae6d4b82ab1799d222c06c4fad68a9
+
+    25501-0246-Data.txt                 1875    6,044     186     2011-09-19  23e4cee6948388753ad2b53d02d0290c
+
+    25501-0246-Setup.dct                -       -         -       2011-09-19  92a6a4bad906315d5143ba1327a7ba8e
+
+    25501-0246-Setup.do                 -       -         -       2011-09-19  27350e72e504dce5c16ab230fa1ed708
+
+    25501-0246-Setup.sas                -       -         -       2011-09-19  7c87802ae67c6645116b880c9db5f09d
+
+    25501-0246-Setup.sps                -       -         -       2011-09-19  8da811a7d19026253aee5557a6e88320
+
+    25501-0246-User_guide.pdf           -       -         -       2009-10-12  f8ea51369e822935d7c81abfca0d16f4
+
+
+Version History
+
+2012-02-22 Data and documentation for the following parts have been
+updated: 137. Additional updates will occur in the future as the NCHS
+revises the NHANES data collection frequently.  2011-09-19 The missing
+value designations for this study have been updated to be consistent with
+the other NHANES studies (ICPSR 25502, 25503, 25504, 25505). Additionally,
+the data for Part 228 have been updated to reflect the most recent
+documentation provided by the NCHS.  2011-05-03 The majority of the data
+files in this collection were merged with the demographics file.

@@ -1,0 +1,139 @@
+---
+title: "project506"
+author: "Menghan Lin"
+date: "November 24, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+#Introduction
+Canonical correlation is a method to assess correlations between two sets of variables. Canonical correlation is appropriate in the same situations where multiple regression would be, but where are there are many intercorrelated outcome variables.
+
+The following example is an replication of paper Examination of the relationships between environmental exposures to volatile organic compounds(VOCs) and biochemical liver tests: Application of canonical correlation analysis.
+
+Instead of repeating the examination, we further investigate the correlation in the subgroup controlling on people who have more than 12 times drinks per year.
+
+The typical purposes of CCA are: 1.Data reduction: explain covariation between two sets of variables using small number of linear combinations. 2. Data interpretation: find features (canonical variates) that are important for explaining covariation between sets of variables.
+
+**Note** Canonical correlation terminology makes an important distinction between the words variables and variates. The term variables is reserved for referring to the original variables being analyzed. The term variates is used to refer to variables that are constructed as weighted averages of the original variables. Thus, a set of Y variates is construxted from the original Yvariables.
+```{r results='hide', include = FALSE}
+setwd('C:/Users/36303/Desktop/STATS506 Computational Methods and Tools in Statistics/Proj1/1999')
+source('./1999.R')
+```
+
+#Derivation
+If we have two vectors X = (X_1  ,X_2,.X_n )^T and Y = (Y_1,Y_2,.Y_m )^T of random variables, and there are correlations among the variables, then canonical-correlation analysis seeks the vectors a(a???R_n) and b(b???R_m) such that the linear combinations a^T X and b^T Y maximize the correlation ??= corr( a^T X,b^T Y)
+In short, it can be expressed as:
+(a,b)=(argmax)???(a,b)a???corr(a^T X,b^T Y)???  
+Let ??_XX=cov(X,X) and ??_YY=cov(Y,Y). The parameter to maximize is
+###Expression!!!
+
+
+
+
+This tutorial uses the following packages.
+```{r inclue=FALSE}
+library(yacca)
+library(data.table)
+library(dplyr)
+```
+
+#Data description
+The VOC Project of personal exposures to air toxics was conducted among a subsample of NHANES 1999-2000 participants between the ages of 20 and 59 years. This tutorial include 565 observations with 10VOCs: benzene, chloroform, ethylbenzene, tetrachloroethene, toluene, trichloroethene, o-xylene, m-,p-xylene, 1,4-dichloro- benzene, andmethyl tert-butyl ether(MTBE). Besides, liver condition serves as the outcome variables, which was measured by albumin, totalbilirubin(TB), alanineaminotransfer- ase (ALT), aspartateaminotransferase(AST), lactatedehydrogenase(LDH), alkaline phosphatase (ALP) and g-glutamyltransferase(GGT).
+Controlling on people who drink more than 12 times per year, the subgroup descriptive statstics are also listed below. 
+
+Descriptive statistics of personal exposure to 10 VOCs and biochemical liver tests
+```{r echo = FALSE}
+table1_1
+table1_2
+
+```
+
+Descriptive statistics of personal exposure to 10 VOCs and biochemical liver tests(subgroup)
+```{r echo = FALSE}
+table2_1
+table2_2
+```
+**Note**: To avoid potential confounding, we excluded the patients who had liver conditions, heart disease, stroke, cancer or diabetes. Those tested serum positive to hepatitis C virus (HCV) were also excluded. One observation with extreme values in ALT(1163U/L) and AST(827U/L) is also excluded. 
+
+To satisfy the assumption of CCA, we also transformed the VOC and liver function test variables to Blom normal scores from their ranks to assure the multivariate normality is not violatied.
+###BLOM EXPRESSION!!!
+
+#Canonical structures of the first pair of canonical variate and F-test (full group)
+```
+#Display raw canonical coefficients
+cca.fit$xcoef
+cca.fit$ycoef
+```
+```{r echo= FALSE}
+cca.fit$xcoef
+cca.fit$ycoef
+```
+The raw canonical coefficients are interpreted in a same manner analogous to interpreting regression coefficients. For example, a one unit increase in the concentration of Benzene is associated to a 0.81 increase in the first canonical variate in the set liver tests when all the other variables are held constant.
+
+Next, we are going to compute the loadings of variables on the canonical dimensions(variates). Canonical loadings are known as the correlations between observed variables and canonical variables. These canonical variates are actually a type of latent variable.
+
+####Structure!!!
+```{r}
+cca.fit$corr
+cca.fit$xstructcorr
+cca.fit$ystructcorr
+F.test.cca(cca.fit)
+```
+*A cutoff value of 0.35 are chosen to select important loadings. *
+
+The first canonical correlation coefficient was 0.318. The first canonical correlation was statistically significant (F = 1.82, p < 0.05) indicating that two sets of variables were correlated. From the result, we found that personal exposure to Benzene, o-Xylene, m,p-Xylene, Ethylbenzene, MTBE and Toluene as a group might addect the serum levels of Albumin and ALP.
+
+#Canonical structures of the first pair of canonical variate and F-test (subgroup)
+```
+#Display raw canonical coefficients (subgroup)
+cca.fit1$xcoef
+cca.fit1$ycoef
+```
+```{r echo= FALSE}
+cca.fit1$xcoef
+cca.fit1$ycoef
+```
+Compared to the full group, a one unit increase in the concentration of Benzene has a larger effect, and is associated to a 0.95 increase in the first canonical variate in the set liver tests when all the other variables are held constant.
+
+
+```{r}
+cca.fit1$corr
+cca.fit1$xstructcorr
+cca.fit$xstructcorr
+cca.fit1$ystructcorr
+cca.fit$ystructcorr
+F.test.cca(cca.fit1)
+```
+
+The first canonical correlation coefficient was 0.34. The pooled sum of squares of all canonical correlation coefficients was 0.269, which was contributed by 44.5% by the first canonical correlation. Compared to the full group, the subgroup analysis narrowed down the relationship bwterrn the VOC exposure and liver function to fewer numbers of VOCs but more liver function tests. The first canonical correlation indicated that Benzene, o-Xylene, m,p-Xylene and MTBE as a group might affect the serum levels of albumin, ALP, ALT and GGT.
+
+#Discussion
+The advantages of CCA in this case:
+- The liver damage caused by isolated VOCs maybe be even worse when facing a cluster of VOCs.
+- The liver injuries would be better capture by the combination of liver function tests.
+- Compared to the full model, subgroup implies that liver injuries may be caused by a narrower cluster of VOCs.
+
+#Some notes for a better understanding
+- Canonical correlation terminology makes an important distinction between the words variables and variates. The term variables is reserved for referring to the original variables being analyzed. The term variates is used to refer to variables that are constructed as weighted averages of the original variables.
+- In general, the number of canonical dimensions is equal to the number of variables in the smaller set; however, the number of significant dimensions may be even smaller. Canonical dimensions, also known as canonical variates, are latent variables that are analogous to factors in factor analysis.
+- 
+
+#Analysis methods you might consider
+- Multivariate multiple regression
+- Separate OLS Regressions
+
+#Citation
+*Liu, J., Drane, W., Liu, X., & Wu, T. (2009). Examination of the relationships between environmental exposures to volatile organic compounds and biochemical liver tests: Application of canonical correlation analysis. Environmental Research, 109(2), 193-199. doi:10.1016/j.envres.2008.11.002*
+
+*https://en.wikipedia.org/wiki/Canonical_correlation*
+
+*https://www.cnblogs.com/pinard/p/6288716.html*
+
+*https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Canonical_Correlation.pdf*
+
+*Jang, E. S., Jeong, S., Hwang, S. H., Kim, H. Y., Ahn, S. Y., Lee, J.,... Lee, D. H. (2012). Effects of coffee, smoking, and alcohol on liver function tests: A comprehensive cross-sectional study. BMC Gastroenterology, 12(1). doi:10.1186/1471-230x-12-145*
+
+*Burch, J. B., Everson, T. M., Seth, R. K., Wirth, M. D., & Chatterjee, S. (2015). Trihalomethane exposure and biomonitoring for the liver injury indicator, alanine aminotransferase, in the United States population (NHANES 1999-2006). Science of The Total Environment, 521-522, 226-234. doi:10.1016/j.scitotenv.2015.03.050*
+

@@ -1,0 +1,818 @@
+Bibliography
+National Health and Nutrition Examination Survey (NHANES) and Followup
+Series
+
+This bibliography includes published and unpublished works that are
+related to ICPSR series 39. It includes works that are based on
+primary or secondary analysis of the data, or which describe or critique
+those data or the collection methodology. This list represents all items
+known to ICPSR as of 2017-08-09.
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR series used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. (author unknown), "Examination Staff Procedures Manual for the Health
+and Nutrition Examination Survey, 1976-1979." Hyattsville, MD: United
+States Department of Health, Education and Welfare, National Center for
+Health Statistics, Sep 1976.
+
+2. Afzali, Anita; Weiss, Noel S.; Boyko, Edward J.; Ioannou, George N.,
+"Association between serum uric acid level and chronic liver disease in the
+United States." Hepatology. Aug 2010, 52, 578 - 589. DOI: 10.1002/hep.23717
+
+3. Alderman, Michael H.; Cohen, Hillel W.; Madhavan, Shantha,
+"Correspondence: Authors' Reply." Lancet. Sep 19, 1998, 352, (9132), 984 -.
+DOI: 10.1016/S0140-6736(05)61543-7
+
+4. Anonymous, "The sixth report of the Joint National Committee on
+prevention, detection, evaluation, and treatment of high blood pressure."
+Archives of Internal Medicine. Nov 24, 1997, 157, (21), 2413 - 2446.
+
+5. Baddoura, R.; Hoteit, M.; El-Hajj Fuleihan, G., "Osteoporotic fractures,
+DXA, and fracture risk assessment: Meeting future challenges in the Eastern
+Mediterranean region." Journal of Clinical Densitometry. Oct-Dec 2011, 14,
+(4), 384 - 394. DOI: 10.1016/j.jocd.2011.03.009
+
+6. Barnard, J.; Meng, X.L., "Applications of multiple imputation in medical
+studies: from AIDS to NHANES." Statistical Methods in Medical Research. Mar
+1999, 8, (1), 17 - 36. DOI: 10.1191/096228099666230705
+
+7. Beckett, Megan, "Converging health inequalities in later life--an
+artifact of mortality selection?." Journal of Health and Social Behavior.
+Mar 2000, 41, (1), 106 - 119.
+Full text: http://www.jstor.org/stable/2676363
+
+8. Beckett, Megan K.; Elliott, marc N., "Mortality and sample selection:
+Reply to Noymer." Journal of Health and Social Behavior. Sep 2001, 42, (3),
+328 - 331.
+Full text: http://www.jstor.org/stable/3090219
+
+9. Berger, Mark C.; Leigh, J. Paul, "Schooling, self-selection, and
+health." Journal of Human Resources. Sum 1989, 24, (3), 433 - 455.
+Full text: http://www.jstor.org/stable/145822
+
+10. Bock, Jay L.; Eckfeldt, John H., "Advances in standardization of
+laboratory measurement procedures: implications for measuring biomarkers of
+folate and vitamin B-12 status in NHANES." American Journal of Clinical
+Nutrition. Jul 2011, 94, (1), 332S - 336S. DOI: 10.3945/â€‹ajcn.111.013359
+59
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21562088
+
+11. Brett, K.M.; Madans, J.H., "Use of postmenopausal hormone replacement
+therapy: estimates from a nationally representative cohort study." American
+Journal of Epidemiology. Mar 15, 1997, 145, (6), 536 - 545. DOI:
+10.1093/oxfordjournals.aje.a009142
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21562088
+
+12. Bryant, E. Earl; Kovar, Mary Grace; Miller, Henry, "A study of the
+effect of remuneration upon response in the health and nutrition
+examination survey, United States." Vital and Health Statistics, Series 2:
+Data Evaluation and Methods Research. 67, Hyattsville, MD: National Center
+for Health Statistics, Oct 1975.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr2_067.pdf
+
+13. Buskirk, Trent David, "Using Nonparametric Methods for Density
+Estimation with Complex Survey Data." Dissertation, Arizona State
+University, 1999.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr2_067.pdf
+
+14. Chak, Eric; Talal, Andrew H.; Sherman, Kenneth E.; Schiff, Eugene R.;
+Saab, Sammy, "Hepatitis C virus infection in USA: An estimate of true
+prevalence." Liver International. 2011, 31, (8), 1090 - 1101. DOI:
+10.1111/j.1478-3231.2011.02494.x
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21745274
+
+15. Chung, S.J., "Formulas predicting the percentile of serum cholesterol
+levels by age in adults." Archives of Pathology and Laboratory Medicine.
+Aug 1990, 114, (8), 869 - 875.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21745274
+
+16. Chung, S.J., "Relationship among age, serum cholesterol level and
+population percentile in adults." International Journal of Bio-Medical
+Computing. Aug 1992, 31, (2), 99 - 116. DOI: 10.1016/0020-7101(92)90066-2
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21745274
+
+17. Coleman, P.J.; McQuillan, G.M.; Moyer, L.A.; Lambert, S.B.; Margolis,
+H.S., "Incidence of hepatitis B virus infection in the United States, 1976-
+1994: estimates from the National Health and Nutrition Examination
+Surveys." Journal of Infectious Diseases. Oct 1998, 178, (4), 954 - 959.
+DOI: 10.1086/515696
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21745274
+
+18. Corder, Larry S.; Manton, Kenneth G., "National surveys and the health
+and functioning of the elderly: The effects of design and content." Journal
+of the American Statistical Association. Jun 1991, 86, (414), 513 - 525.
+Full text: http://www.jstor.org/stable/2290603
+
+19. Cutler, J.A., "Prevention of hypertension." Current Opinion in
+Nephrology and Hypertension. May 1993, 2, (3), 404 - 414. DOI:
+10.1097/00041552-199305000-00008
+Full text: http://www.jstor.org/stable/2290603
+
+20. Davis, Maradee A., "Sex differences in reporting osteoarthritic
+symptoms: A sociomedical approach." Journal of Health and Social Behavior.
+Sep 1981, 22, (3), 298 - 310.
+Full text: http://www.jstor.org/stable/2136523
+
+21. Dillon, Charles F.; Hirsch, Rosemarie, "The United States National
+Health and Nutrition Examination Survey and the epidemiology of ankylosing
+spondylitis." American Journal of the Medical Sciences. Apr 2011, 341, (4),
+281 - 283. DOI: 10.1097/MAJ.0b013e31820f8c83
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21358307
+
+22. Dresser, C.M., "From nutrient data to a data base for a health and
+nutrition examination survey. Organization, coding and values-real or
+imputed." Presented at the 8th National Nutrient Data Base Conference,
+Minneapolis, MN, Jul 1983.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21358307
+
+23. Dufour, M.; Colliver, J.; Grigson, M.B.; Stinson, F.S., "Use of alcohol
+and tobacco." In Cornoni-Huntley, J.C.; Huntley, R.R.; Feldman, J.J.,
+Health Status and Well-Being of the Elderly. 172 - 183, New York: Oxford
+University Press,1990.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21358307
+
+24. Dumitrescu, Logan; Goodloe, Robert; Brown-Gentry, Kristin; Mayo, Ping;
+Allen, Melissa; Jin, Hailing; Gillani, Niloufar B.; Schnetz-Boutaud,
+Nathalie; Dilks, Holli H.; Crawford, Dana C., "Serum vitamins A and E as
+modifiers of lipid trait genetics in the National Health and Nutrition
+Examination Surveys as part of the Population Architecture using Genomics
+and Epidemiology (PAGE) study." Human Genetics. 2012, 131, 1699 - 1708.
+DOI: 10.1007/s00439-012-1186-y
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21358307
+
+25. Engel, Arnold; Murphy, Robert S.; Maurer, Kurt; Collins, Everette,
+"Plan and operation of the HANES I augmentation survey of adults 25-74
+years: United States, 1974-1975." Vital and Health Statistics, Series 1:
+Programs and Collection Procedures. 14, Hyattsville, MD: National Center
+for Health Statistics, Jun 1978.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_14.pdf
+
+26. Fang, J.; Madhavan, S.; Cohen, H.; Alderman, Michael H., "Serum
+potassium and cardiovascular mortality." Journal of General Internal
+Medicine. Dec 2000, 15, (12), 885 - 890. DOI: 10.1046/j.1525-
+1497.2000.91021.x
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_14.pdf
+
+27. Fang, Jing; Alderman, Michael H., "Serum uric acid and cardiovascular
+mortality the NHANES I epidemiologic follow-up study, 1971-1992. National
+Health and Nutrition Examination Survey." JAMA, The Journal of the American
+Medical Association. May 10, 2000, 283, (18), 2404 - 2410. DOI:
+10.1001/jama.283.18.2404
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_14.pdf
+
+28. Farmer, Melissa M.; Ferraro, Kenneth F., "Who Are the 'Truly
+Disadvantaged' in Health? A 20-Year Examination of Race, Socioeconomic
+Status, and Health Outcomes." American Sociological Association, 1999.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_14.pdf
+
+29. Federal Interagency Forum on Child and Family Statistics, "America's
+Children: Key National Indicators of Well-Being, 2007." Washington, DC:
+Federal Interagency Forum on Child and Family Statistics, 2007.
+Full text: http://www.childstats.gov/americaschildren/index.asp
+Full text PDF: http://www.childstats.gov/pdf/ac2007/ac_07.pdf
+
+30. Federal Interagency Forum on Child and Family Statistics, "America's
+Children: Key National Indicators of Well-Being, 2009." Washington, DC:
+National Center for Health Statistics, Jul 2009.
+Abstract: http://www.nichd.nih.gov/publications/pubs_details.cfm?from=&pubs_id=5728
+Full text PDF: http://www.nichd.nih.gov/publications/pubs/upload/Americas-Children-2009.pdf
+
+31. Federal Interagency Forum on Child and Family Statistics, "America's
+Children: Key National Indicators of Well-Being, 2011." National Center for
+Health Statistics. Washington, DC: Jul 2011.
+Full text PDF: http://www.nichd.nih.gov/publications/pubs/upload/americas-children-2011.pdf
+
+32. Ferraro, Kenneth F.; Farmer, Melissa M., "Utility of health data from
+social surveys: Is there a gold standard for measuring morbidity?."
+American Sociological Review. Apr 1999, 64, (2), 303 - 315.
+Full text: http://www.jstor.org/stable/2657534
+
+33. Ford, Earl S., "Body mass index and colon cancer in a national sample
+of adult US men and women." American Journal of Epidemiology. Aug 15, 1999,
+150, (4), 390 - 398. DOI: 10.1093/oxfordjournals.aje.a010018
+Full text: http://www.jstor.org/stable/2657534
+
+34. Ford, Earl S., "Trends in mortality from all causes and cardiovascular
+disease among hypertensive and nonhypertensive adults in the United
+States." Circulation. 2011, 123, (16), 1737 - 1744. DOI:
+10.1161/CIRCULATIONAHA.110.005645
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21518989
+
+35. Ford, Earl S.; Mannino, David M.; Zhao, Guixiang; Li, Chaoyang; Croft,
+Janet B., "Changes in mortality among United States adults with COPD in two
+national cohorts recruited from 1971-1975 and 1988-1994." Chest. Jan 2012,
+141, (1), 101 - 110. DOI: 10.1378/chest.11-0472
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21700689
+
+36. Fox, John W., "Sex, marital status, and age as social selection factors
+in recent psychiatric treatment." Journal of Health and Social Behavior.
+Dec 1984, 25, (4), 394 - 405.
+Full text: http://www.jstor.org/stable/2136378
+
+37. Freedman, David S.; Khan, Laura Kettel; Serdula, Mary K.; Ogden,
+Cynthia L.; Dietz, William H., "Racial and ethnic differences in secular
+trends for childhood BMI, weight, and height." Obesity. Feb 2006, 14, (2),
+301 - 308. DOI: 10.1038/oby.2006.39
+Full text: http://www.jstor.org/stable/2136378
+
+38. Freeman, Elsie J.; Colpe, Lisa J.; Strine, Tara W.; Satvinder, Dhingra;
+McGuire, Lisa E.; Elam-Evans, Laurie D.; Perry, Geraldine S., "Public
+health surveillance for mental health." Preventing Chronic Disease. Jan
+2010, 7, (1), 1 - 7.
+Full text: http://www.jstor.org/stable/2136378
+
+39. Gartside, Peter S., "Deficiency in the NHANES II survey data." American
+Journal of Epidemiology. May 1988, 127, (5), 1092 - 1093.
+Full text: http://www.jstor.org/stable/2136378
+
+40. Geifman, Nophar; Rubin, Eitan, "Towards an age-phenome knowledge-base."
+BMC Bioinformatics. 2011, 12, 229. DOI: 10.1186/1471-2105-12-229
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+41. Geronimus, Arline, "The Weathering hypothesis and the health of
+African-American women and infants: Implications for reproductive
+strategies and policy analysis." In Power and Decision: The Social Control
+of Reproduction. 77 - 100, Boston, MA: Harvard University Press,1994.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+42. Giles, Wayne H.; Kittner, Steven J.; Anda, Robert F.; Croft, Janet B.;
+Casper, Michele L., "Serum folate and risk for ischemic stroke. First
+National Health and Nutrition Examination Survey epidemiologic follow-up
+study." Stroke. Jul 195, 26, (7), 1166 - 1170. DOI:
+10.1161/01.STR.26.7.1166
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+43. Gillum, Richard F.; Mussolino, Michael E.; Madans, Jennifer H.,
+"Coronary heart disease risk factors and attributable risks in African-
+American women and men: NHANES I Epidemiologic Follow-Up Study." American
+Journal of Public Health. Jun 1998, 88, (6), 913 - 917. DOI:
+10.2105/AJPH.88.6.913
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+44. Gillum, Richard F.; Mussolino, Michael E.; Madans, Jennifer H.,
+"Diabetes mellitus, coronary heart disease incidence, and death from all
+causes in African American and European American women: The NHANES I
+epidemiologic follow-up study." Journal of Clinical Epidemiology. May 2000,
+53, (5), 511 - 518. DOI: 10.1016/S0895-4356(99)00208-5
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+45. Gillum, Richard F.; Mussolino, Michael E.; Madans, Jennifer H., "The
+relation between fish consumption, death from all causes, and incidence of
+coronary heart disease. the NHANES I Epidemiologic Follow-up Study."
+Journal of Clinical Epidemiology. Mar 1, 2000, 53, (3), 237 - 244. DOI:
+10.1016/S0895-4356(99)00149-3
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+46. Glick, Myron; Michel, Andrew C.; Dorn, Joan; Horwitz, Mary; Rosenthal,
+Thomas; Trevisan, Maurizio, "Dietary cardiovascular risk factors and serum
+cholesterol in an Old Order Mennonite community." American Journal of
+Public Health. Aug 1998, 88, (8), 1202 - 1205. DOI: 10.2105/AJPH.88.8.1202
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+47. Goldhaber-Fiebert, Jeremy D.; Rubinfeld, Rachel E.; Bhattacharya, Jay;
+Robinson, Thomas N.; Wise, Paul H., "The utility of childhood and
+adolescent obesity assessment in relation to adult health." Medical
+Decision Making. Feb 2013, 33, (2), 163 - 175. DOI:
+10.1177/0272989X12447240
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+48. Grabner, M., "BMI trends, socioeconomic status, and the choice of
+dataset." Obesity Facts. 2012, 5, (1), 112 - 126. DOI: 10.1159/000337018
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+49. Gronniger, J. Timothy, "Familial Obesity as a Proxy for Omitted
+Variables in the Obesity-Mortality Relationship." Demography. Nov 2005, 42,
+(4), 719 - 735. DOI: 10.1353/dem.2005.0030
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21651792
+
+50. Grossman, M.; Chaloupka, F.J.; Saffer, H.; Laixuthai, A., "Effects of
+alcohol price policy on youth: A summary of economic research." In Boyd,
+G.M.; Howard, J.; Zucker, R.A. , Alcohol Problems Among Adolescents:
+Current Directions in Prevention Research. 225 - 242, Hillsdale, NJ:
+Lawrence Erlbaum Associates,1995.
+Abstract: http://etoh.niaaa.nih.gov/
+
+51. Gururajan, Arunkumar; Kamalakannan, Sridharan; Sari-Sarraf, Hamed;
+Shahriar, Muneem; Long, Rodney; Antani, Sameer, "On the creation of a
+segmentation library for digitized cervical and lumbar spine radiographs."
+Computerized Medical Imaging and Graphics. Jun 2011, 35, (4), 251 - 265.
+DOI: 10.1016/j.compmedimag.2010.11.006
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21377835
+
+52. Harris, M.I.; Hadden, W.C.; Knowler, W.C.; Bennett, P.H.,
+"International criteria for the diagnosis of diabetes and impaired glucose
+tolerance." Diabetes Care. Nov/Dec 1985, 8, (6), 562 - 567. DOI:
+10.2337/diacare.8.6.562
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21377835
+
+53. Hawkes, Nigel, "Gardens grow healthy bones." The Times. Apr 21, 2000,
+7 -.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21377835
+
+54. Helmick, Charles G.; Lee-Han, Hyewon; Hirsch, Shawn C.; Baird, Tiffany
+L.; Bartlett, Christopher L., "Prevalence of psoriasis among adults in the
+U.S.: 2003–-2006 and 2009–-2010 National Health and Nutrition Examination
+Surveys." American Journal of Preventive Medicine. Jul 2014, 47, (1), 37 -
+45. DOI: 10.1016/j.amepre.2014.02.012
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21377835
+
+55. Hunter, Beatrice Trum, "Benefits of plant-rich diets." Consumers'
+Research Magazine. Dec 1999, 82, (12), 8 - 9.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21377835
+
+56. Jacobson, Denise L.; Patel, Kunjal; Siberry, George K.; Van Dyke,
+Russell B.; Dimeglio, Linda A.; Geffner, Mitchell E.; Chen, Janet S.;
+McFarland, Elizabeth J.; Borkowsky, William; Silio, Margarita; Fielding,
+Roger A.; Siminski, Suzanne; Miller, Tracie L., "Body fat distribution in
+perinatally HIV-infected and HIV-exposed but uninfected children in the era
+of highly active antiretroviral therapy:
+Outcomes from the Pediatric HIV/AIDS Cohort Study." American Journal of
+Clinical Nutrition. 2011, 94, (6), 1485 - 1495. DOI:
+10.3945/ajcn.111.020271
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/22049166
+
+57. Johnson, N.B.; Hayes, L.D.; Brown, K.; Hoo, E.C.; Ethier, K.A., "CDC
+National Health Report: Leading Causes of Morbidity and Mortality and
+Associated Behavioral Risk and Protective Factors-United States, 2005-
+2013." Morbidity and Mortality Weekly Report. Surveillance Summaries. Oct
+31, 2014, 63, (4), 3 - 27.
+Full text: http://www.cdc.gov/mmwr/preview/mmwrhtml/su6304a2.htm
+
+58. Jonas, B.S.; Mussolino, M.E., "Symptoms of depression as a prospective
+risk factor for stroke." Psychosomatic Medicine. Jul/Aug. 2000, 62, (4),
+463 - 471.
+Full text: http://www.cdc.gov/mmwr/preview/mmwrhtml/su6304a2.htm
+
+59. Keith, S.W.; Fontaine, K.R.; Pajewski, N.M.; Mehta, T.; Allison, D.B.,
+"Use of self-reported height and weight biases the body mass index-
+mortality association." International Journal of Obesity. Mar 2011, 35,
+(3), 401 - 408. DOI: 10.1038/ijo.2010.148
+Full text: http://www.cdc.gov/mmwr/preview/mmwrhtml/su6304a2.htm
+
+60. Kessler, Ronald C.; Brown, Roger L.; Broman, Clifford L., "Sex
+differences in psychiatric help-seeking: Evidence from four large-scale
+surveys." Journal of Health and Social Behavior. Mar 1981, 22, (1), 49 -
+64.
+Full text: http://www.jstor.org/stable/2136367
+
+61. King, Hilary; Aubert, Ronald E.; Herman, William H., "Global burden of
+diabetes, 1995-2025: Prevalence, numerical estimates, and projections."
+Diabetes Care. Sep 1998, 21, (9), 1414 -. DOI: 10.2337/diacare.21.9.1414
+Full text: http://www.jstor.org/stable/2136367
+
+62. Klesges, R.C.; Debon, M.; Ray, J.W., "Are self-reports of smoking rate
+biased? Evidence from the Second National Health and Nutrition Examination
+Survey." Journal of Clinical Epidemiology. Oct 1995, 48, (10), 1225 - 1233.
+DOI: 10.1016/0895-4356(95)00020-5
+Full text: http://www.jstor.org/stable/2136367
+
+63. Komlos, John; Lauderdale, Benjamin E., "Underperformance in affluence:
+The remarkable relative decline in U.S. heights in the second half of the
+20th Century." Social Science Quarterly. Jun 2007, 88, (2), 283 - 305. DOI:
+10.1111/j.1540-6237.2007.00458.x
+Full text: http://www.jstor.org/stable/2136367
+
+64. Ku, Leighton; Sonenstein, Freya L.; Turner, Charles F.; Aral, Sevgi O.;
+Black, Carolyn M., "The promise of integrated representative surveys about
+sexually transmitted diseases and behavior." Sexually Transmitted Diseases.
+May 1997, 24, (5), 299 - 309. DOI: 10.1097/00007435-199705000-00012
+Full text: http://www.jstor.org/stable/2136367
+
+65. Kuczmarski, M.F., "Nutritional status of older adults." In Schlenker,
+E.D., Nutrition in Aging, 2nd Edition. 236 - 254, St. Louis: Mosby,1993.
+Full text: http://www.jstor.org/stable/2136367
+
+66. LaCroix, A.Z.; Haynes, S.G.; Savage, D.D.; Havlik, R.J., "Rose
+Questionnaire angina among United States black, white, and Mexican-American
+women and men. Prevalence and correlates from The Second National and
+Hispanic Health and Nutrition Examination Surveys." American Journal of
+Epidemiology. Apr 1989, 129, (4), 669 - 686.
+Full text: http://www.jstor.org/stable/2136367
+
+67. Land, Kenneth C.; Lamb, Vicki L.; Mustillo, Sarah Kahler, "Child and
+youth well-being in the United States, 1975-1998: Some findings from a new
+index." Social Indicators Research. Dec 2001, 56, (3), 241 -. DOI:
+10.1023/A:1012485315266
+Full text: http://www.jstor.org/stable/2136367
+
+68. Landis, J. Richard; Lepkowski, James M.; Eklund, Stephen A.; Stehouwer,
+Sharon A., "A statistical methodology for analyzing data from a complex
+survey: the first National Health and Nutrition Examination Survey." Vital
+and Health Statistics, Series 2: Data Evaluation and Methods Research. 92,
+Hyattsville, MD: National Center for Health Statistics, Sep 1982.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+69. Lazarus, R.; Baur, L.; Webb, K.; Blyth, F.; Gliksman, M., "Recommended
+body mass index cutoff values for overweight screening programmes in
+Australian children and adolescents: comparisons with North American
+values." Journal of Paediatrics and Child Health. Apr 1995, 31, (2), 143 -
+147. DOI: 10.1111/j.1440-1754.1995.tb00764.x
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+70. Lee, Joyce M., "Why young adults hold the key to assessing the obesity
+epidemic in children." Archives of Pediatrics and Adolescent Medicine.
+2008, 162, (7), 682 - 687. DOI: 10.1001/archpedi.162.7.682
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+71. Loria, Catherine M.; Bush, Trudy L.; Carroll, Margaret D.; Looker, Anne
+C.; McDowell, Margaret A.; Johnson, Clifford L.; Sempos, Christopher T.,
+"Macronutrient intakes among adult Hispanics: A comparison of Mexican
+Americans, Cuban Americans, and Mainland Puerto Ricans." American Journal
+of Public Health. May 1995, 85, (5), 684 - 689. DOI: 10.2105/AJPH.85.5.684
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+72. Lowenstein, F.W., "The health and nutrition examination survey in the
+USA." Bibliotheca Nutritio et Dieta. 1974, (20), 62 - 68.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+73. Lynch, Scott M., "Cohort and Life-Course Patterns in the Relationship
+Between Education and Health: A Hierarchical Approach." Demography. May
+2003, 40, (2), 309 - 331. DOI: 10.1353/dem.2003.0016
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+74. Madans, J.; Reuben, C.; Rothwell, S.; Eberhardt, M.; Feldman, J.,
+"Differences in morbidity measures and risk factor identification using
+multiple data sources: the case of stroke." Journal of Epidemiology and
+Biostatistics. 1999, 4, (1), 37 - 43.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+75. Magni, G.; Moreschi, C.; Rigatti-Luchini, S.; Merskey, H., "Prospective
+study on the relationship between depressive symptoms and chronic
+musculoskeletal pain." Pain. Mar 1994, 56, (3), 289 - 297. DOI:
+10.1016/0304-3959(94)90167-8
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+76. Mahboubi, H.; Zardouz, S.; Oliaei, S.; Pan, D.; Bazargan, M.;
+Djalilian, H.R., "Noise-induced hearing threshold shift among US adults and
+implications for noise-induced hearing loss: National Health and Nutrition
+Examination Surveys." European Archives of Oto-Rhino-Laryngology. Feb 2013,
+220, (2), 461 - 467. DOI: 10.1007/s00405-012-1979-6
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+77. Makuc, D.; Feldman, J.J.; Kleinman, J.C.; Pierre, M.B.,
+"Sociodemographic differentials in mortality." In Cornoni-Huntley, J.C.;
+Juntley, R.R.; Feldman, J.J., Health Status and Well-being of the Elderly:
+National Health and Nutrition Examination Survey-I Epidemiologic Follow-up
+Study. 155 - 171, New York: Oxford University Press,1990.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+78. Marwick, C., "How do they conduct 'N-HANES,' anyway?." JAMA, The
+Journal of the American Medical Association. May 16, 1990, 263, (19), 2581
+-. DOI: 10.1001/jama.263.19.2581b
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_02/sr02_092.pdf
+
+79. McDade, Thomas W.; Williams, Sharon; Snodgrass, J. Josh, "What a Drop
+Can Do: Dried Blood Spots as a Minimally-Invasive Method for Integrating
+Biomarkers into Population-Based Research." Presented at the IPR Working
+Paper WP-06-16, Northwestern University, Institute for Policy Research,
+Evanston, IL, 2006.
+Abstract: http://www.ipr.northwestern.edu/publications/papers/2006/ipr-wp-06-16.html
+Full text PDF: http://www.ipr.northwestern.edu/publications/docs/workingpapers/2006/IPR-WP-06-16.pdf
+
+80. McDade, Thomas W.; Williams, Sharon; Snodgrass, J. Josh, "What a drop
+can do: Dried blood spots as a minimally invasive method for integrating
+biomarkers into population-based research." Demography. Nov 2007, 44, (4),
+899 - 925. DOI: 10.1353/dem.2007.0038
+Abstract: http://www.ipr.northwestern.edu/publications/papers/2006/ipr-wp-06-16.html
+Full text PDF: http://www.ipr.northwestern.edu/publications/docs/workingpapers/2006/IPR-WP-06-16.pdf
+
+81. McDowell, A.J., "The HANES experience: how examination surveys can aid
+research on hypertension and obesity." International Journal of Obesity.
+1981, 5, (Suppl 1), 135 - 141.
+Abstract: http://www.ipr.northwestern.edu/publications/papers/2006/ipr-wp-06-16.html
+Full text PDF: http://www.ipr.northwestern.edu/publications/docs/workingpapers/2006/IPR-WP-06-16.pdf
+
+82. McDowell, A.J., "The health and nutrition examination survey." HSMHA
+Health Reports. Jul 1971, 86, (7), 592 - 595.
+Full text: http://www.jstor.org/stable/4594235
+
+83. McDowell, Arthur; Engel, Arnold; Massey, James T.; Maurer, Kurt, "Plan
+and Operation of the Second National Health and Nutrition Examination
+Survey, 1976-1980." Vital and Health Statistics, Series 1: Programs and
+Collection Procedures. 15, Hyattsville, MD: National Center for Health
+Statistics, Jul 1981.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr01_015.pdf
+
+84. McGrew, Kevin, "Disability Summary Analyses of Select National Data
+Collection Programs." Technical Report 11. Minneapolis, MN: National Center
+on Educational Outcomes, Aug 1995.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr01_015.pdf
+
+85. McNamara, A.; Gunter, K., "The influence of participation in Better
+Bones and Balanceâ„¢ on skeletal health: Evaluation of a community-based
+exercise program to reduce fall and fracture risk." Osteoporosis
+International. Jun 2012, 23, (6), 1813 - 1822. DOI: 10.1007/s00198-011-
+1816-6
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/22037971
+
+86. McQuillan, Geraldine M.; Coleman, Patrick J.; Kruszon-Moran, Deanna;
+Moyer, Linda A.; Lambert, S.B.; Margolis, H.S., "Prevalence of hepatitis B
+virus infection in the United States: The National Health and Nutrition
+Examination Surveys, 1976 through 1994." American Journal of Public Health.
+Jan 1999, 89, (1), 14 - 18. DOI: 10.2105/AJPH.89.1.14
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/22037971
+
+87. McWhorter, W.P.; Polis, M.A.; Kaslow, R.A., "Occurrence, predictors,
+and consequences of adult asthma in NHANES I and follow-up survey."
+American Review of Respiratory Disease. Mar 1989, 139, (3), 721 - 724.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/22037971
+
+88. Miller, H.W., "Plan and Operation of the Health and Nutrition
+Examination Survey: United States-1971-1973. Part B, Data Collection Forms
+of the Survey." Vital and Health Statistics, Series 1: Programs and
+Collection Procedures. 10b, Hyattsville, MD: National Center for Health
+Statistics, Jan 1977.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_10b.pdf
+
+89. Miller, Henry W., "Plan and Operation of the Health and Nutrition
+Examination Survey: United States--1971-1973." Vital and Health Statistics,
+Series 1: Programs and Collection Procedures. 10a, Hyattsville, MD:
+National Center for Health Statistics, Feb 1973.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_10a.pdf
+
+90. Mosher, William D.; Sayetta, Rona Beth; Johnson, David P., "A
+comparison of birth control pill user data from two national surveys."
+Review of Public Data Use. Jun 1980, 8, (1), 1 - 11.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_01/sr1_10a.pdf
+
+91. Murasko, Jason E., "Trends in the associations between family income,
+height and body mass index in US children and adolescents: 1971-1980 and
+1999-2008." Annals of Human Biology. May 2011, 38, (3), 290 - 306. DOI:
+10.3109/03014460.2010.537698
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21138404
+
+92. Murphy, Robert S.; Michael, Gerri A., "Methodologic considerations of
+the National Health and Nutrition Examination Surveys." American Journal of
+Clinical Nutrition. May 1982, 35, (5, supplement), 1255 - 1258.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21138404
+
+93. Nahar, M.S.; Soliman, A.S.; Colacino, J.A.; Calafat, A.M.; Battige, K.;
+Hablas, A.; Seifeldin, I.A.; Dolinoy, D.C.; Rozek, L.S., "Urinary bisphenol
+a concentrations in girls from rural and urban Egypt: a pilot study."
+Environmental Health. in press 2012, 11, (1),. DOI: 10.1186/1476-069X-11-20
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21138404
+
+94. National Center for Health Statistics, "A Selective Bibliography 1997-
+1999." Updated n.d., Accessed 12/13/2004.
+Full text PDF: http://www.cdc.gov/nchs/data/nhanes/97-99jan00.pdf
+
+95. National Center for Health Statistics, "Health, United States, 2007.
+With Chartbook on Trends in the Health of Americans." Hyattsville, MD:
+United States Department of Health and Human Services, Centers for Disease
+Control and Prevention, Nov 2007.
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+96. Ness, Roberta B.; Harris, Tamara; Cobb, Janet; Flegal, Katherine M.;
+Kelsey, Jennifer L.; Balanger, Albert; Stunkard, Albert J.; D'Agostino,
+Ralph B., "Number of pregnancies and the subsequent risk of cardiovascular
+disease." New England Journal of Medicine. May 27, 1993, 328, (21), 1528 -
+1533. DOI: 10.1056/NEJM199305273282104
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+97. Nguyen, U.S.; Zhang, Y.; Zhu, Y.; Niu, J.; Zhang, B.; Felson, D.T.,
+"Increasing prevalence of knee pain and symptomatic knee osteoarthritis:
+Survey and cohort data." Annals of Internal Medicine. Dec 6, 2011, 155,
+(11), 725 - 732.
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+98. O'Brien, T.; Young, W.F., Jr.; Palumbo, P.J.; O'Brien, P.C.; Service,
+F.J., "Hypertension and dyslipidemia in patients with insulinoma." Mayo
+Clinic Proceedings. Feb 1993, 68, (2), 141 - 146.
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+99. O'Connor, Deborah L., "What's the verdict on sodium intake?." Patient
+Care. Jun 15, 1998, 32, (11), 31 -.
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+100. Otten, M.W., Jr.; Teutsch, S.M.; Williamson, D.F.; Marks, J.S., "The
+effect of known risk factors on the excess mortality of black adults in the
+United States." JAMA, The Journal of the American Medical Association. Feb
+9, 1990, 263, (6), 845 - 850. DOI: 10.1001/jama.263.6.845
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+101. Peytchev, Andy, "Consequences of survey nonresponse." Annals of the
+American Academy of Political and Social Science. Jan 2013, 645, (1), 88 -
+111. DOI: 10.1177/0002716212461748
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+102. Pilch, Susan M.; Senti, Frederic R., "Assessment of the zinc
+nutritional status of the U.S. population based on data collected in the
+Second National Health and Nutrition Examination Survey, 1976-1980."
+Bethesda, MD: Federation of American Societies for Experimental Biology,
+Life Sciences Research Office, 1984.
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+103. Pirkle, James L.; Brody, Debra J.; Gunter, Elaine W.; Kramer, Rachel
+A.; Paschal, Daniel C.; Flegal, Katherine M.; Matte, Thomas D., "The
+decline in blood lead levels in the United States: The National Health and
+Nutrition Examination Surveys (NHANES)." JAMA, The Journal of the American
+Medical Association. Jul 27, 1994, 272, (4), 284 - 291. DOI:
+10.1001/jama.272.4.284
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+104. Rehm, J.; Sempos, C.; Kohlmeier, L.; Myers, G.; Thefeld, W.; Gunter,
+E.; Thamm, M.; Dortschy, R.; Murphy, R.; Feinleib, M.; Hoffmeister, H., "A
+comparison of serum total cholesterol levels and their determinants between
+the Federal Republic of Germany and the United States." European Journal of
+Epidemiology. 2000, 16, (7), 669 - 675. DOI: 10.1023/A:1007693009604
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+105. Resnick, Helaine; Valsania, Paola; Halter, Jeffrey B.; Lin, Xihong,
+"Differential Effects of BMI on Diabetes Risk Among Black and White
+Americans." Diabetes Care. Nov 1998, 21, (11), 1828 - 1835. DOI:
+10.2337/diacare.21.11.1828
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+106. Rossi, Peter H., Down and Out in America: The Origins of Homelessness.
+Chicago: University of Chicago Press, 1989.
+Full text PDF: http://www.cdc.gov/nchs/data/hus/hus07.pdf
+
+107. Ruiz, P.; Fowler, B.A.; Osterloh, J.D.; Fisher, J.; Mumtaz, M.,
+"Physiologically based pharmacokinetic (PBPK) tool kit for environmental
+pollutants--metals." SAR and QSAR in Environmental Research. 2010
+, 21, (7-8), 603 - 618. DOI: 10.1080/1062936X.2010.528942
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+108. Russell, L.B.; Teutsch, S.M.; Kumar, R.; Dey, A.; Milan, E.,
+"Preventable smoking and exercise-related hospital admissions. A model
+based on the NHEFS." American Journal of Preventive Medicine. Jan 2001, 20,
+(1), 26 - 34. DOI: 10.1016/S0749-3797(00)00262-2
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+109. Sahyoun, Nadine R.; Hochberg, Marc C.; Helmick, Charles G.; Harris,
+Tamara; Pamuk, Elsie R., "Body mass index, weight change, and incidence of
+self-reported physician-diagnosed arthritis among women." American Journal
+of Public Health. Mar 1999, 89, (3), 391 - 394. DOI: 10.2105/AJPH.89.3.391
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+110. Said, Yasmin H.; Wegman, Edward J., "Geospatial distribution of
+alcohol-related violence in Northern Virginia." In Compstat 2006 -
+Proceedings in Computational Statistics. 197 - 207, Physica-Verlag HD,2006.
+DOI: 10.1007/978-3-7908-1709-6_15
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+111. Schwartz, J., "Lung function and chronic exposure to air pollution: a
+cross-sectional analysis of NHANES II." Environmental Research. Dec 1989,
+50, (2), 309 - 321. DOI: 10.1016/S0013-9351(89)80012-X
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+112. Schwartz, J.; Katz, S.A.; Fegley, R.W.; Tockman, M.S., "Sex and race
+differences in the development of lung function." American Review of
+Respiratory Disease. Dec 1988, 138, (6), 1415 - 1421.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+113. Schwartz, J.D.; Katz, S.A.; Fegley, R.W.; Tockman, M.S., "Analysis of
+spirometric data from a national sample of healthy 6- to 24-year-olds
+(NHANES II)." American Review of Respiratory Disease. Dec 1988, 138, (6),
+1405 - 1414.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+114. Senechal, M.; Dionne, I.J.; Brochu, M., "Dynapenic abdominal obesity
+and metabolic risk factors in adults 50 years of age and older." Journal of
+Aging and Health. in press 2012,. DOI: 10.1177/0898264312440324
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+115. Senti, Frederic R.; Pilch, Susan M., "Assessment of the folate
+nutritional status of the U.S. population based on data collected in the
+Second National Health and Nutrition Examination Survey, 1976-1980." PB85-
+164051, Bethesda, MD: Federation of American Societies for Experimental
+Biology, Oct 1984.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21120752
+
+116. Shane, Barry, "Folate status assessment history: Implications for
+measurement of biomarkers in NHANES." American Journal of Clinical
+Nutrition. Jul 2011, 94, (1), S337 - S342. DOI: 10.3945/â€‹ajcn.111.013367
+67
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21593497
+
+117. Siddiq, F.; Chaudhry, S.A.; Vazquez, G.; Suri, M.F.; Qureshi, AI,
+"Intracranial stenosis in young patients: Unique characteristics and risk
+factors." Neuroepidemiology. in press 2012, 38, (3), 148 - 153. DOI:
+10.1159/000335498
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21593497
+
+118. Simon, Joel A.; Hudes, Esther S.; Browner, W.S., "Serum ascorbic acid
+and cardiovascular disease prevalence in U.S. adults." Epidemiology. May
+1998, 9, (3), 316 - 321. DOI: 10.1097/00001648-199805000-00017
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21593497
+
+119. Smith, K.R.; Waitzman, N.J., "Effects of marital status on the risk of
+mortality in poor and non-poor neighborhoods." Annals of Epidemiology. Jul
+1997, 7, (5), 343 - 349. DOI: 10.1016/S1047-2797(97)00031-8
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21593497
+
+120. Smith, Ken R.; McClean, Sally I., "An introduction to the analysis of
+paired hazard rates in studies of the family." Journal of Marriage and
+Family. Feb 1998, 60, (1), 243 - 257.
+Full text: http://www.jstor.org/stable/353455
+
+121. Smith, Kirsten P., "Understanding high levels of sexually transmitted
+infections in the United States: A between- and within-country analysis."
+Dissertation, University of Pennsylvania, 2005.
+Full text: http://www.jstor.org/stable/353455
+
+122. Squires, Sally, "A Comprehensive Check-Up on the Nation; Environmental
+Toxins, Osteoporosis Among Topics in Fourth Health and Nutrition Survey."
+Washington Post. Jun 16, 1998,  Z07 -.
+Full text: http://www.jstor.org/stable/353455
+
+123. Stevens, June; Cai, Jianwen; Juhaeri; Thun, Michael J.; Wood, Joy L.,
+"Evaluation of WHO and NHANES II standards for overweight using mortality
+rates." Journal of the American Dietetic Association. Jul 2000, 100, (7),
+825 - 827. DOI: 10.1016/S0002-8223(00)00238-8
+Full text: http://www.jstor.org/stable/353455
+
+124. Strauss, Shiela M.; Alfano, Michael C.; Shelley, Donna; Fulmer, Terry
+, "Strauss et al. respond." American Journal of Public Health. in press
+2012,. DOI: 10.2105/AJPH.2012.300742
+Full text: http://www.jstor.org/stable/353455
+
+125. Strobush, Lacie; Berg, Richard; Cross, Deanna; Foth, Wendy; Kitchner,
+Terrie; Coleman, Laura; McCarty, Catherine A., "Dietary intake in the
+Personalized Medicine Research Project: A resource for studies of gene-diet
+interaction." Nutrition Journal. Jan 2011, 10, (13),. DOI: 10.1186/1475-
+2891-10-13
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21276236
+
+126. Substance Abuse and Mental Health Services Administration, "Behavioral
+Health, United States, 2012." Substance Abuse and Mental Health Services
+Administration. (SMA) 13-4797, Rockville, MD: Substance Abuse and Mental
+Health Services Administration, 2013.
+Full text PDF: http://media.samhsa.gov/data/2012BehavioralHealthUS/2012-BHUS.pdf
+
+127. Taubes, Gary, "As obesity rates rise, experts struggle to explain
+why." Science. May 29, 1998, 280, (5368), 1367 - 1368. DOI:
+10.1126/science.280.5368.1367
+Full text PDF: http://media.samhsa.gov/data/2012BehavioralHealthUS/2012-BHUS.pdf
+
+128. Thorpe, Roland J., Jr.; Ferraro, Kenneth F., "Aging, Obesity, and
+Mortality: Misplaced Concern about Obese Older People?." Research on Aging.
+Jan 2004, 26, (1), 108 - 129. DOI: 10.1177/0164027503258738
+Full text PDF: http://media.samhsa.gov/data/2012BehavioralHealthUS/2012-BHUS.pdf
+
+129. Tudor-Locke, C.; Rowe, D.A., "Using cadence to study free-living
+ambulatory behaviour." Sports Medicine. in press 2012,. DOI:
+10.2165/11599170-000000000-00000
+Full text PDF: http://media.samhsa.gov/data/2012BehavioralHealthUS/2012-BHUS.pdf
+
+130. Verbrugge, Lois M., "Marital Status and Health." Journal of Marriage
+and Family. May 1979, 41, (2), 267 - 285.
+Full text: http://www.jstor.org/stable/351696
+
+131. Wagener, D.K., "Ethical considerations in the design and execution of
+the National and Hispanic Health and Nutrition Examination Survey (HANES)."
+Environmental Health Perspectives. Apr 1995, 103, (Suppl. 3), 75 - 80.
+Full text: http://www.jstor.org/stable/3432564
+
+132. Wagener, Diane K.; Walstedt, Jane; Jenkins, Lynn; Burnett, Carol;
+Lalich, Nina; Fingerhut, Marilyn, "Women: Work and health." Vital and
+Health Statistics, Series 3: Analytical & Epidemiological Studies. 31,
+Hyattsville, MD: National Center for Health Statistics, Centers for Disease
+Control and Prevention, Dec 1997.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_03/sr3_031.pdf
+
+133. Walters, Christine A., "Development and Validation of Risk
+Stratification Indices for Cardiovascular Diseases: Addressing Racial
+Disparities in Mortality Rates Using Person-level Data from Four U.S.
+Cohorts." Dissertation, Medical University of South Carolina, 2010.
+Full text PDF: http://www.cdc.gov/nchs/data/series/sr_03/sr3_031.pdf
+
+134. Wang, Huifen; Steffen, Lyn M.; Jacobs, David R.; Zhou, Xia; Blackburn,
+Henry; Berger, Alan K.; Filion, Kristian B.; Luepker, Russell V., "Trends
+in cardiovascular risk factor levels in the Minnesota Heart Survey (1980-
+2002) as compared with the National Health and Nutrition Examination Survey
+(1976-2002): A partial explanation for Minnesota's low cardiovascular
+disease mortality?." American Journal of Epidemiology. 2011, 173, (5), 526
+- 538. DOI: 10.1093/aje/kwq367
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21273396
+
+135. Woteki, C.E.; Briefel, R.R.; Kuczmarski, R., "Federal monitoring of
+the nation's nutritional status. Contributions of the National Center for
+Health Statistics." American Journal of Clinical Nutrition. Feb 1988, 47,
+(2), 320 - 328.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21273396
+
+136. Xu, Xiaohe; Bartkowski, John P.; Levin, Martin L.; Miller, Kim S.,
+"Gender, Marital Status, Employment Status and Depressive Symptoms."
+Southern Sociological Society, 2003.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21273396
+
+137. Yang, Chung S.; Landau, Janelle M., "Effects of tea consumption on
+nutrition and health." Journal of Nutrition. Oct 2000, 130, (10), 2409 -
+2412.
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21273396
+
+138. Ye, Ling; Liu, Ruohong; White, Nicholas; Alon, Uri S.; Cobb, Charles
+M., "Periodontal status of patients with hypophosphatemic rickets: A case
+series." Journal of Periodontology. 2011, 82, (11), 1530 - 1535. DOI:
+10.1902/jop.2011.100736
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21417586
+
+139. Zhang, Qi; Wang, Youfa; Huang, Elbert S., "Changes in racial/ethnic
+disparities in the prevalence of Type 2 diabetes by obesity level among US
+adults." Ethnicity and Health. Oct 2009, 14, (5), 439 - 457. DOI:
+10.1080/13557850802699155
+Full text: http://www.ncbi.nlm.nih.gov/pubmed/21417586
