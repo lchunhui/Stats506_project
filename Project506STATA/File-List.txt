@@ -1,0 +1,3 @@
+This is a STATA files list of our project, including
+1. stata_data_analysis.do
+2. stata_result.log
