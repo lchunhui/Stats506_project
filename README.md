@@ -1,6 +1,5 @@
 # Stats 506 Group Project
-Hi! This is the repo of Stats 506 group project, our topic is CANONICAL CORRELATION ANALYSIS.
-If you are going to review our draft version of the tutorial, you may need to read the following html documents:
+Hi! This is the repo of Stats 506 group project, our topic is CANONICAL CORRELATION ANALYSIS:
 
 (1). Project506.html - This is our final report
 
