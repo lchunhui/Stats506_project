@@ -1,4 +1,4 @@
-// data preparation for full group
+// data preparation for full group or subgroup
 import delimited data.csv
 
 // view the first three rows of data
