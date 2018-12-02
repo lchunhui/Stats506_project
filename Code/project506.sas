@@ -1,0 +1,23 @@
+libname project 'C:/Users/menghan/Desktop';
+run;
+proc print data=project.Combine2(obs = 10);
+run;
+proc means data=project.Combine2;
+run;
+proc print data=project.Moredrink(obs = 10);
+run;
+proc means data=project.Moredrink;
+run;
+
+proc cancorr data=project.Combine2;
+var Benzene o_Xylene m_p_Xylene Ethylbenzene MTBE _1_4_Dichlorobenzene Toluene Chloroform Tetrachloroethene Trichloroethene;
+with Albumin ALT ALP AST GGT LDH TB; 
+run;
+proc cancorr data=project.moredrink;
+var Benzene o_Xylene m_p_Xylene Ethylbenzene MTBE _1_4_Dichlorobenzene Toluene Chloroform Tetrachloroethene Trichloroethene;
+with Albumin ALT ALP AST GGT LDH TB; 
+run;
+proc cancorr data=project.Combine2;
+var Benzene o_Xylene m_p_Xylene Ethylbenzene MTBE _1_4_Dichlorobenzene Toluene Chloroform Tetrachloroethene Trichloroethene;
+with Albumin ALT ALP AST GGT LDH TB moredrink; 
+run;
