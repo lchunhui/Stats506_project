@@ -1,0 +1,907 @@
+---
+title: "Project506-Caconical Correlation Analysis"
+author: "Menghan Lin, Chunhui Lin, Xinyu Wu"
+date: "November 26, 2018"
+output:
+  html_document: 
+   toc: true
+   toc_float: true
+---
+
+# Introduction
+**Canonical correlation** is a method to assess correlations between two sets of variables. Canonical correlation is appropriate in the same situations where multiple regression would be, but where are there are many intercorrelated outcome variables.
+
+The following example is an replication of the paper "Examination of the relationships between environmental exposures to volatile organic compounds(VOCs) and biochemical liver tests: Application of canonical correlation analysis"(Liu 2009).
+
+Instead of repeating the examination, we further investigate the correlation in the subgroup controlling on people who drink more than 12 times per year.
+
+The typical purposes of CCA are: 1. Data reduction: explain covariation between two sets of variables using a small number of linear combinations. 2. Data interpretation: find features (canonical variates) that are important for explaining covariation between sets of variables.
+
+**Note** Canonical correlation terminology makes an important distinction between the words variables and variates. The term variables is reserved for referring to the original variables being analyzed. The term variates is used to refer to variables that are constructed as weighted averages of the original variables. Thus, a set of Y variates is constructed from the original Y variables.
+
+
+```{r results='hide', include = FALSE}
+setwd('C:\\Users\\36303\\Documents\\GitHub\\STATS506-CCA\\Code')
+source('./1999-test.R')
+```
+
+# Derivation
+If we have two vectors $X = (X_1  ,X_2,.X_n )^T$ and $Y = (Y_1,Y_2,.Y_m )^T$ of random variables, and there are correlations among the variables, then canonical-correlation analysis seeks the vectors $a(a\in R_n)$ and $b(b\in R_m)$ such that the linear combinations $a^TX$ and $b^TY$ maximize the correlation $\rho= corr(a^TX,b^TY)$.
+In short, it can be expressed as:
+
+$$(a,b)=arg\max_{a,b}corr(a^TX,b^TY)$$
+
+Let $\Sigma_{XX}=cov(X,X)$ and $\Sigma_{YY}=cov(Y,Y)$. The parameter to maximize is$\rho={{a^T\Sigma_{XY}b}\over{\sqrt{a^T \Sigma_{XX}a}\sqrt{b^T \Sigma_{YY}b}}}$.
+
+To define a change of basis, we set:
+
+$$c=\Sigma_{XX}^{-\frac{1}{2}}a$$
+
+$$d=\Sigma_{YY}^{-\frac{1}{2}}b$$
+
+thus, we have:
+
+$$\rho={{c^T \Sigma_{XX}^{-\frac{1}{2}}\Sigma_{XY}\Sigma_{YY}^{-\frac{1}{2}}d}\over {\sqrt{c^Tc}\sqrt{d^Td}}}$$
+
+By the Cauchy-Schwarz inequality, we have:
+
+$$(c^T \Sigma_{XX} ^{-\frac{1}{2}} \Sigma_{XY} \Sigma_{YY} ^{-\frac{1}{2}}) d \leq (c^T \Sigma_{XX} ^{-\frac{1}{2}} \Sigma_{XY} \Sigma_{YY} ^{-1} \Sigma_{YX}  \Sigma_{XX} ^{-\frac{1}{2}} c)^{-\frac{1}{2}} (d^T d)^{-\frac{1}{2}}$$
+
+After canceling the term $(d^T d)^{-\frac{1}{2}}$, we have:
+
+$$\rho \leq {{(c^T\Sigma_{XX}^{-\frac{1}{2}}\Sigma_{XY}\Sigma_{YY}^{-1}\Sigma_{XX}^{-\frac{1}{2}}c)^{-\frac{1}{2}}}\over{\sqrt{c^Tc}}}$$
+
+There is equality if the vectors d and $(c^T \Sigma_{XX} ^{-\frac{1}{2}} \Sigma_{XY} \Sigma_{YY} ^{-\frac{1}{2}})^T$ are colinear. In addition, the maximum of correlation is attained if c is the eigenvector with the maximum eigenvalue for the matrix $\Sigma_{XX} ^{-\frac{1}{2}} \Sigma_{XY} \Sigma_{YY} ^{-1} \Sigma_{YX} \Sigma_{XX} ^{-\frac{1}{2}}$.
+
+The subsequent pairs are found by using eigenvalues of decreasing magnitudes. Orthogonality is guaranteed by the symmetry of the correlation matrices.
+
+# Data description
+The VOC Project of personal exposures to air toxics was conducted among a subsample of *[NHANES 1999-2000](https://wwwn.cdc.gov/nchs/nhanes/Search/DataPage.aspx?Component=Questionnaire&CycleBeginYear=1999)* participants between the ages of 20 and 59 years. This tutorial include 565 observations with 10VOCs: benzene, chloroform, ethylbenzene, tetrachloroethene, toluene, trichloroethene, o-xylene, m-,p-xylene, 1,4-dichloro- benzene, andmethyl tert-butyl ether(MTBE). Besides, liver condition serves as the outcome variables, which was measured by albumin, totalbilirubin(TB), alanineaminotransfer- ase (ALT), aspartateaminotransferase(AST), lactatedehydrogenase(LDH), alkaline phosphatase (ALP) and g-glutamyltransferase(GGT).
+Controlling on people who drink more than 12 times per year, the subgroup descriptive statistics are also listed below. 
+
+Descriptive statistics of personal exposure to 10 VOCs and biochemical liver tests
+```{r echo=FALSE}
+cap1 = '**Figure 1.** Personal exposures to 10 VOCs.'
+knitr::kable(table1_1, digits=2, cap = cap1, align = 'c' )
+cap2 = '**Figure 2.** Biochemical liver tests.'
+knitr::kable(table1_2, digits=2, cap = cap2, align = 'c' )
+
+```
+
+Descriptive statistics of personal exposure to 10 VOCs and biochemical liver tests(subgroup)
+```{r echo = FALSE}
+cap3 = '**Figure 3.** Personal exposures to 10 VOCs.(subgroup)'
+knitr::kable(table2_1, digits=2, cap = cap3, align = 'c' )
+cap4 = '**Figure 4.** Biochemical liver tests.(subgroup)'
+knitr::kable(table2_2, digits=2, cap = cap4, align = 'c' )
+
+```
+
+**Note**: To avoid potential confounding, we excluded the patients who had liver conditions, heart disease, stroke, cancer or diabetes. Those tested serum positive to hepatitis C virus (HCV) were also excluded. One observation with extreme values in ALT(1163U/L) and AST(827U/L) is also excluded. 
+
+*Comparison of Bolm normal transformation*
+```{r}
+part <- c('o-Xylene','m,p-Xylene')
+scatterplotMatrix(combine1[,..part])
+scatterplotMatrix(combine2[,..part])
+```
+
+To satisfy the assumption of CCA, we also transformed the VOC and liver function test variables to Blom normal scores ($s = \Phi(\frac{r-3/8} {n +1/4})$) from their ranks to assure the multivariate normality is not violated. Here we only use o-Xylene and m,p-Xylene as an example, and it shows that after transformation, their distributions become normal.
+
+
+# Software {.tabset}
+*CCA output can be fairly complex. Quantities of interest include raw coefficients, structural correlations (or loadings) and standardized coefficients. The first two are of primary focuses in this project. If you want to know more, please read the discussion session and related references below.*
+
+## **R** 
+
+This tutorial uses the following packages.
+```{r inclue=FALSE}
+library(yacca)
+library(data.table)
+library(dplyr)
+```
+
+**Canonical structures of the first pair of canonical variate and F-test (full group)**
+```
+#Display raw canonical coefficients
+cca.fit$xcoef
+cca.fit$ycoef
+```
+```{r echo= FALSE}
+cap5 = '**Figure 5.** Canonical coefficients of personal exposures to VOCs.'
+knitr::kable(cca.fit$xcoef, digits=2, cap = cap5, align = 'c' )
+cap6 = '**Figure 6.** Canonical coefficients of biochemical liver tests.'
+knitr::kable(cca.fit$ycoef, digits=2, cap = cap6, align = 'c' )
+
+```
+
+The raw canonical coefficients are interpreted in a same manner analogous to interpreting regression coefficients. For example, a one unit increase in the concentration of Benzene is associated to a 0.81 increase in the first canonical variate in the set liver tests when all the other variables are held constant.
+
+Next, we are going to compute the loadings of variables on the canonical dimensions(variates). Canonical loadings are known as the correlations between observed variables and canonical variables. These canonical variates are actually a type of latent variable.
+
+```
+cca.fit$corr
+cca.fit$xstructcorr #Loadings
+cca.fit$ystructcorr
+F.test.cca(cca.fit)
+```
+
+```{r echo=FALSE}
+cca.fit$corr
+
+cap7 = '**Figure 7.** Loadings of variables (VOCs).'
+knitr::kable(cca.fit$xstructcorr, digits=2, cap = cap7, align = 'c' )
+cap8 = '**Figure 8.** Loadings of variables (biochemical liver tests).'
+knitr::kable(cca.fit$ystructcorr, digits=2, cap = cap8, align = 'c' )
+F.test.cca(cca.fit)
+
+```
+*A cutoff value of 0.35 are chosen to select important loadings. *
+
+The first canonical correlation coefficient was 0.318. The first canonical correlation was statistically significant (F = 1.82, p < 0.05) indicating that two sets of variables were correlated. From the result, we found that personal exposure to Benzene, o-Xylene, m,p-Xylene, Ethylbenzene, MTBE and Toluene as a group might affect the serum levels of Albumin and ALP.
+
+**Canonical structures of the first pair of canonical variate and F-test (subgroup)**
+```
+#Display raw canonical coefficients (subgroup)
+cca.fit1$xcoef
+cca.fit1$ycoef
+```
+```{r echo= FALSE}
+cap9 = '**Figure 9.** Canonical coefficients of personal exposures to VOCs.'
+knitr::kable(cca.fit1$xcoef, digits=2, cap = cap9, align = 'c' )
+cap10 = '**Figure 10.** Canonical coefficients of biochemical liver tests.'
+knitr::kable(cca.fit1$ycoef, digits=2, cap = cap10, align = 'c' )
+```
+
+Compared to the full group, a one unit increase in the concentration of Benzene has a larger effect, and is associated to a 0.95 increase in the first canonical variate in the set liver tests when all the other variables are held constant.
+
+
+```
+cca.fit1$corr
+cca.fit1$xstructcorr
+cca.fit$xstructcorr
+cca.fit1$ystructcorr
+cca.fit$ystructcorr
+F.test.cca(cca.fit1)
+```
+```{r echo=FALSE}
+cca.fit1$corr
+
+cap11 = '**Figure 11.** Loadings of variables (VOCs).'
+knitr::kable(cca.fit1$xstructcorr, digits=2, cap = cap11, align = 'c' )
+
+cap12 = '**Figure 12.** Loadings of variables (biochemical liver tests).'
+knitr::kable(cca.fit1$ystructcorr, digits=2, cap = cap12, align = 'c' )
+
+F.test.cca(cca.fit1)
+
+```
+
+The first canonical correlation coefficient was 0.34. The pooled sum of squares of all canonical correlation coefficients was 0.269, which was contributed by 44.5% by the first canonical correlation. Compared to the full group, the subgroup analysis narrowed down the relationship between the VOC exposure and liver function to fewer numbers of VOCs but more liver function tests. The first canonical correlation indicated that Benzene, o-Xylene, m,p-Xylene and MTBE as a group might affect the serum levels of albumin, ALP, ALT and GGT.
+
+
+
+## **Stata**
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We need to load the data into STATA using import delimited.
+```
+. import delimited data.csv
+(18 vars, 565 obs)
+```
+
+To view the first three rows of data, we use **list** command.
+```
+. list in 1/3
+
+     +-----------------------------------------------------------------------+
+  1. | v1  |        v2  |   benzene  |   oxylene  |  mpxylene  |  ethylbe~e  |
+     |  1  |  1.037667  | -1.060735  |  2.163308  |  2.163308  |   2.007744  |
+     |-----------------------------------------------------------------------|
+     |      mtbe |   toluene | chlorof~m | tetrac~e  | trichl~e  |  albumin  |
+     |    1.0924 |   1.88951 |  .8161429 | 1.250906  | .5039024  | .0732355  |
+     |-----------+-----------+-----------+-----------+-----------+-----------|
+     |       alt |       alp |       ast |       ggt |       ldh |        tb |
+     | -.6783221 | -.1066309 | -.4419047 | -.6262044 |  1.088382 | -.4615485 |
+     +-----------------------------------------------------------------------+
+
+     +-----------------------------------------------------------------------+
+  2. | v1  |        v2  |   benzene  |   oxylene  |  mpxylene  |  ethylbe~e  |
+     |  2  | -.0643453  |  .2031609  | -.5292404  | -.3295934  |   -.493858  |
+     |-----------------------------------------------------------------------|
+     |      mtbe |   toluene | chlorof~m | tetrac~e  | trichl~e  |  albumin  |
+     | -.5626988 | -.5652983 |     .7528 | -.160328  | -.542037  | 1.007743  |
+     |-----------+-----------+-----------+-----------+-----------+-----------|
+     |       alt |       alp |       ast |       ggt |       ldh |        tb |
+     | -1.033876 |  -.599451 | -.6154503 | -.4838632 | -.0754589 |  .4615485 |
+     +-----------------------------------------------------------------------+
+
+     +-----------------------------------------------------------------------+
+  3. | v1  |        v2  |   benzene  |   oxylene  |  mpxylene  |  ethylbe~e  |
+     |  3  | -.2326791  | -.3672921  | -2.211818  | -1.199255  |  -.4370206  |
+     |-----------------------------------------------------------------------|
+     |      mtbe |   toluene | chlorof~m | tetrac~e  | trichl~e  |  albumin  |
+     |  .5241461 | -1.475034 | -.2993069 | .6506712  | 1.605612  | .3696651  |
+     |-----------+-----------+-----------+-----------+-----------+-----------|
+     |       alt |       alp |       ast |       ggt |       ldh |        tb |
+     |  2.042195 |  .6506712 |  1.876456 |  1.792977 |  -.013304 |  1.100489 |
+     +-----------------------------------------------------------------------+
+```
+
+We then run the canonical correlation analysis using **canon** command, specifying the exposure variables (volatile organic compounds) as the first set of variables and the outcome variables (biochemical liver tests) as the second set. From the output, we can see the coefficients, also called canonical weights for the two variable sets and the canonical correlations.
+
+The canonical weights can be used to generate canonical variates. The number of possible canonical variate pairs is equal to the number of variables in the smaller set. This leads to seven possible canonical variate pairs and seven canonical correlations in the output. 
+```
+. canon (v2 benzene oxylene mpxylene ethylbenzene mtbe toluene chloroform tetra
+> chloroethene trichloroethene) (albumin alt alp ast ggt ldh tb)
+
+Canonical correlation analysis                      Number of obs =        565
+
+Raw coefficients for the first variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+              v2 |   0.0756    0.8255    0.0848    0.3657    0.1051   -0.0897    0.2513 
+         benzene |   0.8105    0.0800   -0.5946   -0.2967    0.4546   -0.5500   -0.1799 
+         oxylene |   0.6197    0.6911    0.9462    0.3385   -0.6435    0.8811    1.0375    
+        mpxylene |  -0.2399   -0.6321   -0.5617   -0.1971   -0.1289   -1.4618   -0.3028
+    ethylbenzene |  -0.0325   -0.2859    0.0801    0.8217    0.6042    0.3922   -0.4197 
+            mtbe |   0.3226   -0.0154    0.0538   -0.6598   -0.1084    0.5373    0.6359
+         toluene |  -0.1840   -0.2222    0.1589   -0.2089    0.0055    0.9820   -0.5544 
+      chloroform |  -0.3459   -0.2872   -0.0361    0.0722    0.8131    0.0680    0.4626
+    tetrachlor~e |  -0.0666    0.2111    0.8209   -0.3917    0.2137   -0.4856   -0.4713 
+    trichloroe~e |  -0.0323    0.5114   -0.7368   -0.0611    0.0812    0.4931   -0.3929 
+    ------------------------------------------------------------------------------------
+
+Raw coefficients for the second variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+         albumin |   0.9655   -0.2429    0.6400    0.2047   -0.0927   -0.0558    0.0704 
+             alt |   0.0933   -0.6251   -0.6853    0.2720    0.1690    0.8961   -1.1633 
+             alp |   0.5209    0.6121   -0.5120    0.1461   -0.3885    0.2201    0.2831 
+             ast |  -0.1377    0.0208    0.4377   -1.1944   -0.7119    0.0288    0.8795 
+             ggt |   0.0386    0.1082   -0.2176   -0.3201    0.5975   -1.1838   -0.0459  
+             ldh |  -0.0874    0.6455    0.5559    0.1323    0.6481    0.2671   -0.3746  
+              tb |  -0.6301    0.3990   -0.0146    0.3359   -0.6610   -0.3703   -0.5104  
+    ------------------------------------------------------------------------------------
+    
+----------------------------------------------------------------------------
+Canonical correlations:
+  0.3184  0.2314  0.1921  0.1144  0.1002  0.0656  0.0246
+
+----------------------------------------------------------------------------
+Tests of significance of all canonical correlations
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .796381       70  3202.18       1.8215     0.0000 a
+        Pillai's trace     .219833       70     3878       1.7962     0.0001 a
+Lawley-Hotelling trace     .236003       70     3824       1.8418     0.0000 a
+    Roy's largest root     .112804       10      554       6.2494     0.0000 u
+----------------------------------------------------------------------------
+                            e = exact, a = approximate, u = upper bound on F
+```
+
+In order to find out how many possible canonical correlations would be statistically significant, we can use the test option in canon command as shown below. From the output, we discover that the first two canonical correlations are statistically significant (F = 1.82, **P < 0.0000** and F = 1.24, **P = 0.1096**), indicating that the two sets of variables are correlated. The first canonical correlation is **0.3184** and the second was **0.2214**.
+```
+. canon, test(1 2 3 4 5 6 7)
+
+
+Canonical correlation analysis                      Number of obs =        565
+
+Raw coefficients for the first variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+              v2 |   0.0756    0.8255    0.0848    0.3657    0.1051   -0.0897    0.2513 
+         benzene |   0.8105    0.0800   -0.5946   -0.2967    0.4546   -0.5500   -0.1799 
+         oxylene |   0.6197    0.6911    0.9462    0.3385   -0.6435    0.8811    1.0375 
+        mpxylene |  -0.2399   -0.6321   -0.5617   -0.1971   -0.1289   -1.4618   -0.3028  
+    ethylbenzene |  -0.0325   -0.2859    0.0801    0.8217    0.6042    0.3922   -0.4197  
+            mtbe |   0.3226   -0.0154    0.0538   -0.6598   -0.1084    0.5373    0.6359 
+         toluene |  -0.1840   -0.2222    0.1589   -0.2089    0.0055    0.9820   -0.5544  
+      chloroform |  -0.3459   -0.2872   -0.0361    0.0722    0.8131    0.0680    0.4626 
+    tetrachlor~e |  -0.0666    0.2111    0.8209   -0.3917    0.2137   -0.4856   -0.4713 
+    trichloroe~e |  -0.0323    0.5114   -0.7368   -0.0611    0.0812    0.4931   -0.3929  
+    ------------------------------------------------------------------------------------
+
+Raw coefficients for the second variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+         albumin |   0.9655   -0.2429    0.6400    0.2047   -0.0927   -0.0558    0.0704 
+             alt |   0.0933   -0.6251   -0.6853    0.2720    0.1690    0.8961   -1.1633  
+             alp |   0.5209    0.6121   -0.5120    0.1461   -0.3885    0.2201    0.2831 
+             ast |  -0.1377    0.0208    0.4377   -1.1944   -0.7119    0.0288    0.8795 
+             ggt |   0.0386    0.1082   -0.2176   -0.3201    0.5975   -1.1838   -0.0459  
+             ldh |  -0.0874    0.6455    0.5559    0.1323    0.6481    0.2671   -0.3746  
+              tb |  -0.6301    0.3990   -0.0146    0.3359   -0.6610   -0.3703   -0.5104  
+    ------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Canonical correlations:
+  0.3184  0.2314  0.1921  0.1144  0.1002  0.0656  0.0246
+
+----------------------------------------------------------------------------
+Tests of significance of all canonical correlations
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .796381       70  3202.18       1.8215     0.0000 a
+        Pillai's trace     .219833       70     3878       1.7962     0.0001 a
+Lawley-Hotelling trace     .236003       70     3824       1.8418     0.0000 a
+    Roy's largest root     .112804       10      554       6.2494     0.0000 u
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 1-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .796381       70  3202.18       1.8215     0.0000 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 2-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .886217       54  2803.96       1.2448     0.1096 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 3-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .936336       40  2400.19       0.9124     0.6283 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 4-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .972219       28  1988.08       0.5570     0.9709 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 5-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .985104       18  1561.78       0.4616     0.9733 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 6-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .995097       10     1106       0.2721     0.9871 e
+----------------------------------------------------------------------------
+Test of significance of canonical correlation 7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .999397        4      554       0.0836     0.9875 e
+----------------------------------------------------------------------------
+                            e = exact, a = approximate, u = upper bound on F
+```
+
+Now we focus on the first two sets of canonical weights and we might be interested in which coefficients in each set are significant (**P < 0.1**). By **stderr** option, we can call out the standard errors and significance test. 
+
+The first set of canonical weights of exposure variables mainly represent Benzene, Chloroform, and MTBE and the first set of canonical weights of outcome variables mainly represent Albumin, ALP, and TB. 
+
+The second set of canonical weights of exposure variables mainly represent 1,4-Dichlorobenzene, and Trichloroethene and the second set of canonical weights of outcome variables mainly represent ALT, ALP, LDH and TB.
+
+These results help narrow down the relationship VOCs exposure and liver function  tests outcome to fewer numbers of VOCs and liver function tests. This implies that exposure to a cluster of certain VOCs might be associated with certain biochemical liver tests as a group.
+```
+. canon (v2 benzene oxylene mpxylene ethylbenzene mtbe toluene chloroform tetra
+> chloroethene trichloroethene) (albumin alt alp ast ggt ldh tb), first(2) stde
+> rr
+
+Linear combinations for canonical correlations      Number of obs =        565
+------------------------------------------------------------------------------
+             |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+u1           |
+          v2 |   .0756267   .1390955     0.54   0.587    -.1975818    .3488351
+     benzene |   .8105217   .1831084     4.43   0.000     .4508641    1.170179
+     oxylene |   .6196655   .3964418     1.56   0.119    -.1590173    1.398348
+    mpxylene |  -.2399039   .4662774    -0.51   0.607    -1.155756    .6759485
+ethylbenzene |  -.0325145   .2653383    -0.12   0.903    -.5536864    .4886574
+        mtbe |   .3225807   .1650388     1.95   0.051     -.001585    .6467463
+     toluene |  -.1839661   .1851906    -0.99   0.321    -.5477136    .1797815
+  chloroform |  -.3458607   .1372016    -2.52   0.012    -.6153493   -.0763722
+tetrachlor~e |  -.0666163   .1499327    -0.44   0.657     -.361111    .2278783
+trichloroe~e |  -.0323482   .1683552    -0.19   0.848    -.3630279    .2983315
+-------------+----------------------------------------------------------------
+v1           |
+     albumin |   .9655298   .1524076     6.34   0.000      .666174    1.264886
+         alt |   .0932795   .2231235     0.42   0.676     -.344975    .5315341
+         alp |   .5209347   .1387179     3.76   0.000     .2484679    .7934014
+         ast |  -.1377092   .2155219    -0.64   0.523    -.5610329    .2856144
+         ggt |   .0385658   .1749642     0.22   0.826    -.3050952    .3822267
+         ldh |  -.0874316   .1483353    -0.59   0.556    -.3787886    .2039255
+          tb |  -.6300689   .1546978    -4.07   0.000     -.933923   -.3262148
+-------------+----------------------------------------------------------------
+u2           |
+          v2 |   .8255232   .1964452     4.20   0.000     .4396696    1.211377
+     benzene |   .0800258   .2586049     0.31   0.757    -.4279204    .5879721
+     oxylene |   .6910712   .5598968     1.23   0.218    -.4086663    1.790809
+    mpxylene |  -.6320947   .6585259    -0.96   0.338    -1.925557    .6613681
+ethylbenzene |  -.2859168   .3747385    -0.76   0.446     -1.02197    .4501368
+        mtbe |  -.0153545   .2330851    -0.07   0.948    -.4731753    .4424663
+     toluene |  -.2222011   .2615456    -0.85   0.396    -.7359235    .2915213
+  chloroform |  -.2872412   .1937705    -1.48   0.139    -.6678412    .0933588
+tetrachlor~e |   .2110777   .2117507     1.00   0.319    -.2048386    .6269939
+trichloroe~e |   .5113532   .2377688     2.15   0.032     .0443327    .9783738
+-------------+----------------------------------------------------------------
+v2           |
+     albumin |  -.2429123    .215246    -1.13   0.260     -.665694    .1798693
+         alt |  -.6251191   .3151185    -1.98   0.048    -1.244068     -.00617
+         alp |   .6120708    .195912     3.12   0.002     .2272646     .996877
+         ast |   .0208182   .3043827     0.07   0.945    -.5770439    .6186803
+         ggt |   .1082178   .2471027     0.44   0.662    -.3771362    .5935719
+         ldh |   .6454798   .2094947     3.08   0.002     .2339948    1.056965
+          tb |   .3989909   .2184804     1.83   0.068    -.0301437    .8281256
+------------------------------------------------------------------------------
+                                     (Standard errors estimated conditionally)
+Canonical correlations:
+  0.3184  0.2314  0.1921  0.1144  0.1002  0.0656  0.0246
+
+----------------------------------------------------------------------------
+Tests of significance of all canonical correlations
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .796381       70  3202.18       1.8215     0.0000 a
+        Pillai's trace     .219833       70     3878       1.7962     0.0001 a
+Lawley-Hotelling trace     .236003       70     3824       1.8418     0.0000 a
+    Roy's largest root     .112804       10      554       6.2494     0.0000 u
+----------------------------------------------------------------------------
+                            e = exact, a = approximate, u = upper bound on F
+```
+
+Finally, we use the **estat loadings** command to display the structure correlation coefficients, also called canonical loadings. These loadings are correlations between variables and the canonical variates, used to interpret the importance of each original variable in the canonical variates.
+```
+. estat loadings
+
+Canonical loadings for variable list 1
+
+                 |        1         2 
+    -------------+--------------------
+              v2 |   0.0873    0.7347 
+         benzene |   0.8667   -0.1024 
+         oxylene |   0.6973   -0.1190 
+        mpxylene |   0.6694   -0.2100 
+    ethylbenzene |   0.5779   -0.2223 
+            mtbe |   0.4336    0.0067 
+         toluene |   0.4493   -0.1767 
+      chloroform |  -0.2142   -0.1082 
+    tetrachlor~e |   0.0706    0.2696 
+    trichloroe~e |   0.0185    0.4834 
+    ----------------------------------
+
+Canonical loadings for variable list 2
+
+                 |        1         2 
+    -------------+--------------------
+         albumin |   0.6800   -0.1265 
+             alt |   0.2808   -0.0569 
+             alp |   0.5064    0.6637 
+             ast |   0.1298    0.1422 
+             ggt |   0.3257    0.1612 
+             ldh |   0.0558    0.6438 
+              tb |  -0.1148    0.2439 
+    ----------------------------------
+
+Correlation between variable list 1 and canonical variates from list 2
+
+                 |        1         2 
+    -------------+--------------------
+              v2 |   0.0278    0.1700 
+         benzene |   0.2759   -0.0237 
+         oxylene |   0.2220   -0.0275 
+        mpxylene |   0.2131   -0.0486 
+    ethylbenzene |   0.1840   -0.0514 
+            mtbe |   0.1381    0.0015 
+         toluene |   0.1430   -0.0409 
+      chloroform |  -0.0682   -0.0250 
+    tetrachlor~e |   0.0225    0.0624 
+    trichloroe~e |   0.0059    0.1118 
+    ----------------------------------
+
+Correlation between variable list 2 and canonical variates from list 1
+
+                 |        1         2 
+    -------------+--------------------
+         albumin |   0.2165   -0.0293 
+             alt |   0.0894   -0.0132 
+             alp |   0.1612    0.1536 
+             ast |   0.0413    0.0329 
+             ggt |   0.1037    0.0373 
+             ldh |   0.0178    0.1489 
+              tb |  -0.0366    0.0564 
+    ----------------------------------
+```
+
+Repeat the above steps using subgroup data. This time we only report the output of related to CCA.
+```
+. canon (v2 benzene oxylene mpxylene ethylbenzene mtbe toluene chloroform tetra
+> chloroethene trichloroethene) (albumin alt alp ast ggt ldh tb)
+
+Canonical correlation analysis                      Number of obs =        364
+
+Raw coefficients for the first variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+              v2 |  -0.0864    0.7927   -0.3509   -0.4380    0.1915   -0.0461   -0.2965  
+         benzene |   0.9536   -0.1311   -0.5125    0.2035    0.3055    0.1649   -0.2804  
+         oxylene |   0.3931    1.1373    0.7959    0.6987    0.0267    0.5340   -0.1730  
+        mpxylene |  -0.0786   -0.6241   -0.2293   -1.0983   -0.2600   -1.2125    1.8878 
+    ethylbenzene |  -0.1973   -0.1926    0.1325   -0.2430    0.7675    0.7911   -1.0040  
+            mtbe |   0.3857    0.0035   -0.2383    0.3222   -0.1886    0.1266    0.0232 
+         toluene |  -0.2762   -0.1281    0.4657    0.2602   -0.9704    0.3166   -0.6035  
+      chloroform |  -0.3778   -0.2199    0.1192    0.2600    0.5099    0.6297    0.2853 
+    tetrachlor~e |  -0.1556    0.4707    0.2210    0.6919    0.2814   -0.4807   -0.0608  
+    trichloroe~e |  -0.1163    0.1813   -0.6071   -0.1560   -0.7052    0.6053    0.5468 
+    ------------------------------------------------------------------------------------
+
+Raw coefficients for the second variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+         albumin |   0.8539    0.2318    0.8054   -0.0546   -0.0056   -0.1301    0.0476 
+             alt |  -0.0039   -0.7102   -0.0580   -0.3882   -1.5081    0.4344   -0.7116  
+             alp |   0.2985    0.3195   -0.3945   -0.6661   -0.1914    0.0953    0.6314 
+             ast |  -0.0061   -0.3476    0.1249    0.8405    0.5994   -0.2740    1.3703 
+             ggt |   0.4186    0.0072   -0.6775    0.2759    1.0163   -0.2260   -0.6180  
+             ldh |  -0.0719    0.8987   -0.0876    0.4705   -0.4063   -0.0612   -0.4309  
+              tb |  -0.6927   -0.0054   -0.1744   -0.4061   -0.1110   -0.9081   -0.1127  
+    ------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Canonical correlations:
+  0.3458  0.2717  0.2018  0.1416  0.0834  0.0795  0.0319
+
+----------------------------------------------------------------------------
+Tests of significance of all canonical correlations
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .755585       70  2030.16       1.4280     0.0124 a
+        Pillai's trace     .268514       70     2471       1.4081     0.0153 a
+Lawley-Hotelling trace      .29288       70     2417       1.4447     0.0099 a
+    Roy's largest root      .13586       10      353       4.7959     0.0000 u
+----------------------------------------------------------------------------
+                            e = exact, a = approximate, u = upper bound on F
+```
+
+In order to find out how many possible canonical correlations would be statistically significant, we can use the test option in canon command as shown below. From the output, we discover that the first canonical correlations are statistically significant (F = 1.43, **P < 0.0124**), indicating that this set of variables is correlated. The first canonical correlation is **0.3458**.
+```
+. canon, test(1 2 3 4 5 6 7)
+
+
+Canonical correlation analysis                      Number of obs =        364
+
+Raw coefficients for the first variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+              v2 |  -0.0864    0.7927   -0.3509   -0.4380    0.1915   -0.0461   -0.2965  
+         benzene |   0.9536   -0.1311   -0.5125    0.2035    0.3055    0.1649   -0.2804  
+         oxylene |   0.3931    1.1373    0.7959    0.6987    0.0267    0.5340   -0.1730  
+        mpxylene |  -0.0786   -0.6241   -0.2293   -1.0983   -0.2600   -1.2125    1.8878 
+    ethylbenzene |  -0.1973   -0.1926    0.1325   -0.2430    0.7675    0.7911   -1.0040  
+            mtbe |   0.3857    0.0035   -0.2383    0.3222   -0.1886    0.1266    0.0232 
+         toluene |  -0.2762   -0.1281    0.4657    0.2602   -0.9704    0.3166   -0.6035  
+      chloroform |  -0.3778   -0.2199    0.1192    0.2600    0.5099    0.6297    0.2853 
+    tetrachlor~e |  -0.1556    0.4707    0.2210    0.6919    0.2814   -0.4807   -0.0608  
+    trichloroe~e |  -0.1163    0.1813   -0.6071   -0.1560   -0.7052    0.6053    0.5468 
+    ------------------------------------------------------------------------------------
+
+Raw coefficients for the second variable set
+
+                 |        1         2         3         4         5         6         7 
+    -------------+----------------------------------------------------------------------
+         albumin |   0.8539    0.2318    0.8054   -0.0546   -0.0056   -0.1301    0.0476 
+             alt |  -0.0039   -0.7102   -0.0580   -0.3882   -1.5081    0.4344   -0.7116  
+             alp |   0.2985    0.3195   -0.3945   -0.6661   -0.1914    0.0953    0.6314 
+             ast |  -0.0061   -0.3476    0.1249    0.8405    0.5994   -0.2740    1.3703 
+             ggt |   0.4186    0.0072   -0.6775    0.2759    1.0163   -0.2260   -0.6180  
+             ldh |  -0.0719    0.8987   -0.0876    0.4705   -0.4063   -0.0612   -0.4309  
+              tb |  -0.6927   -0.0054   -0.1744   -0.4061   -0.1110   -0.9081   -0.1127  
+    ------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Canonical correlations:
+  0.3458  0.2717  0.2018  0.1416  0.0834  0.0795  0.0319
+
+----------------------------------------------------------------------------
+Tests of significance of all canonical correlations
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .755585       70  2030.16       1.4280     0.0124 a
+        Pillai's trace     .268514       70     2471       1.4081     0.0153 a
+Lawley-Hotelling trace      .29288       70     2417       1.4447     0.0099 a
+    Roy's largest root      .13586       10      353       4.7959     0.0000 u
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 1-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .755585       70  2030.16       1.4280     0.0124 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 2-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .858239       54  1779.05       1.0027     0.4701 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 3-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .926663       40  1524.05       0.6716     0.9428 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 4-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .966006       28  1263.37       0.4349     0.9957 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 5-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .985757       18  993.263       0.2806     0.9987 a
+----------------------------------------------------------------------------
+Test of significance of canonical correlations 6-7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .992666       10      704       0.2596     0.9892 e
+----------------------------------------------------------------------------
+Test of significance of canonical correlation 7
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .998984        4      353       0.0898     0.9856 e
+----------------------------------------------------------------------------
+                            e = exact, a = approximate, u = upper bound on F
+
+```
+
+Now we focus on the first set of canonical weights and we might be interested in which coefficients in each set are significant (**P < 0.1**). By **stderr** option, we can call out the standard errors and significance test. 
+
+This set of canonical weights of exposure variables mainly represent Benzene, MTBE, and Chloroform and the first set of canonical weights of outcome variables mainly represent Albumin, ALP, GGT, and TB. 
+```
+. canon (v2 benzene oxylene mpxylene ethylbenzene mtbe toluene chloroform tetra
+> chloroethene trichloroethene) (albumin alt alp ast ggt ldh tb), first(1) stde
+> rr
+
+Linear combinations for canonical correlations      Number of obs =        364
+------------------------------------------------------------------------------
+             |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+u1           |
+          v2 |  -.0863798    .161699    -0.53   0.594    -.4043642    .2316047
+     benzene |   .9535735   .2029701     4.70   0.000     .5544285    1.352718
+     oxylene |    .393107   .4568681     0.86   0.390    -.5053334    1.291547
+    mpxylene |  -.0786449   .5300306    -0.15   0.882    -1.120961    .9636712
+ethylbenzene |  -.1973275   .2819226    -0.70   0.484    -.7517342    .3570792
+        mtbe |   .3857021   .1862609     2.07   0.039     .0194162    .7519879
+     toluene |  -.2761614   .2033818    -1.36   0.175    -.6761159    .1237931
+  chloroform |  -.3778441   .1561604    -2.42   0.016    -.6849368   -.0707515
+tetrachlor~e |  -.1556496   .1689163    -0.92   0.357    -.4878271    .1765279
+trichloroe~e |   -.116344   .1957082    -0.59   0.553    -.5012083    .2685202
+-------------+----------------------------------------------------------------
+v1           |
+     albumin |   .8538873   .1733685     4.93   0.000     .5129546     1.19482
+         alt |  -.0038843   .2738774    -0.01   0.989    -.5424699    .5347012
+         alp |   .2984847   .1597807     1.87   0.063    -.0157273    .6126968
+         ast |  -.0060705   .2554019    -0.02   0.981    -.5083237    .4961826
+         ggt |   .4185558   .2121205     1.97   0.049     .0014165    .8356951
+         ldh |  -.0719023   .1699071    -0.42   0.672    -.4060281    .2622235
+          tb |  -.6927423   .1775667    -3.90   0.000    -1.041931   -.3435538
+------------------------------------------------------------------------------
+                                     (Standard errors estimated conditionally)
+Canonical correlations:
+  0.3458  0.2717  0.2018  0.1416  0.0834  0.0795  0.0319
+
+----------------------------------------------------------------------------
+Tests of significance of all canonical correlations
+
+                         Statistic      df1      df2            F     Prob>F
+         Wilks' lambda     .755585       70  2030.16       1.4280     0.0124 a
+        Pillai's trace     .268514       70     2471       1.4081     0.0153 a
+Lawley-Hotelling trace      .29288       70     2417       1.4447     0.0099 a
+    Roy's largest root      .13586       10      353       4.7959     0.0000 u
+----------------------------------------------------------------------------
+                            e = exact, a = approximate, u = upper bound on F
+```
+
+Finally, we use the **estat loadings** command to display the structure correlation coefficients, also called canonical loadings.
+```
+. estat loadings
+
+Canonical loadings for variable list 1
+
+                 |        1 
+    -------------+----------
+              v2 |  -0.0787 
+         benzene |   0.8187 
+         oxylene |   0.4725 
+        mpxylene |   0.4565 
+    ethylbenzene |   0.3241 
+            mtbe |   0.4090 
+         toluene |   0.2334 
+      chloroform |  -0.2706 
+    tetrachlor~e |  -0.0831 
+    trichloroe~e |  -0.1468 
+    ------------------------
+
+Canonical loadings for variable list 2
+
+                 |        1 
+    -------------+----------
+         albumin |   0.6854 
+             alt |   0.4265 
+             alp |   0.4337 
+             ast |   0.2890 
+             ggt |   0.5831 
+             ldh |   0.1124 
+              tb |  -0.0906 
+    ------------------------
+
+Correlation between variable list 1 and canonical variates from list 2
+
+                 |        1 
+    -------------+----------
+              v2 |  -0.0272 
+         benzene |   0.2831 
+         oxylene |   0.1634 
+        mpxylene |   0.1579 
+    ethylbenzene |   0.1121 
+            mtbe |   0.1415 
+         toluene |   0.0807 
+      chloroform |  -0.0936 
+    tetrachlor~e |  -0.0287 
+    trichloroe~e |  -0.0508 
+    ------------------------
+
+Correlation between variable list 2 and canonical variates from list 1
+
+                 |        1 
+    -------------+----------
+         albumin |   0.2371 
+             alt |   0.1475 
+             alp |   0.1500 
+             ast |   0.1000 
+             ggt |   0.2017 
+             ldh |   0.0389 
+              tb |  -0.0313 
+    ------------------------
+```
+
+## **SAS**
+
+**Canonical structures of the first pair of canonical variate and F-test (full group)**
+
+
+```bash
+proc cancorr data=project.Combine2;
+var Benzene o_Xylene m_p_Xylene Ethylbenzene MTBE _1_4_Dichlorobenzene Toluene Chloroform Tetrachloroethene Trichloroethene;
+with Albumin ALT ALP AST GGT LDH TB; 
+run;
+```
+
+The output below gives the canonical correlations and the multivariate tests of the dimensions, and also includes the multivariate criteria and the F approximations.
+
+**Note** The F statistics vary depending on the criteria.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f10.png")
+```
+
+Next, the raw canonical coefficients are shown below.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f1.png")
+```
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f2.png")
+```
+
+The raw canonical coefficients are interpreted in a manner analogous to interpreting regression coefficients. For the variable **o-Xylene**, a one unit increase in **o-Xylene** leads to a 0.6197 increase in the first canonical variate of set 1 when all of the other variables are held constant. 
+
+The raw coefficients are followed by the standardized canonical coefficients shown below. After standardizing, the coefficients are easier to compare because their values don't depend on the their units. However, the raw coefficients are more interpretable.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f3.png")
+```
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f4.png")
+```
+
+Below are correlations between observed variables and canonical variables which are known as the canonical loadings, which SAS labels as the canonical structure.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f5.png")
+```
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("f6.png")
+```
+
+Through the graphes above, we can narrow down the relationship between the VOC exposure and liver function to fewer numbers of VOCs and liver function tests in the full group. in addition, it can imply that exposure to a cluster of certain VOCs mignt be associated with certain biochemical liver tests as a group.
+
+
+**Canonical structures of the first pair of canonical variate and F-test (subgroup)**
+
+```bash
+proc cancorr data=project.moredrink;
+var Benzene o_Xylene m_p_Xylene Ethylbenzene MTBE _1_4_Dichlorobenzene Toluene Chloroform Tetrachloroethene Trichloroethene;
+with Albumin ALT ALP AST GGT LDH TB; 
+run;
+```
+
+The output below gives the canonical correlations and the multivariate tests of the dimensions, and also includes the multivariate criteria and the F approximations.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s10.png")
+```
+
+Next, the raw canonical coefficients are shown below.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s1.png")
+```
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s2.png")
+```
+
+The raw canonical coefficients are interpreted in a manner analogous to interpreting regression coefficients. For the variable **o-Xylene**, a one unit increase in **o-Xylene** leads to a 0.3931 increase in the first canonical variate of set 1 when all of the other variables are held constant. 
+
+The raw coefficients are followed by the standardized canonical coefficients shown below. 
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s3.png")
+```
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s4.png")
+```
+
+Below are correlations between observed variables and canonical variables which are known as the canonical loadings, which SAS labels as the canonical structure.
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s5.png")
+```
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("s6.png")
+```
+
+We can compare these graphes with the graphes of full group and see whether the change of group has influence on the correlation between the VOC exposure and liver function tests. 
+
+
+# Discussion
+The advantages of CCA in this case:
+
+- The liver damage caused by isolated VOCs maybe be even worse when facing a cluster of VOCs.
+
+- The liver injuries would be better captured by the combination of liver function tests.
+
+- Compared to the full model, subgroup implies that liver injuries may be caused by a narrower cluster of VOCs.
+
+Take-home notes
+
+- Canonical correlation terminology makes an important distinction between the words variables and variates. The term variables is reserved for referring to the original variables being analyzed. The term variates is used to refer to variables that are constructed as weighted averages of the original variables.
+
+- CCA output can be fairly complex. Quantities of particular interest include the correlations between the original variables in each set and their respective canonical variates (structural correlations or loadings). The canonical correlations provide the concordance between the transformed variables, while the loadings reveal the extent to which each canonical variate is associated with particular variables in each set.
+
+- In general, the number of canonical dimensions is equal to the number of variables in the smaller set; however, the number of significant dimensions may be even smaller. Canonical dimensions, also known as canonical variates, are latent variables that are analogous to factors in factor analysis.
+
+
+# Alternative Methods
+- Multivariate multiple regression
+- Separate OLS Regressions
+
+# Citation
+*Burch, J. B., Everson, T. M., Seth, R. K., Wirth, M. D., & Chatterjee, S. (2015). Trihalomethane exposure and biomonitoring for the liver injury indicator, alanine aminotransferase, in the United States population (NHANES 1999-2006). Science of The Total Environment, 521-522, 226-234. doi:10.1016/j.scitotenv.2015.03.050*
+
+*Liu, J., Drane, W., Liu, X., & Wu, T. (2009). Examination of the relationships between environmental exposures to volatile organic compounds and biochemical liver tests: Application of canonical correlation analysis. Environmental Research, 109(2), 193-199. doi:10.1016/j.envres.2008.11.002*
+
+*Jang, E. S., Jeong, S., Hwang, S. H., Kim, H. Y., Ahn, S. Y., Lee, J.,... Lee, D. H. (2012). Effects of coffee, smoking, and alcohol on liver function tests: A comprehensive cross-sectional study. BMC Gastroenterology, 12(1). doi:10.1186/1471-230x-12-145*
+
+*[Caconical Correlation by Wikipedia](https://en.wikipedia.org/wiki/Canonical_correlation)*
+
+*[The Algorithm of CCA(Chinese version)](https://www.cnblogs.com/pinard/p/6288716.html)*
+
+*[NCSS Statistical Software Chapter 400 Canonical Correlation](https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Canonical_Correlation.pdf)*
+
+*[Canonical Correlation Analysis by University of Minnesota](http://users.stat.umn.edu/~helwig/notes/cancor-Notes.pdf)*
+
+*[CCA Package](https://cran.r-project.org/web/packages/CCA/index.html)*
