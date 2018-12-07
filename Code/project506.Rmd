@@ -11,17 +11,17 @@ output:
 # Introduction
 **Canonical correlation** is a method to assess correlations between two sets of variables. Canonical correlation is appropriate in the same situations where multiple regression would be, but where are there are many intercorrelated outcome variables.
 
-The following example is an replication of paper Examination of the relationships between environmental exposures to volatile organic compounds(VOCs) and biochemical liver tests: Application of canonical correlation analysis.
+The following example is an replication of the paper "Examination of the relationships between environmental exposures to volatile organic compounds(VOCs) and biochemical liver tests: Application of canonical correlation analysis"(Liu 2009).
 
-Instead of repeating the examination, we further investigate the correlation in the subgroup controlling on people who have more than 12 times drinks per year.
+Instead of repeating the examination, we further investigate the correlation in the subgroup controlling on people who drink more than 12 times per year.
 
-The typical purposes of CCA are: 1.Data reduction: explain covariation between two sets of variables using small number of linear combinations. 2. Data interpretation: find features (canonical variates) that are important for explaining covariation between sets of variables.
+The typical purposes of CCA are: 1. Data reduction: explain covariation between two sets of variables using a small number of linear combinations. 2. Data interpretation: find features (canonical variates) that are important for explaining covariation between sets of variables.
 
-**Note** Canonical correlation terminology makes an important distinction between the words variables and variates. The term variables is reserved for referring to the original variables being analyzed. The term variates is used to refer to variables that are constructed as weighted averages of the original variables. Thus, a set of Y variates is construxted from the original Yvariables.
+**Note** Canonical correlation terminology makes an important distinction between the words variables and variates. The term variables is reserved for referring to the original variables being analyzed. The term variates is used to refer to variables that are constructed as weighted averages of the original variables. Thus, a set of Y variates is constructed from the original Y variables.
 
 
 ```{r results='hide', include = FALSE}
-setwd('C:/Users/36303/Desktop/Proj1')
+setwd('C:\\Users\\36303\\Documents\\GitHub\\STATS506-CCA\\Code')
 source('./1999-test.R')
 ```
 
@@ -56,8 +56,8 @@ There is equality if the vectors d and $(c^T \Sigma_{XX} ^{-\frac{1}{2}} \Sigma_
 The subsequent pairs are found by using eigenvalues of decreasing magnitudes. Orthogonality is guaranteed by the symmetry of the correlation matrices.
 
 # Data description
-The VOC Project of personal exposures to air toxics was conducted among a subsample of *(NHANES 1999-2000)[https://wwwn.cdc.gov/nchs/nhanes/Search/DataPage.aspx?Component=Questionnaire&CycleBeginYear=1999]* participants between the ages of 20 and 59 years. This tutorial include 565 observations with 10VOCs: benzene, chloroform, ethylbenzene, tetrachloroethene, toluene, trichloroethene, o-xylene, m-,p-xylene, 1,4-dichloro- benzene, andmethyl tert-butyl ether(MTBE). Besides, liver condition serves as the outcome variables, which was measured by albumin, totalbilirubin(TB), alanineaminotransfer- ase (ALT), aspartateaminotransferase(AST), lactatedehydrogenase(LDH), alkaline phosphatase (ALP) and g-glutamyltransferase(GGT).
-Controlling on people who drink more than 12 times per year, the subgroup descriptive statstics are also listed below. 
+The VOC Project of personal exposures to air toxics was conducted among a subsample of *[NHANES 1999-2000](https://wwwn.cdc.gov/nchs/nhanes/Search/DataPage.aspx?Component=Questionnaire&CycleBeginYear=1999)* participants between the ages of 20 and 59 years. This tutorial include 565 observations with 10VOCs: benzene, chloroform, ethylbenzene, tetrachloroethene, toluene, trichloroethene, o-xylene, m-,p-xylene, 1,4-dichloro- benzene, andmethyl tert-butyl ether(MTBE). Besides, liver condition serves as the outcome variables, which was measured by albumin, totalbilirubin(TB), alanineaminotransfer- ase (ALT), aspartateaminotransferase(AST), lactatedehydrogenase(LDH), alkaline phosphatase (ALP) and g-glutamyltransferase(GGT).
+Controlling on people who drink more than 12 times per year, the subgroup descriptive statistics are also listed below. 
 
 Descriptive statistics of personal exposure to 10 VOCs and biochemical liver tests
 ```{r echo=FALSE}
@@ -79,12 +79,18 @@ knitr::kable(table2_2, digits=2, cap = cap4, align = 'c' )
 
 **Note**: To avoid potential confounding, we excluded the patients who had liver conditions, heart disease, stroke, cancer or diabetes. Those tested serum positive to hepatitis C virus (HCV) were also excluded. One observation with extreme values in ALT(1163U/L) and AST(827U/L) is also excluded. 
 
-To satisfy the assumption of CCA, we also transformed the VOC and liver function test variables to Blom normal scores ($s = \Phi(\frac{r-3/8} {n +1/4})$) from their ranks to assure the multivariate normality is not violatied.
+*Comparison of Bolm normal transformation*
+```{r}
+part <- c('o-Xylene','m,p-Xylene')
+scatterplotMatrix(combine1[,..part])
+scatterplotMatrix(combine2[,..part])
+```
 
+To satisfy the assumption of CCA, we also transformed the VOC and liver function test variables to Blom normal scores ($s = \Phi(\frac{r-3/8} {n +1/4})$) from their ranks to assure the multivariate normality is not violated. Here we only use o-Xylene and m,p-Xylene as an example, and it shows that after transformation, their distributions become normal.
 
 
 # Software {.tabset}
-
+*CCA output can be fairly complex. Quantities of interest include raw coefficients, structural correlations (or loadings) and standardized coefficients. The first two are of primary focuses in this project. If you want to know more, please read the discussion session and related references below.*
 
 ## **R** 
 
@@ -132,7 +138,7 @@ F.test.cca(cca.fit)
 ```
 *A cutoff value of 0.35 are chosen to select important loadings. *
 
-The first canonical correlation coefficient was 0.318. The first canonical correlation was statistically significant (F = 1.82, p < 0.05) indicating that two sets of variables were correlated. From the result, we found that personal exposure to Benzene, o-Xylene, m,p-Xylene, Ethylbenzene, MTBE and Toluene as a group might addect the serum levels of Albumin and ALP.
+The first canonical correlation coefficient was 0.318. The first canonical correlation was statistically significant (F = 1.82, p < 0.05) indicating that two sets of variables were correlated. From the result, we found that personal exposure to Benzene, o-Xylene, m,p-Xylene, Ethylbenzene, MTBE and Toluene as a group might affect the serum levels of Albumin and ALP.
 
 **Canonical structures of the first pair of canonical variate and F-test (subgroup)**
 ```
@@ -171,7 +177,7 @@ F.test.cca(cca.fit1)
 
 ```
 
-The first canonical correlation coefficient was 0.34. The pooled sum of squares of all canonical correlation coefficients was 0.269, which was contributed by 44.5% by the first canonical correlation. Compared to the full group, the subgroup analysis narrowed down the relationship bwterrn the VOC exposure and liver function to fewer numbers of VOCs but more liver function tests. The first canonical correlation indicated that Benzene, o-Xylene, m,p-Xylene and MTBE as a group might affect the serum levels of albumin, ALP, ALT and GGT.
+The first canonical correlation coefficient was 0.34. The pooled sum of squares of all canonical correlation coefficients was 0.269, which was contributed by 44.5% by the first canonical correlation. Compared to the full group, the subgroup analysis narrowed down the relationship between the VOC exposure and liver function to fewer numbers of VOCs but more liver function tests. The first canonical correlation indicated that Benzene, o-Xylene, m,p-Xylene and MTBE as a group might affect the serum levels of albumin, ALP, ALT and GGT.
 
 
 
@@ -866,7 +872,7 @@ The advantages of CCA in this case:
 
 - The liver damage caused by isolated VOCs maybe be even worse when facing a cluster of VOCs.
 
-- The liver injuries would be better capture by the combination of liver function tests.
+- The liver injuries would be better captured by the combination of liver function tests.
 
 - Compared to the full model, subgroup implies that liver injuries may be caused by a narrower cluster of VOCs.
 
@@ -897,3 +903,5 @@ Take-home notes
 *[NCSS Statistical Software Chapter 400 Canonical Correlation](https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Canonical_Correlation.pdf)*
 
 *[Canonical Correlation Analysis by University of Minnesota](http://users.stat.umn.edu/~helwig/notes/cancor-Notes.pdf)*
+
+*[CCA Package](https://cran.r-project.org/web/packages/CCA/index.html)*
